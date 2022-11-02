@@ -1,0 +1,238 @@
+id,hash_mode,speed,accel,loops,thr,vec
+0,0 - MD5,34949.6 MH/s (53.61ms),64,1024,1024,4
+1,10 - md5($pass.$salt),34780.5 MH/s (53.85ms),64,1024,1024,4
+2,11 - Joomla < 2.5.18,34780.6 MH/s (53.93ms),64,1024,1024,4
+3,12 - PostgreSQL,34742.5 MH/s (53.99ms),64,1024,1024,4
+4,20 - md5($salt.$pass),17676.5 MH/s (53.06ms),64,512,1024,1
+5,"21 - osCommerce, xt:Commerce",17662.8 MH/s (53.08ms),64,512,1024,1
+6,22 - Juniper NetScreen/SSG (ScreenOS),17447.5 MH/s (53.73ms),64,512,1024,1
+7,23 - Skype,17634.1 MH/s (53.17ms),64,512,1024,1
+8,30 - md5(utf16le($pass).$salt),34236.8 MH/s (54.71ms),64,1024,1024,4
+9,40 - md5($salt.utf16le($pass)),17633.8 MH/s (53.18ms),64,512,1024,1
+10,50 - HMAC-MD5 (key = $pass),5221.5 MH/s (89.39ms),64,256,1024,1
+11,60 - HMAC-MD5 (key = $salt),10461.9 MH/s (89.49ms),64,512,1024,1
+12,100 - SHA1,11478.1 MH/s (51.06ms),64,512,640,1
+13,"101 - nsldap, SHA-1(Base64), Netscape LDAP SHA",11474.4 MH/s (51.07ms),64,512,640,1
+14,110 - sha1($pass.$salt),11472.0 MH/s (51.09ms),64,512,640,1
+15,"111 - nsldaps, SSHA-1(Base64), Netscape LDAP SSHA",11457.5 MH/s (51.10ms),64,512,640,1
+16,112 - Oracle S: Type (Oracle 11+),11428.5 MH/s (51.11ms),64,512,640,1
+17,120 - sha1($salt.$pass),9266.8 MH/s (50.44ms),64,256,1024,1
+18,121 - SMF (Simple Machines Forum) > v1.1,9266.3 MH/s (50.43ms),64,256,1024,1
+19,"122 - macOS v10.4, macOS v10.5, MacOS v10.6",9276.7 MH/s (50.39ms),64,256,1024,1
+20,124 - Django (SHA-1),9286.4 MH/s (50.31ms),64,256,1024,1
+21,125 - ArubaOS,9321.3 MH/s (50.21ms),64,256,1024,1
+22,130 - sha1(utf16le($pass).$salt),11460.2 MH/s (50.86ms),64,512,640,1
+23,131 - MSSQL (2000),11473.0 MH/s (50.79ms),64,512,640,1
+24,132 - MSSQL (2005),11520.7 MH/s (50.72ms),64,512,640,1
+25,133 - PeopleSoft,11515.5 MH/s (50.72ms),64,512,640,1
+26,140 - sha1($salt.utf16le($pass)),9363.6 MH/s (49.94ms),64,256,1024,1
+27,141 - Episerver 6.x < .NET 4,9372.9 MH/s (49.94ms),64,256,1024,1
+28,150 - HMAC-SHA1 (key = $pass),2410.7 MH/s (72.91ms),128,128,384,1
+29,160 - HMAC-SHA1 (key = $salt),4731.9 MH/s (86.75ms),64,256,896,1
+30,200 - MySQL323,69668.9 MH/s (26.81ms),64,1024,1024,4
+31,300 - MySQL4.1/MySQL5,5134.3 MH/s (45.65ms),128,128,512,1
+32,"400 - phpass, WordPress (MD5), phpBB3 (MD5), Joomla (MD5) (Iterations: 2048)",9160.7 kH/s (48.41ms),64,512,1024,1
+33,"500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)",13153.7 kH/s (67.23ms),1024,1000,32,1
+34,501 - Juniper IVE (Iterations: 1000),13121.7 kH/s (67.29ms),1024,1000,32,1
+35,600 - BLAKE2b,1644.0 MH/s (89.17ms),64,128,640,1
+36,900 - MD4,60889.4 MH/s (30.76ms),64,1024,1024,4
+37,1000 - NTLM,58138.5 MH/s (32.04ms),64,1024,1024,2
+38,"1100 - Domain Cached Credentials (DCC), MS Cache",16024.4 MH/s (58.51ms),64,512,1024,4
+39,1300 - SHA-224,4180.9 MH/s (56.05ms),64,128,1024,1
+40,1400 - SHA-256,4278.9 MH/s (54.78ms),64,128,1024,1
+41,1410 - sha256($pass.$salt),4278.9 MH/s (54.79ms),64,128,1024,1
+42,"1411 - SSHA-256(Base64), LDAP {SSHA256}",4278.0 MH/s (54.79ms),64,128,1024,1
+43,1420 - sha256($salt.$pass),3786.8 MH/s (61.83ms),64,128,1024,1
+44,1421 - hMailServer,3786.5 MH/s (61.84ms),64,128,1024,1
+45,1430 - sha256(utf16le($pass).$salt),4238.5 MH/s (55.12ms),64,128,1024,1
+46,1440 - sha256($salt.utf16le($pass)),3796.1 MH/s (61.70ms),64,128,1024,1
+47,1441 - Episerver 6.x >= .NET 4,3798.2 MH/s (61.70ms),64,128,1024,1
+48,1450 - HMAC-SHA256 (key = $pass),776.2 MH/s (56.64ms),64,32,768,1
+49,1460 - HMAC-SHA256 (key = $salt),1533.0 MH/s (76.16ms),64,64,1024,1
+50,"1500 - descrypt, DES (Unix), Traditional DES",1192.2 MH/s (49.03ms),8,1024,256,1
+51,"1600 - Apache $apr1$ MD5, md5apr1, MD5 (APR) (Iterations: 1000)",13124.8 kH/s (67.38ms),1024,1000,32,1
+52,1700 - SHA-512,1409.0 MH/s (51.98ms),64,64,640,1
+53,1710 - sha512($pass.$salt),1407.1 MH/s (51.97ms),64,64,640,1
+54,"1711 - SSHA-512(Base64), LDAP {SSHA512}",1407.7 MH/s (51.97ms),64,64,640,1
+55,1720 - sha512($salt.$pass),1276.6 MH/s (57.39ms),64,64,640,1
+56,1722 - macOS v10.7,1276.5 MH/s (57.38ms),64,64,640,1
+57,1730 - sha512(utf16le($pass).$salt),1394.3 MH/s (52.48ms),64,64,640,1
+58,"1731 - MSSQL (2012, 2014)",1394.8 MH/s (52.50ms),64,64,640,1
+59,1740 - sha512($salt.utf16le($pass)),1217.1 MH/s (60.22ms),64,64,640,1
+60,1750 - HMAC-SHA512 (key = $pass),267.2 MH/s (54.88ms),64,16,512,1
+61,1760 - HMAC-SHA512 (key = $salt),600.6 MH/s (48.78ms),64,32,512,1
+62,"1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)",193.5 kH/s (58.54ms),512,128,32,1
+63,"2100 - Domain Cached Credentials 2 (DCC2), MS Cache 2 (Iterations: 10240)",455.7 kH/s (99.64ms),64,256,1024,1
+64,2400 - Cisco-PIX MD5,23783.1 MH/s (78.93ms),64,1024,1024,2
+65,2410 - Cisco-ASA MD5,24173.8 MH/s (48.47ms),64,1024,640,4
+66,2500 - WPA/WPA2 (Iterations: 4096),560.0 kH/s (101.97ms),64,128,1024,1
+67,2501 - WPA/WPA2 PMK (Iterations: 1),261.7 MH/s (0.01ms),64,1,1024,1
+68,2600 - md5(md5($pass)),9227.4 MH/s (50.82ms),64,256,1024,1
+69,2611 - vBulletin < v3.8.5,9223.0 MH/s (50.82ms),64,256,1024,1
+70,2612 - PHPS,9222.4 MH/s (50.83ms),64,256,1024,1
+71,2711 - vBulletin >= v3.8.5,6526.9 MH/s (71.30ms),64,256,1024,2
+72,"2811 - IPB2+ (Invision Power Board), MyBB 1.2+",6763.7 MH/s (69.35ms),64,256,1024,1
+73,3000 - LM,27895.0 MH/s (66.99ms),256,1024,256,1
+74,3100 - Oracle H: Type (Oracle 7+),1286.7 MH/s (79.79ms),64,64,896,1
+75,"3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)",20945 H/s (41.67ms),16,8,8,1
+76,3710 - md5($salt.md5($pass)),8671.3 MH/s (54.08ms),64,256,1024,1
+77,3711 - MediaWiki B type,9064.7 MH/s (90.39ms),64,512,896,2
+78,3800 - md5($salt.$pass.$salt),17655.5 MH/s (53.11ms),64,512,1024,1
+79,3910 - md5(md5($pass).md5($salt)),6555.0 MH/s (71.55ms),64,256,1024,1
+80,4010 - md5($salt.md5($salt.$pass)),7611.8 MH/s (61.60ms),64,256,1024,1
+81,4110 - md5($salt.md5($pass.$salt)),8434.9 MH/s (55.61ms),64,256,1024,1
+82,4300 - md5(strtoupper(md5($pass))),9169.6 MH/s (50.92ms),64,256,1024,1
+83,4400 - md5(sha1($pass)),5973.7 MH/s (78.52ms),64,256,1024,1
+84,4500 - sha1(sha1($pass)),4542.3 MH/s (51.39ms),64,128,1024,1
+85,4520 - sha1($salt.sha1($pass)),4044.5 MH/s (86.52ms),64,256,768,1
+86,4521 - Redmine,4044.3 MH/s (86.42ms),64,256,768,1
+87,4522 - PunBB,4071.6 MH/s (86.41ms),64,256,768,1
+88,4700 - sha1(md5($pass)),6278.2 MH/s (74.70ms),64,256,1024,1
+89,"4800 - iSCSI CHAP authentication, MD5(CHAP)",19061.0 MH/s (49.21ms),64,512,1024,1
+90,4900 - sha1($salt.$pass.$salt),9181.1 MH/s (51.05ms),64,256,1024,1
+91,5000 - SHA-3 (Keccak),1220.1 MH/s (60.09ms),64,64,640,1
+92,5100 - Half MD5,20162.6 MH/s (92.87ms),64,1024,1024,2
+93,5200 - Password Safe v3 (Iterations: 2048),1698.3 kH/s (66.91ms),64,128,1024,1
+94,5300 - IKE-PSK MD5,2658.3 MH/s (88.21ms),64,128,1024,1
+95,5400 - IKE-PSK SHA1,963.1 MH/s (91.07ms),64,64,768,1
+96,5500 - NetNTLMv1 / NetNTLMv1+ESS,28256.0 MH/s (61.71ms),64,1024,1024,1
+97,5600 - NetNTLMv2,2445.1 MH/s (47.68ms),64,64,1024,1
+98,5700 - Cisco-IOS type 4 (SHA256),4279.0 MH/s (54.76ms),64,128,1024,1
+99,5800 - Samsung Android Password/PIN (Iterations: 1023),8271.7 kH/s (43.36ms),64,255,1024,1
+100,6000 - RIPEMD-160,6659.3 MH/s (70.44ms),64,256,1024,1
+101,6100 - Whirlpool,327.5 MH/s (78.35ms),64,16,896,1
+102,6211 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 2000),382.4 kH/s (75.33ms),64,32,1024,1
+103,6212 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 2000),213.0 kH/s (67.49ms),64,16,1024,1
+104,6213 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 2000),151.5 kH/s (94.52ms),64,16,1024,1
+105,6221 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 1000),550.0 kH/s (88.96ms),64,62,512,1
+106,6222 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 1000),266.8 kH/s (68.85ms),64,31,384,1
+107,6223 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 1000),178.1 kH/s (51.14ms),32,31,384,1
+108,6231 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 1000),50805 H/s (278.40ms),32,31,512,1
+109,6232 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 1000),25328 H/s (202.65ms),32,15,384,1
+110,6233 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 1000),16948 H/s (151.72ms),16,15,384,1
+111,6241 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 1000),700.2 kH/s (70.73ms),64,31,1024,1
+112,6242 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 1000),381.1 kH/s (61.18ms),32,31,1024,1
+113,6243 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 1000),262.4 kH/s (86.96ms),32,31,1024,1
+114,6300 - AIX {smd5} (Iterations: 1000),13267.3 kH/s (66.64ms),1024,1000,32,1
+115,6400 - AIX {ssha256} (Iterations: 64),22605.0 kH/s (62.82ms),64,64,896,1
+116,6500 - AIX {ssha512} (Iterations: 64),8042.7 kH/s (97.39ms),64,64,512,1
+117,"6600 - 1Password, agilekeychain (Iterations: 1000)",4519.8 kH/s (97.63ms),64,250,1024,1
+118,6700 - AIX {ssha1} (Iterations: 64),55156.2 kH/s (25.29ms),64,64,1024,1
+119,6800 - LastPass + LastPass sniffed (Iterations: 500),3268.4 kH/s (82.80ms),64,125,640,1
+120,6900 - GOST R 34.11-94,328.1 MH/s (55.86ms),64,16,640,1
+121,7000 - FortiGate (FortiOS),9837.4 MH/s (95.10ms),64,512,1024,1
+122,7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 35000),16842 H/s (49.33ms),64,32,512,1
+123,7200 - GRUB 2 (Iterations: 10000),58453 H/s (98.62ms),128,32,512,1
+124,7300 - IPMI2 RAKP HMAC-SHA1,2348.3 MH/s (74.64ms),64,128,768,1
+125,"7400 - sha256crypt $5$, SHA256 (Unix) (Iterations: 5000)",564.3 kH/s (80.23ms),64,128,1024,1
+126,7500 - Kerberos 5 AS-REQ Pre-Auth etype 23,400.8 MH/s (73.22ms),256,64,64,1
+127,7700 - SAP CODVN B (BCODE),1749.5 MH/s (67.08ms),64,64,1024,1
+128,7800 - SAP CODVN F/G (PASSCODE),1132.4 MH/s (64.76ms),64,64,640,1
+129,7900 - Drupal7 (Iterations: 16384),68448 H/s (103.57ms),128,64,512,1
+130,8000 - Sybase ASE,446.2 MH/s (82.21ms),64,32,640,2
+131,8100 - Citrix NetScaler,10263.8 MH/s (91.11ms),64,512,1024,1
+132,"8200 - 1Password, cloudkeychain (Iterations: 40000)",10628 H/s (68.24ms),64,32,512,1
+133,8300 - DNSSEC (NSEC3),4651.4 MH/s (88.24ms),64,256,896,1
+134,8400 - WBB3 (Woltlab Burning Board),1855.2 MH/s (94.78ms),64,128,768,1
+135,8500 - RACF,3485.0 MH/s (66.81ms),64,128,1024,1
+136,8600 - Lotus Notes/Domino 5,291.2 MH/s (50.34ms),32,16,1024,1
+137,8700 - Lotus Notes/Domino 6,96424.6 kH/s (76.04ms),32,8,1024,1
+138,8800 - Android FDE <= 4.3 (Iterations: 2000),1133.2 kH/s (99.43ms),64,128,1024,1
+139,8900 - scrypt (Iterations: 1),596.0 kH/s (11.74ms),16,1,16,1
+140,9000 - Password Safe v2 (Iterations: 1000),434.5 kH/s (43.50ms),512,250,8,1
+141,9100 - Lotus Notes/Domino 8 (Iterations: 5000),924.7 kH/s (97.46ms),64,256,1024,1
+142,9200 - Cisco-IOS $8$ (PBKDF2-SHA256) (Iterations: 20000),85213 H/s (85.35ms),64,128,640,1
+143,9300 - Cisco-IOS $9$ (scrypt) (Iterations: 1),0 H/s (0.00ms),64,128,8,1
+144,9400 - MS Office 2007 (Iterations: 50000),188.2 kH/s (49.46ms),64,256,1024,1
+145,9500 - MS Office 2010 (Iterations: 100000),94004 H/s (99.06ms),64,512,1024,1
+146,9600 - MS Office 2013 (Iterations: 100000),12776 H/s (90.84ms),64,64,1024,1
+147,"9700 - MS Office <= 2003 $0/$1, MD5 + RC4",360.7 MH/s (81.36ms),256,64,64,1
+148,"9710 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #1",438.6 MH/s (64.16ms),256,64,64,1
+149,"9720 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #2",2861.6 MH/s (81.98ms),64,128,1024,1
+150,"9800 - MS Office <= 2003 $3/$4, SHA1 + RC4",430.3 MH/s (68.14ms),256,64,64,1
+151,"9810 - MS Office <= 2003 $3, SHA1 + RC4, collider #1",469.5 MH/s (60.01ms),256,64,64,1
+152,"9820 - MS Office <= 2003 $3, SHA1 + RC4, collider #2",4867.5 MH/s (96.23ms),64,256,1024,1
+153,9900 - Radmin2,11761.0 MH/s (79.79ms),64,512,1024,4
+154,10000 - Django (PBKDF2-SHA256) (Iterations: 20000),85161 H/s (85.40ms),64,128,640,1
+155,10100 - SipHash,38340.4 MH/s (48.90ms),64,1024,1024,2
+156,10200 - CRAM-MD5,5250.1 MH/s (89.26ms),64,256,1024,1
+157,10300 - SAP CODVN H (PWDSALTEDHASH) iSSHA-1 (Iterations: 1023),7757.0 kH/s (34.52ms),64,255,768,1
+158,10400 - PDF 1.1 - 1.3 (Acrobat 2 - 4),487.6 MH/s (60.12ms),256,64,64,1
+159,"10410 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1",514.3 MH/s (54.81ms),256,64,64,1
+160,"10420 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #2",10071.6 MH/s (92.67ms),64,512,1024,1
+161,10500 - PDF 1.4 - 1.6 (Acrobat 5 - 8) (Iterations: 70),22639.8 kH/s (75.29ms),1024,70,64,1
+162,10600 - PDF 1.7 Level 3 (Acrobat 9),4283.4 MH/s (54.56ms),64,128,1024,1
+163,10700 - PDF 1.7 Level 8 (Acrobat 10 - 11) (Iterations: 64),44695 H/s (160.19ms),16,2,512,1
+164,10800 - SHA-384,1340.5 MH/s (54.65ms),64,64,640,1
+165,10900 - PBKDF2-HMAC-SHA256 (Iterations: 999),1669.1 kH/s (74.32ms),64,124,640,1
+166,11000 - PrestaShop,11194.7 MH/s (83.53ms),64,512,1024,2
+167,11100 - PostgreSQL CRAM (MD5),9033.7 MH/s (51.82ms),64,256,1024,2
+168,11200 - MySQL CRAM (SHA1),3191.6 MH/s (73.48ms),64,128,1024,1
+169,11300 - Bitcoin/Litecoin wallet.dat (Iterations: 199999),6342 H/s (91.49ms),64,64,1024,1
+170,11400 - SIP digest authentication (MD5),4189.0 MH/s (69.96ms),64,256,640,1
+171,11500 - CRC32,6385.1 MH/s (73.57ms),64,256,1024,1
+172,11600 - 7-Zip (Iterations: 524288),12920 H/s (51.58ms),64,256,768,1
+173,11700 - GOST R 34.11-2012 (Streebog) 256-bit,68159.3 kH/s (67.22ms),32,8,640,1
+174,11800 - GOST R 34.11-2012 (Streebog) 512-bit,68946.9 kH/s (53.15ms),32,8,512,1
+175,11900 - PBKDF2-HMAC-MD5 (Iterations: 999),9992.4 kH/s (57.96ms),64,499,1024,1
+176,12000 - PBKDF2-HMAC-SHA1 (Iterations: 999),4431.6 kH/s (80.18ms),64,249,1024,1
+177,12001 - Atlassian (PBKDF2-HMAC-SHA1) (Iterations: 9999),456.7 kH/s (101.73ms),64,256,1024,1
+178,12100 - PBKDF2-HMAC-SHA512 (Iterations: 999),591.8 kH/s (89.57ms),64,62,512,1
+179,12200 - eCryptfs (Iterations: 65535),19367 H/s (91.42ms),64,64,1024,1
+180,12300 - Oracle T: Type (Oracle 12+) (Iterations: 4095),103.8 kH/s (68.21ms),64,32,512,1
+181,"12400 - BSDi Crypt, Extended DES (Iterations: 2899)",2019.5 kH/s (74.72ms),64,256,1024,1
+182,12500 - RAR3-hp (Iterations: 262144),47279 H/s (56.75ms),4,16384,384,1
+183,12600 - ColdFusion 10+,2551.9 MH/s (80.40ms),64,128,896,1
+184,"12700 - Blockchain, My Wallet (Iterations: 10)",65672.1 kH/s (8.85ms),64,10,1024,1
+185,12800 - MS-AzureSync PBKDF2-HMAC-SHA256 (Iterations: 99),13162.6 kH/s (66.39ms),64,99,640,1
+186,12900 - Android FDE (Samsung DEK) (Iterations: 4095),416.3 kH/s (85.36ms),64,128,640,1
+187,13000 - RAR5 (Iterations: 32767),51956 H/s (85.44ms),64,128,640,1
+188,13100 - Kerberos 5 TGS-REP etype 23,403.2 MH/s (72.76ms),256,64,64,1
+189,13200 - AxCrypt (Iterations: 10000),128.2 kH/s (90.72ms),64,64,1024,1
+190,13300 - AxCrypt in-memory SHA1,10794.4 MH/s (54.31ms),64,512,640,1
+191,13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 6000),183.1 kH/s (103.71ms),512,256,32,1
+192,13500 - PeopleSoft PS_TOKEN,4452.4 MH/s (78.95ms),64,256,768,1
+193,13600 - WinZip (Iterations: 1000),1495.4 kH/s (70.84ms),64,62,1024,1
+194,13711 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 655331),1177 H/s (74.72ms),64,32,1024,1
+195,13712 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 655331),658 H/s (66.63ms),64,16,1024,1
+196,13713 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 655331),463 H/s (94.30ms),64,16,1024,1
+197,13721 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 500000),1188 H/s (96.98ms),128,32,512,1
+198,13722 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 500000),606 H/s (72.03ms),64,32,384,1
+199,13723 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 500000),395 H/s (55.14ms),64,16,384,1
+200,13731 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 500000),101 H/s (144.50ms),32,16,512,1
+201,13732 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 500000),51 H/s (216.04ms),32,16,384,1
+202,13733 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 500000),33 H/s (162.66ms),32,8,384,1
+203,13741 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 327661),2360 H/s (74.52ms),64,32,1024,1
+204,13742 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 327661),1312 H/s (66.90ms),64,16,1024,1
+205,13743 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 327661),933 H/s (47.38ms),32,16,1024,1
+206,13751 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit (Iterations: 500000),1510 H/s (57.77ms),64,32,768,1
+207,13752 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit (Iterations: 500000),737 H/s (58.98ms),64,16,768,1
+208,13753 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit (Iterations: 500000),496 H/s (87.48ms),64,16,768,1
+209,13761 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit + boot-mode (Iterations: 200000),3776 H/s (57.75ms),64,32,768,1
+210,13762 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit + boot-mode (Iterations: 200000),1830 H/s (59.40ms),64,16,768,1
+211,13763 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit + boot-mode (Iterations: 200000),1221 H/s (88.86ms),64,16,768,1
+212,13800 - Windows Phone 8+ PIN/password,1030.9 MH/s (84.59ms),64,64,768,1
+213,13900 - OpenCart,2880.4 MH/s (81.35ms),64,128,1024,1
+214,"14000 - DES (PT = $salt, key = $pass)",27874.6 MH/s (67.26ms),256,1024,256,1
+215,"14100 - 3DES (PT = $salt, key = $pass)",1597.1 MH/s (55.08ms),8,1024,384,1
+216,14400 - sha1(CX),486.7 MH/s (60.01ms),64,32,512,1
+217,14600 - LUKS (Iterations: 163044),13643 H/s (24.75ms),2,1024,1024,1
+218,14700 - iTunes backup < 10.0 (Iterations: 9999),229.8 kH/s (101.11ms),64,128,1024,1
+219,14800 - iTunes backup >= 10.0 (Iterations: 9999999),171 H/s (5.20ms),2,250,640,1
+220,"14900 - Skip32 (PT = $salt, key = $pass)",4832.6 MH/s (3.40ms),64,256,1024,1
+221,15000 - FileZilla Server >= 0.9.55,1022.1 MH/s (86.09ms),128,64,384,1
+222,15100 - Juniper/NetBSD sha1crypt (Iterations: 19999),235.3 kH/s (49.42ms),64,128,1024,1
+223,"15200 - Blockchain, My Wallet, V2 (Iterations: 5000)",457.2 kH/s (101.61ms),64,128,1024,1
+224,15300 - DPAPI masterkey file v1 (Iterations: 23999),101.4 kH/s (95.22ms),64,128,1024,1
+225,15400 - ChaCha20,5578.0 MH/s (84.09ms),64,256,1024,1
+226,15500 - JKS Java Key Store Private Keys (SHA1),10931.3 MH/s (53.37ms),64,512,640,1
+227,"15600 - Ethereum Wallet, PBKDF2-HMAC-SHA256 (Iterations: 262143)",6490 H/s (85.51ms),64,128,640,1
+228,"15700 - Ethereum Wallet, SCRYPT (Iterations: 1)",3 H/s (8404.27ms),1,1,1,1
+229,15900 - DPAPI masterkey file v2 (Iterations: 7999),56038 H/s (65.29ms),256,128,32,1
+230,16000 - Tripcode,244.5 MH/s (59.94ms),32,16,1024,1
+231,16100 - TACACS+,18421.2 MH/s (50.82ms),64,512,1024,1
+232,16200 - Apple Secure Notes (Iterations: 19999),86194 H/s (84.48ms),64,128,640,1
+233,"16300 - Ethereum Pre-Sale Wallet, PBKDF2-HMAC-SHA256 (Iterations: 1999)",839.5 kH/s (83.01ms),64,128,640,1
+234,16400 - CRAM-MD5 Dovecot,29470.9 MH/s (63.70ms),64,1024,1024,1
+235,16500 - JWT (JSON Web Token),499.5 MH/s (58.69ms),64,32,512,1
+236,16600 - Electrum Wallet (Salt-Type 1-3),222.9 MH/s (65.79ms),32,16,1024,1

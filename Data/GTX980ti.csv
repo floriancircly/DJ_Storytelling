@@ -1,0 +1,251 @@
+id,hash_mode,speed,accel,loops
+0,MD4,32948.8 MH/s,256,1024
+1,MD5,15818.6 MH/s,256,1024
+2,Half MD5, 7528.8 MH/s,256,1024
+3,SHA1, 5172.0 MH/s,256,1024
+4,SHA256, 1963.4 MH/s,256,1024
+5,SHA384,  699.6 MH/s,256,256
+6,SHA512,  692.3 MH/s,256,256
+7,SHA-3(Keccak),  491.1 MH/s,256,128
+8,SipHash,19990.0 MH/s,256,1024
+9,RipeMD160, 3473.5 MH/s,256,1024
+10,Whirlpool,  200.5 MH/s,32,512
+11,GOST R 34.11-94,  191.3 MH/s,64,512
+12,GOST R 34.11-2012 (Streebog) 256-bit,40041.3 kH/s,16,512
+13,GOST R 34.11-2012 (Streebog) 512-bit,39723.1 kH/s,16,512
+14,"phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 4442.1 kH/s,32,1024
+15,scrypt,  273.9 kH/s,64,1
+16,PBKDF2-HMAC-MD5, 4827.3 kH/s,8,1000
+17,PBKDF2-HMAC-SHA1, 2153.4 kH/s,8,1000
+18,PBKDF2-HMAC-SHA256,  898.1 kH/s,8,1000
+19,PBKDF2-HMAC-SHA512,  288.2 kH/s,8,1000
+20,Skype, 9216.8 MH/s,256,1024
+21,WPA/WPA2,  272.3 kH/s,32,1024
+22,IKE-PSK MD5, 1174.5 MH/s,128,512
+23,IKE-PSK SHA1,  383.4 MH/s,128,512
+24,NetNTLMv1-VANILLA / NetNTLMv1+ESS,13585.5 MH/s,256,1024
+25,NetNTLMv2, 1068.4 MH/s,256,1024
+26,IPMI2 RAKP HMAC-SHA1, 1110.4 MH/s,256,256
+27,Kerberos 5 AS-REQ Pre-Auth etype 23,  178.9 MH/s,32,256
+28,DNSSEC (NSEC3), 2270.8 MH/s,256,512
+29,PostgreSQL Challenge-Response Authentication (MD5), 3925.0 MH/s,256,1024
+30,MySQL Challenge-Response Authentication (SHA1), 1529.0 MH/s,256,1024
+31,SIP digest authentication (MD5), 1266.1 MH/s,32,1024
+32,SMF > v1.1, 4147.3 MH/s,256,512
+33,vBulletin < v3.8.5, 4405.9 MH/s,256,1024
+34,vBulletin > v3.8.5, 2049.9 MH/s,256,1024
+35,"IPB2+, MyBB1.2+", 2077.2 MH/s,256,1024
+36,"WBB3, Woltlab Burning Board 3",  847.5 MH/s,256,256
+37,Joomla < 2.5.18,15697.5 MH/s,256,1024
+38,PHPS, 4440.9 MH/s,256,1024
+39,Drupal7,   39254 H/s,8,1024
+40,"osCommerce, xt:Commerce", 9047.9 MH/s,256,1024
+41,PrestaShop, 5526.3 MH/s,256,1024
+42,Django (SHA-1), 4128.9 MH/s,256,512
+43,Django (PBKDF2-SHA256),   44999 H/s,8,1024
+44,Mediawiki B type, 4039.9 MH/s,256,1024
+45,Redmine Project Management Web App, 1450.3 MH/s,256,1024
+46,PostgreSQL,15825.9 MH/s,256,1024
+47,MSSQL(2000), 5114.8 MH/s,256,512
+48,MSSQL(2005), 5134.4 MH/s,256,512
+49,MySQL323,39017.9 MH/s,256,512
+50,MySQL4.1/MySQL5, 2479.2 MH/s,256,512
+51,Oracle H: Type (Oracle 7+),  585.8 MH/s,64,512
+52,Oracle S: Type (Oracle 11+), 5131.6 MH/s,256,1024
+53,Oracle T: Type (Oracle 12+),   71783 H/s,8,1024
+54,Sybase ASE,  183.0 MH/s,32,512
+55,EPiServer 6.x < v4, 4130.2 MH/s,256,512
+56,EPiServer 6.x > v4, 1826.6 MH/s,256,512
+57,"md5apr1, MD5(APR), Apache MD5", 6845.8 kH/s,32,1000
+58,ColdFusion 10+, 1280.3 MH/s,128,128
+59,hMailServer, 1840.1 MH/s,256,512
+60,"SHA-1(Base64), nsldap, Netscape LDAP SHA", 5130.4 MH/s,256,1024
+61,"SSHA-1(Base64), nsldaps, Netscape LDAP SSHA", 5161.0 MH/s,256,1024
+62,"SSHA-512(Base64), LDAP {SSHA512}",  693.3 MH/s,256,256
+63,LM, 2043.4 MH/s,256,1024
+64,NTLM,33066.0 MH/s,256,1024
+65,"Domain Cached Credentials (DCC), MS Cache", 9196.9 MH/s,256,1024
+66,"Domain Cached Credentials 2 (DCC2), MS Cache 2",  217.8 kH/s,16,1024
+67,"descrypt, DES(Unix), Traditional DES",  141.3 MH/s,64,128
+68,"BSDiCrypt, Extended DES", 1230.6 kH/s,256,1024
+69,"md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 6956.9 kH/s,32,1000
+70,"bcrypt, Blowfish(OpenBSD)",   13944 H/s,2,32
+71,"sha256crypt, SHA256(Unix)",  300.7 kH/s,4,1024
+72,"sha512crypt, SHA512(Unix)",  109.3 kH/s,8,1024
+73,"OSX v10.4, v10.5, v10.6", 4116.0 MH/s,256,512
+74,OSX v10.7,  644.5 MH/s,256,128
+75,OSX v10.8+,    8320 H/s,2,1024
+76,AIX {smd5}, 6848.3 kH/s,32,1000
+77,AIX {ssha1},28177.4 kH/s,128,64
+78,AIX {ssha256},12336.4 kH/s,128,64
+79,AIX {ssha512}, 4333.9 kH/s,32,64
+80,Cisco-PIX MD5,11253.6 MH/s,256,1024
+81,Cisco-ASA MD5,11426.7 MH/s,256,1024
+82,Cisco-IOS SHA256, 1961.5 MH/s,256,1024
+83,Cisco $8$,   45406 H/s,8,1024
+84,Cisco $9$,    2186 H/s,4,1
+85,Juniper Netscreen/SSG (ScreenOS), 9113.2 MH/s,256,1024
+86,Juniper IVE, 6906.3 kH/s,32,1000
+87,Android PIN, 4027.9 kH/s,16,1024
+88,Citrix NetScaler, 4750.5 MH/s,256,512
+89,RACF, 1957.6 MH/s,256,1024
+90,GRUB 2,   27988 H/s,2,1024
+91,Radmin2, 5738.4 MH/s,256,1024
+92,SAP CODVN B (BCODE), 1274.0 MH/s,64,1024
+93,SAP CODVN F/G (PASSCODE),  649.5 MH/s,32,1024
+94,SAP CODVN H (PWDSALTEDHASH) iSSHA-1, 4038.6 kH/s,16,1024
+95,Lotus Notes/Domino 5,  169.6 MH/s,32,256
+96,Lotus Notes/Domino 6,55620.7 kH/s,32,256
+97,Lotus Notes/Domino 8,  445.4 kH/s,64,1024
+98,PeopleSoft, 5092.0 MH/s,256,512
+99,7-Zip,    6707 H/s,4,1024
+100,RAR3-hp,       0 H/s,32,16384
+101,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES,  804.6 kH/s,64,1024
+102,TrueCrypt 5.0+ PBKDF2-HMAC-SHA512 + AES,  293.5 kH/s,16,1000
+103,TrueCrypt 5.0+ PBKDF2-HMAC-Whirlpool + AES,   28795 H/s,8,1000
+104,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES + boot-mode, 1593.3 kH/s,64,1000
+105,Android FDE <= 4.3,  549.6 kH/s,32,1024
+106,eCryptfs,   10032 H/s,8,1024
+107,"MS Office <= 2003 MD5 + RC4, oldoffice$0, oldoffice$1",  163.7 MH/s,32,1024
+108,"MS Office <= 2003 MD5 + RC4, collision-mode #1",  239.8 MH/s,32,1024
+109,"MS Office <= 2003 SHA1 + RC4, oldoffice$3, oldoffice$4",  229.1 MH/s,32,1024
+110,"MS Office <= 2003 SHA1 + RC4, collision-mode #1",  261.7 MH/s,32,1024
+111,Office 2007,   90499 H/s,32,1024
+112,Office 2010,   45735 H/s,32,1024
+113,Office 2013,    6683 H/s,4,1024
+114,PDF 1.1 - 1.3 (Acrobat 2 - 4),  248.7 MH/s,32,1024
+115,PDF 1.1 - 1.3 (Acrobat 2 - 4) + collider-mode #1,  283.2 MH/s,32,1024
+116,PDF 1.4 - 1.6 (Acrobat 5 - 8),12087.3 kH/s,256,70
+117,PDF 1.7 Level 3 (Acrobat 9), 1961.3 MH/s,256,1024
+118,PDF 1.7 Level 8 (Acrobat 10 - 11),   25058 H/s,8,64
+119,Password Safe v2,  200.6 kH/s,16,1000
+120,Password Safe v3,  893.3 kH/s,16,1024
+121,Lastpass, 1771.4 kH/s,64,500
+122,"1Password, agilekeychain", 2184.4 kH/s,64,1000
+123,"1Password, cloudkeychain",    7069 H/s,2,1024
+124,Bitcoin/Litecoin wallet.dat,       0 H/s,4,1024
+125,MD4,28425.5 MH/s,256,1024
+126,MD5,13523.8 MH/s,256,1024
+127,Half MD5, 6649.8 MH/s,256,1024
+128,SHA1, 4404.8 MH/s,256,1024
+129,SHA256, 1688.4 MH/s,256,1024
+130,SHA384,  597.4 MH/s,256,256
+131,SHA512,  596.9 MH/s,256,256
+132,SHA-3(Keccak),  436.4 MH/s,256,128
+133,SipHash,17194.7 MH/s,256,1024
+134,RipeMD160, 2965.8 MH/s,256,1024
+135,Whirlpool,  173.4 MH/s,32,512
+136,GOST R 34.11-94,  163.3 MH/s,64,512
+137,GOST R 34.11-2012 (Streebog) 256-bit,34216.4 kH/s,16,512
+138,GOST R 34.11-2012 (Streebog) 512-bit,34205.9 kH/s,16,512
+139,"phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 3818.6 kH/s,32,1024
+140,scrypt,  236.4 kH/s,64,1
+141,PBKDF2-HMAC-MD5, 4142.1 kH/s,8,1000
+142,PBKDF2-HMAC-SHA1, 1837.6 kH/s,8,1000
+143,PBKDF2-HMAC-SHA256,  767.2 kH/s,8,1000
+144,PBKDF2-HMAC-SHA512,  245.8 kH/s,8,1000
+145,Skype, 7781.5 MH/s,256,1024
+146,WPA/WPA2,  233.2 kH/s,32,1024
+147,IKE-PSK MD5, 1000.7 MH/s,128,512
+148,IKE-PSK SHA1,  330.9 MH/s,128,512
+149,NetNTLMv1-VANILLA / NetNTLMv1+ESS,11592.2 MH/s,256,1024
+150,NetNTLMv2,  918.2 MH/s,256,1024
+151,IPMI2 RAKP HMAC-SHA1,  949.8 MH/s,256,256
+152,Kerberos 5 AS-REQ Pre-Auth etype 23,  153.9 MH/s,32,256
+153,DNSSEC (NSEC3), 1938.1 MH/s,256,512
+154,PostgreSQL Challenge-Response Authentication (MD5), 3385.7 MH/s,256,1024
+155,MySQL Challenge-Response Authentication (SHA1), 1305.3 MH/s,256,1024
+156,SIP digest authentication (MD5), 1091.5 MH/s,32,1024
+157,SMF > v1.1, 3535.7 MH/s,256,512
+158,vBulletin < v3.8.5, 3716.9 MH/s,256,1024
+159,vBulletin > v3.8.5, 1748.2 MH/s,256,1024
+160,"IPB2+, MyBB1.2+", 1786.8 MH/s,256,1024
+161,"WBB3, Woltlab Burning Board 3",  725.1 MH/s,256,256
+162,Joomla < 2.5.18,13513.3 MH/s,256,1024
+163,PHPS, 3775.7 MH/s,256,1024
+164,Drupal7,   33677 H/s,8,1024
+165,"osCommerce, xt:Commerce", 7815.3 MH/s,256,1024
+166,PrestaShop, 4748.6 MH/s,256,1024
+167,Django (SHA-1), 3525.3 MH/s,256,512
+168,Django (PBKDF2-SHA256),   38631 H/s,8,1024
+169,Mediawiki B type, 3429.5 MH/s,256,1024
+170,Redmine Project Management Web App, 1248.1 MH/s,256,1024
+171,PostgreSQL,13551.8 MH/s,256,1024
+172,MSSQL(2000), 4401.0 MH/s,256,512
+173,MSSQL(2005), 4391.3 MH/s,256,512
+174,MySQL323,33399.1 MH/s,256,512
+175,MySQL4.1/MySQL5, 2129.7 MH/s,256,512
+176,Oracle H: Type (Oracle 7+),  501.8 MH/s,64,512
+177,Oracle S: Type (Oracle 11+), 4419.9 MH/s,256,1024
+178,Oracle T: Type (Oracle 12+),   60323 H/s,8,1024
+179,Sybase ASE,  157.0 MH/s,32,512
+180,EPiServer 6.x < v4, 3520.2 MH/s,256,512
+181,EPiServer 6.x > v4, 1571.3 MH/s,256,512
+182,"md5apr1, MD5(APR), Apache MD5", 5901.7 kH/s,32,1000
+183,ColdFusion 10+, 1101.8 MH/s,128,128
+184,hMailServer, 1573.5 MH/s,256,512
+185,"SHA-1(Base64), nsldap, Netscape LDAP SHA", 4418.6 MH/s,256,1024
+186,"SSHA-1(Base64), nsldaps, Netscape LDAP SSHA", 4426.8 MH/s,256,1024
+187,"SSHA-512(Base64), LDAP {SSHA512}",  595.9 MH/s,256,256
+188,LM, 1744.3 MH/s,256,1024
+189,NTLM,28408.9 MH/s,256,1024
+190,"Domain Cached Credentials (DCC), MS Cache", 7874.1 MH/s,256,1024
+191,"Domain Cached Credentials 2 (DCC2), MS Cache 2",  186.7 kH/s,16,1024
+192,"descrypt, DES(Unix), Traditional DES",  120.6 MH/s,64,128
+193,"BSDiCrypt, Extended DES", 1058.3 kH/s,256,1024
+194,"md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 5963.8 kH/s,32,1000
+195,"bcrypt, Blowfish(OpenBSD)",   11914 H/s,2,32
+196,"sha256crypt, SHA256(Unix)",  258.0 kH/s,4,1024
+197,"sha512crypt, SHA512(Unix)",   97348 H/s,8,1024
+198,"OSX v10.4, v10.5, v10.6", 3537.6 MH/s,256,512
+199,OSX v10.7,  551.9 MH/s,256,128
+200,OSX v10.8+,    7003 H/s,2,1024
+201,AIX {smd5}, 5898.7 kH/s,32,1000
+202,AIX {ssha1},24701.7 kH/s,128,64
+203,AIX {ssha256},10739.9 kH/s,128,64
+204,AIX {ssha512}, 3679.8 kH/s,32,64
+205,Cisco-PIX MD5, 9684.7 MH/s,256,1024
+206,Cisco-ASA MD5, 9788.1 MH/s,256,1024
+207,Cisco-IOS SHA256, 1684.1 MH/s,256,1024
+208,Cisco $8$,   38793 H/s,8,1024
+209,Cisco $9$,    1891 H/s,4,1
+210,Juniper Netscreen/SSG (ScreenOS), 7839.9 MH/s,256,1024
+211,Juniper IVE, 5946.7 kH/s,32,1000
+212,Android PIN, 3440.5 kH/s,16,1024
+213,Citrix NetScaler, 4074.0 MH/s,256,512
+214,RACF, 1669.4 MH/s,256,1024
+215,GRUB 2,   24260 H/s,2,1024
+216,Radmin2, 4917.6 MH/s,256,1024
+217,SAP CODVN B (BCODE), 1096.2 MH/s,64,1024
+218,SAP CODVN F/G (PASSCODE),  566.9 MH/s,32,1024
+219,SAP CODVN H (PWDSALTEDHASH) iSSHA-1, 3466.3 kH/s,16,1024
+220,Lotus Notes/Domino 5,  146.0 MH/s,32,256
+221,Lotus Notes/Domino 6,47588.7 kH/s,32,256
+222,Lotus Notes/Domino 8,  380.5 kH/s,64,1024
+223,PeopleSoft, 4397.2 MH/s,256,512
+224,7-Zip,    5716 H/s,4,1024
+225,RAR3-hp,       0 H/s,32,16384
+226,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES,  690.3 kH/s,64,1024
+227,TrueCrypt 5.0+ PBKDF2-HMAC-SHA512 + AES,  248.3 kH/s,16,1000
+228,TrueCrypt 5.0+ PBKDF2-HMAC-Whirlpool + AES,   24909 H/s,8,1000
+229,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES + boot-mode, 1368.5 kH/s,64,1000
+230,Android FDE <= 4.3,  471.8 kH/s,32,1024
+231,eCryptfs,       0 H/s,8,1024
+232,"MS Office <= 2003 MD5 + RC4, oldoffice$0, oldoffice$1",  140.1 MH/s,32,1024
+233,"MS Office <= 2003 MD5 + RC4, collision-mode #1",  206.6 MH/s,32,1024
+234,"MS Office <= 2003 SHA1 + RC4, oldoffice$3, oldoffice$4",  196.1 MH/s,32,1024
+235,"MS Office <= 2003 SHA1 + RC4, collision-mode #1",  223.7 MH/s,32,1024
+236,Office 2007,   77438 H/s,32,1024
+237,Office 2010,   38988 H/s,32,1024
+238,Office 2013,    5693 H/s,4,1024
+239,PDF 1.1 - 1.3 (Acrobat 2 - 4),  213.4 MH/s,32,1024
+240,PDF 1.1 - 1.3 (Acrobat 2 - 4) + collider-mode #1,  242.2 MH/s,32,1024
+241,PDF 1.4 - 1.6 (Acrobat 5 - 8),10444.6 kH/s,256,70
+242,PDF 1.7 Level 3 (Acrobat 9), 1688.1 MH/s,256,1024
+243,PDF 1.7 Level 8 (Acrobat 10 - 11),   21411 H/s,8,64
+244,Password Safe v2,  172.1 kH/s,16,1000
+245,Password Safe v3,  764.1 kH/s,16,1024
+246,Lastpass, 1518.3 kH/s,64,500
+247,"1Password, agilekeychain", 1886.1 kH/s,64,1000
+248,"1Password, cloudkeychain",    6015 H/s,2,1024
+249,Bitcoin/Litecoin wallet.dat,       0 H/s,4,1024
