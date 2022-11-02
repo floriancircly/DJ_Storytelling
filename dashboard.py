@@ -12,7 +12,7 @@ text = (
     "und Wieder \n"
     "und Wieder \n"
 )
-st.audio("https://www.youtube.com/watch?v=nnUdbEtzCBo")
+st.balloons()
 st.image("https://c.tenor.com/p0gHiSC-xecAAAAi/rainbow-dance-pepe-jam.gif")
 st.video("https://www.youtube.com/watch?v=pxw-5qfJ1dk")
 
