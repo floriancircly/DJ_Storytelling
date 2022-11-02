@@ -13,5 +13,7 @@ text = (
     "und Wieder \n"
 )
 
+st.image("https://media.tenor.com/8Qlx6iFGFrMAAAAC/goose-pepe-the-frog.gif")
+
 
 st.text(text)
