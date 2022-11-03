@@ -15,8 +15,7 @@ data = pd.read_csv("Data/GTX1080ti.csv", sep=",")
 
 # Define plotly
 
-fig = px.line(data, x="id", y="loops", title='loop loop loop')
-fig_test = st.plotly_chart(fig, use_container_width=True)
+fig = px.line(data, x="id", y="loops", title='loop loop loop') 
 
 ##########################################################################################################################
 
@@ -43,7 +42,7 @@ Ziel des Artikels ist es, die unterschiedlichen Grafikkarten-Generationen zu ver
 
 #### Was habt ihr aus der Story gelernt?
 
-{fig_test}
+{st.plotly_chart(fig, use_container_width=True)}
 
 #### Beantwortung der W-Fragen
 * Was ist die Geschichte?
