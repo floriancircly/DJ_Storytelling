@@ -26,12 +26,31 @@ Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort 
 Passwörter in kürzester Zeit zu knacken. Diese Performancesteigerung hat gravierende Auswirkungen auf die Sicherheit von Passwörtern und damit auch auf die Sicherheit von gesamten Identitäten.
 Ziel des Artikels ist es, die unterschiedlichen Grafikkarten-Generationen zu vergleichen, um zu verdeutlichen wie sehr die Zeit, um ein Passwort zu hacken, gesunken ist.
 
+#### Darstellung der Relevanz
+Doch warum ist diese Thematik außer dem Identitätsdiebstahl noch relevant? Die Antwort ist wie so oft: Geld. Aud dem Gray/Dark Market steht ein großes Business dahinter, 
+Email-Accounts zu hacken und anschließend den E-Mail-Verlauf zu tracken. Solche Emails werden oftmals verkauft inkl. z.B. Kreditkarten-Informationen. 
+Dabei hervorzuheben ist wie einfach es ist damit zu beginnen Passwörter zu hacken. Mit ein bisschen Recherche ist es im Prinzip jedem etwas technik-affinen mit einem Computer möglich.
+
 #### Textanalyse oder Reportage
 Über 30% der Accounts sind massiv gefährdet.
 
+#### Beschreibung des Experiments
+
+#### Ergebnisse des Experiments
+
+
+''')
+
+st.markdown(text, unsafe_allow_html=True)
+
+# Show plot
+fig = px.line(data, x="id", y="loops", title='loop loop loop', color='GPU')
+st.plotly_chart(fig, use_container_width=True)
+
+text = markdown.markdown('''
 #### Fazit, ob Ausgangsthese be- oder widerlegt wurde
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit z.B. 8 Zeichen zu hacken", bestätigt wurde. 
-Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert die Datenanalyse des Artikel unterstreicht diese drastische Entwicklung.
+Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikel unterstreicht diese drastische Entwicklung.
 
 #### Expert:innen-Leitfaden
 * 5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management. 
@@ -39,7 +58,6 @@ Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert 
     * Wie können Passwörter sicher gespeichert werden?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
-</br>
 * Warum haben wir genau diesen Experten ausgewählt? </br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
 Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist dort als Dozent tätig.
@@ -64,20 +82,11 @@ Online
 
 * Warum ist etwas passiert?
 
-#### Darstellung der Relevanz
-Doch warum ist diese Thematik außer dem Identitätsdiebstahl noch relevant? Die Antwort ist wie so oft: Geld. Aud dem Gray/Dark Market steht ein großes Business dahinter, 
-Email-Accounts zu hacken und anschließend den E-Mail-Verlauf zu tracken. Solche Emails werden oftmals verkauft inkl. z.B. Kreditkarten-Informationen. 
-Dabei hervorzuheben ist wie einfach es ist damit zu beginnen Passwörter zu hacken. Mit ein bisschen Recherche ist es im Prinzip jedem etwas technik-affinen mit einem Computer möglich.
-
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
 # Show data
 st.dataframe(data=data)
-
-# Show plot
-fig = px.line(data, x="id", y="loops", title='loop loop loop', color='GPU')
-st.plotly_chart(fig, use_container_width=True)
 
 text = markdown.markdown('''
 
