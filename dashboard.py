@@ -34,32 +34,32 @@ Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert die Datenanalyse des Artikel unterstreicht diese drastische Entwicklung.
 
 #### Expert:innen-Leitfaden
-5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management. </br>
+**5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management.** 
 * Welche konkreten Maßnahmen kann man selbst ergreifen, um seine Identität zu schützen?
 * Wie können Passwörter sicher gespeichert werden?
 * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
 </br>
-Warum haben wir genau diesen Experten ausgewählt? </br>
+**Warum haben wir genau diesen Experten ausgewählt?** </br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
 Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist dort als Dozent tätig.
 Daher ist er der richtige Ansprechpartner für die Fragen, die im Expert:innen-Leitfaden gestellt wurden.
 
 #### Was habt ihr aus der Story gelernt?
 
-#### Beantwortung der W-Fragen
-* Was ist die Geschichte?
+#### Beantwortung der W-Fragen 
+* Was ist die Geschichte? </br>
 Durch eine Hashcat-Attacke ist es möglich, Passwörter in kürzester Zeit zu knacken.
 
 * Woher sind die Daten? </br>
 Dieser Artikel analysiert Benchmarkwerte unterschiedlicher Hardware-Generationen einer “Recovery” Software für Passwörter:
 Um die Berechnungszeit der Passwortsuche zu messen, wird das Tool “Hashcat” verwendet ( https://hashcat.net/hashcat/ ).
 
-* Wann & Wie wurden die Daten erhoben?
+* Wann & Wie wurden die Daten erhoben? </br>
 Wann: November 2022 </br>
 Wie: Durch Anwendung der Hashcat-Software auf verschiedene Hardware-Generationen
 
-* Wo lassen sich Daten lokalisieren?
+* Wo lassen sich Daten lokalisieren? </br>
 Online
 
 * Warum ist etwas passiert?
