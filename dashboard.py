@@ -13,15 +13,9 @@ data = pd.read_csv("Data/GTX1080ti.csv", sep=",")
 
 ##########################################################################################################################
 
-# Define plotly
-
-fig = px.line(data, x="id", y="loops", title='loop loop loop') 
-
-##########################################################################################################################
-
 # Artikel
 
-text = markdown.markdown(f'''
+text = markdown.markdown('''
 
 # 48 Minuten bis zum Identitätsdiebstahl
 ### Identitäten sind heute mit der digitalen Welt verbunden oder hängen sogar schon vollständig von ihr ab. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie? Über 30% der Accounts sind massiv gefährdet.
@@ -42,8 +36,6 @@ Ziel des Artikels ist es, die unterschiedlichen Grafikkarten-Generationen zu ver
 
 #### Was habt ihr aus der Story gelernt?
 
-{st.plotly_chart(fig, use_container_width=True)}
-
 #### Beantwortung der W-Fragen
 * Was ist die Geschichte?
 
@@ -62,6 +54,18 @@ Doch warum ist diese Thematik außer dem Identitätsdiebstahl noch relevant? Die
 Email-Accounts zu hacken und anschließend den E-Mail-Verlauf zu tracken. Solche Emails werden oftmals verkauft inkl. z.B. Kreditkarten-Informationen. 
 Dabei hervorzuheben ist wie einfach es ist damit zu beginnen Passwörter zu hacken. Mit ein bisschen Recherche ist es im Prinzip jedem etwas technik-affinen mit einem Computer möglich.
 
+''')
+st.markdown(text, unsafe_allow_html=True)
+
+# Show data
+st.dataframe(data=data)
+
+# Show plot
+fig = px.line(data, x="id", y="loops", title='loop loop loop')
+st.plotly_chart(fig, use_container_width=True)
+
+text = markdown.markdown('''
+
 #### Notizen Visualisierungen
 * Quellenangabe
 * Deskriptiver Titel, Beschreibung, Annotations
@@ -70,9 +74,6 @@ Sinnvolle Stelle im Text, keine unerklärten Begriffe, die nicht im Text erwähn
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
-
-# Show data
-st.dataframe(data=data)
 
 ##########################################################################################################################
 
