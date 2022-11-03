@@ -20,12 +20,26 @@ text = markdown.markdown('''
 # 48 Minuten bis zum Identitätsdiebstahl
 ### Identitäten sind heute mit der digitalen Welt verbunden oder hängen sogar schon vollständig von ihr ab. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie? Über 30% der Accounts sind massiv gefährdet.
 Von Andreas Braun, René Langschwert & Florian Voglauer
-#### Überschrift 
-* Auzählung
-* Auzählung
-* Auzählung
-#### Überschrift 
-Hallo das ist ein Beispieltext
+
+#### Ausgangsthese 
+#### Fazit, ob Ausgangsthese be- oder widerlegt wurde
+#### Expert:innen-Leitfaden
+#### Textanalyse oder Reportage
+
+#### Beantwortung der W-Fragen
+* Was ist die Geschichte?    
+* Woher sind die Daten?
+* Wann & Wie wurden die Daten erhoben?
+* Wo lassen sich Daten lokalisieren?
+* Warum ist etwas passiert?
+
+#### Darstellung der Relevanz
+
+#### Notizen Visualisierungen
+* Quellenangabe
+* Deskriptiver Titel, Beschreibung, Annotations
+* Passende Verknüpfung mit Text
+Sinnvolle Stelle im Text, keine unerklärten Begriffe, die nicht im Text erwähnt werden
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
