@@ -18,7 +18,7 @@ data = pd.read_csv("Data/all_devices.csv", sep=",")
 text = markdown.markdown('''
 
 # 48 Minuten bis zum Identitätsdiebstahl
-### Identitäten sind heute mit der digitalen Welt verbunden oder hängen sogar schon vollständig von ihr ab. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie? Über 30% der Accounts sind massiv gefährdet.
+### Identitäten sind heutezutage eng mit der digitalen Welt verbunden. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie?
 Von Andreas Braun, René Langschwert & Florian Voglauer
 
 #### Ausgangsthese
@@ -26,13 +26,14 @@ Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort 
 Passwörter in kürzester Zeit zu knacken. Diese Performancesteigerung hat gravierende Auswirkungen auf die Sicherheit von Passwörtern und damit auch auf die Sicherheit von gesamten Identitäten.
 Ziel des Artikels ist es, die unterschiedlichen Grafikkarten-Generationen zu vergleichen, um zu verdeutlichen wie sehr die Zeit, um ein Passwort zu hacken, gesunken ist.
 
+#### Textanalyse oder Reportage
+Über 30% der Accounts sind massiv gefährdet.
+
+#### Fazit, ob Ausgangsthese be- oder widerlegt wurde
+
 #### Expert:innen-Leitfaden
 * 5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management.
 * Warum haben wir genau diesen Experten ausgewählt?
-
-#### Textanalyse oder Reportage
-
-#### Fazit, ob Ausgangsthese be- oder widerlegt wurde
 
 #### Was habt ihr aus der Story gelernt?
 
