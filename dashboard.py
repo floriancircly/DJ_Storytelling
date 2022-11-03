@@ -107,11 +107,11 @@ st.plotly_chart(fig, use_container_width=True)
 
 text = markdown.markdown('''
 </br>
-Hier wird deutlich, dass nun eine enorme Anzahl an Passwörtern pro Sekunde ausprobiert werden kann. War es vor zehn Jahren noch vollkommen ausreichend, 
-ein acht Zeichen langes Passwort mit Groß- und Kleinbuchstaben, 
-Zahlen und Sonderzeichen zu verwenden, so könnte dieses Passwort mit der neuesten Hardware in unter einer Stunde geknackt werden.
+Hier wird deutlich, dass nun eine enorme Anzahl an Passwörtern pro Sekunde ausprobiert werden kann. War es vor zehn Jahren noch vollkommen ausreichend, ein acht Zeichen 
+langes Passwort mit Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen zu verwenden, so könnte dieses Passwort mit der neuesten Hardware - 
+abhängig vom Hash-Algorithmus - in unter einer Stunde geknackt werden. Laut einer <a href='https://www-statista-com.ezproxy.fhstp.ac.at:2443/statistics/744216/worldwide-distribution-of-password-length/'>Erhebung</a> sind über 50% der Passwörter genau oder unter 8 Zeichen lang und 
+daher gefährdet.
 
-<a href='https://www-statista-com.ezproxy.fhstp.ac.at:2443/statistics/744216/worldwide-distribution-of-password-length/'>Tests</a>
 ''')
 
 st.markdown(text, unsafe_allow_html=True)
