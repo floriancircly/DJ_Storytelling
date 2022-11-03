@@ -9,7 +9,7 @@ import plotly.express as px
 
 # Daten
 
-data = pd.read_csv("Data/GTX1080ti.csv", sep=",")
+data = pd.read_csv("Data/all_devices.csv", sep=",")
 
 ##########################################################################################################################
 
@@ -61,7 +61,7 @@ st.markdown(text, unsafe_allow_html=True)
 st.dataframe(data=data)
 
 # Show plot
-fig = px.line(data, x="id", y="loops", title='loop loop loop')
+fig = px.line(data, x="id", y="loops", title='loop loop loop', color='GPU')
 st.plotly_chart(fig, use_container_width=True)
 
 text = markdown.markdown('''

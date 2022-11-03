@@ -1,4 +1,4 @@
-id,hash_mode,speed,accel,loops,devive,thr,vec
+id,hash_mode,speed,accel,loops,GPU,thr,vec
 0,MD4,32948.8 MH/s,256,1024,GTX980ti,,
 1,MD5,15818.6 MH/s,256,1024,GTX980ti,,
 2,Half MD5, 7528.8 MH/s,256,1024,GTX980ti,,
