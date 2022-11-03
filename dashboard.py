@@ -43,4 +43,4 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.balloons()
 st.image("https://c.tenor.com/p0gHiSC-xecAAAAi/rainbow-dance-pepe-jam.gif")
-st.video("https://www.youtube.com/watch?v=zxagGtF9MeU")
+st.video("https://www.youtube.com/watch?v=WNeLUngb-Xg")
