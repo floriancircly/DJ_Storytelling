@@ -1,0 +1,1521 @@
+id,hash_mode,speed,accel,loops,devive,thr,vec
+0,MD4,32948.8 MH/s,256,1024,GTX980ti,,
+1,MD5,15818.6 MH/s,256,1024,GTX980ti,,
+2,Half MD5, 7528.8 MH/s,256,1024,GTX980ti,,
+3,SHA1, 5172.0 MH/s,256,1024,GTX980ti,,
+4,SHA256, 1963.4 MH/s,256,1024,GTX980ti,,
+5,SHA384,  699.6 MH/s,256,256,GTX980ti,,
+6,SHA512,  692.3 MH/s,256,256,GTX980ti,,
+7,SHA-3(Keccak),  491.1 MH/s,256,128,GTX980ti,,
+8,SipHash,19990.0 MH/s,256,1024,GTX980ti,,
+9,RipeMD160, 3473.5 MH/s,256,1024,GTX980ti,,
+10,Whirlpool,  200.5 MH/s,32,512,GTX980ti,,
+11,GOST R 34.11-94,  191.3 MH/s,64,512,GTX980ti,,
+12,GOST R 34.11-2012 (Streebog) 256-bit,40041.3 kH/s,16,512,GTX980ti,,
+13,GOST R 34.11-2012 (Streebog) 512-bit,39723.1 kH/s,16,512,GTX980ti,,
+14,"phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 4442.1 kH/s,32,1024,GTX980ti,,
+15,scrypt,  273.9 kH/s,64,1,GTX980ti,,
+16,PBKDF2-HMAC-MD5, 4827.3 kH/s,8,1000,GTX980ti,,
+17,PBKDF2-HMAC-SHA1, 2153.4 kH/s,8,1000,GTX980ti,,
+18,PBKDF2-HMAC-SHA256,  898.1 kH/s,8,1000,GTX980ti,,
+19,PBKDF2-HMAC-SHA512,  288.2 kH/s,8,1000,GTX980ti,,
+20,Skype, 9216.8 MH/s,256,1024,GTX980ti,,
+21,WPA/WPA2,  272.3 kH/s,32,1024,GTX980ti,,
+22,IKE-PSK MD5, 1174.5 MH/s,128,512,GTX980ti,,
+23,IKE-PSK SHA1,  383.4 MH/s,128,512,GTX980ti,,
+24,NetNTLMv1-VANILLA / NetNTLMv1+ESS,13585.5 MH/s,256,1024,GTX980ti,,
+25,NetNTLMv2, 1068.4 MH/s,256,1024,GTX980ti,,
+26,IPMI2 RAKP HMAC-SHA1, 1110.4 MH/s,256,256,GTX980ti,,
+27,Kerberos 5 AS-REQ Pre-Auth etype 23,  178.9 MH/s,32,256,GTX980ti,,
+28,DNSSEC (NSEC3), 2270.8 MH/s,256,512,GTX980ti,,
+29,PostgreSQL Challenge-Response Authentication (MD5), 3925.0 MH/s,256,1024,GTX980ti,,
+30,MySQL Challenge-Response Authentication (SHA1), 1529.0 MH/s,256,1024,GTX980ti,,
+31,SIP digest authentication (MD5), 1266.1 MH/s,32,1024,GTX980ti,,
+32,SMF > v1.1, 4147.3 MH/s,256,512,GTX980ti,,
+33,vBulletin < v3.8.5, 4405.9 MH/s,256,1024,GTX980ti,,
+34,vBulletin > v3.8.5, 2049.9 MH/s,256,1024,GTX980ti,,
+35,"IPB2+, MyBB1.2+", 2077.2 MH/s,256,1024,GTX980ti,,
+36,"WBB3, Woltlab Burning Board 3",  847.5 MH/s,256,256,GTX980ti,,
+37,Joomla < 2.5.18,15697.5 MH/s,256,1024,GTX980ti,,
+38,PHPS, 4440.9 MH/s,256,1024,GTX980ti,,
+39,Drupal7,   39254 H/s,8,1024,GTX980ti,,
+40,"osCommerce, xt:Commerce", 9047.9 MH/s,256,1024,GTX980ti,,
+41,PrestaShop, 5526.3 MH/s,256,1024,GTX980ti,,
+42,Django (SHA-1), 4128.9 MH/s,256,512,GTX980ti,,
+43,Django (PBKDF2-SHA256),   44999 H/s,8,1024,GTX980ti,,
+44,Mediawiki B type, 4039.9 MH/s,256,1024,GTX980ti,,
+45,Redmine Project Management Web App, 1450.3 MH/s,256,1024,GTX980ti,,
+46,PostgreSQL,15825.9 MH/s,256,1024,GTX980ti,,
+47,MSSQL(2000), 5114.8 MH/s,256,512,GTX980ti,,
+48,MSSQL(2005), 5134.4 MH/s,256,512,GTX980ti,,
+49,MySQL323,39017.9 MH/s,256,512,GTX980ti,,
+50,MySQL4.1/MySQL5, 2479.2 MH/s,256,512,GTX980ti,,
+51,Oracle H: Type (Oracle 7+),  585.8 MH/s,64,512,GTX980ti,,
+52,Oracle S: Type (Oracle 11+), 5131.6 MH/s,256,1024,GTX980ti,,
+53,Oracle T: Type (Oracle 12+),   71783 H/s,8,1024,GTX980ti,,
+54,Sybase ASE,  183.0 MH/s,32,512,GTX980ti,,
+55,EPiServer 6.x < v4, 4130.2 MH/s,256,512,GTX980ti,,
+56,EPiServer 6.x > v4, 1826.6 MH/s,256,512,GTX980ti,,
+57,"md5apr1, MD5(APR), Apache MD5", 6845.8 kH/s,32,1000,GTX980ti,,
+58,ColdFusion 10+, 1280.3 MH/s,128,128,GTX980ti,,
+59,hMailServer, 1840.1 MH/s,256,512,GTX980ti,,
+60,"SHA-1(Base64), nsldap, Netscape LDAP SHA", 5130.4 MH/s,256,1024,GTX980ti,,
+61,"SSHA-1(Base64), nsldaps, Netscape LDAP SSHA", 5161.0 MH/s,256,1024,GTX980ti,,
+62,"SSHA-512(Base64), LDAP {SSHA512}",  693.3 MH/s,256,256,GTX980ti,,
+63,LM, 2043.4 MH/s,256,1024,GTX980ti,,
+64,NTLM,33066.0 MH/s,256,1024,GTX980ti,,
+65,"Domain Cached Credentials (DCC), MS Cache", 9196.9 MH/s,256,1024,GTX980ti,,
+66,"Domain Cached Credentials 2 (DCC2), MS Cache 2",  217.8 kH/s,16,1024,GTX980ti,,
+67,"descrypt, DES(Unix), Traditional DES",  141.3 MH/s,64,128,GTX980ti,,
+68,"BSDiCrypt, Extended DES", 1230.6 kH/s,256,1024,GTX980ti,,
+69,"md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 6956.9 kH/s,32,1000,GTX980ti,,
+70,"bcrypt, Blowfish(OpenBSD)",   13944 H/s,2,32,GTX980ti,,
+71,"sha256crypt, SHA256(Unix)",  300.7 kH/s,4,1024,GTX980ti,,
+72,"sha512crypt, SHA512(Unix)",  109.3 kH/s,8,1024,GTX980ti,,
+73,"OSX v10.4, v10.5, v10.6", 4116.0 MH/s,256,512,GTX980ti,,
+74,OSX v10.7,  644.5 MH/s,256,128,GTX980ti,,
+75,OSX v10.8+,    8320 H/s,2,1024,GTX980ti,,
+76,AIX {smd5}, 6848.3 kH/s,32,1000,GTX980ti,,
+77,AIX {ssha1},28177.4 kH/s,128,64,GTX980ti,,
+78,AIX {ssha256},12336.4 kH/s,128,64,GTX980ti,,
+79,AIX {ssha512}, 4333.9 kH/s,32,64,GTX980ti,,
+80,Cisco-PIX MD5,11253.6 MH/s,256,1024,GTX980ti,,
+81,Cisco-ASA MD5,11426.7 MH/s,256,1024,GTX980ti,,
+82,Cisco-IOS SHA256, 1961.5 MH/s,256,1024,GTX980ti,,
+83,Cisco $8$,   45406 H/s,8,1024,GTX980ti,,
+84,Cisco $9$,    2186 H/s,4,1,GTX980ti,,
+85,Juniper Netscreen/SSG (ScreenOS), 9113.2 MH/s,256,1024,GTX980ti,,
+86,Juniper IVE, 6906.3 kH/s,32,1000,GTX980ti,,
+87,Android PIN, 4027.9 kH/s,16,1024,GTX980ti,,
+88,Citrix NetScaler, 4750.5 MH/s,256,512,GTX980ti,,
+89,RACF, 1957.6 MH/s,256,1024,GTX980ti,,
+90,GRUB 2,   27988 H/s,2,1024,GTX980ti,,
+91,Radmin2, 5738.4 MH/s,256,1024,GTX980ti,,
+92,SAP CODVN B (BCODE), 1274.0 MH/s,64,1024,GTX980ti,,
+93,SAP CODVN F/G (PASSCODE),  649.5 MH/s,32,1024,GTX980ti,,
+94,SAP CODVN H (PWDSALTEDHASH) iSSHA-1, 4038.6 kH/s,16,1024,GTX980ti,,
+95,Lotus Notes/Domino 5,  169.6 MH/s,32,256,GTX980ti,,
+96,Lotus Notes/Domino 6,55620.7 kH/s,32,256,GTX980ti,,
+97,Lotus Notes/Domino 8,  445.4 kH/s,64,1024,GTX980ti,,
+98,PeopleSoft, 5092.0 MH/s,256,512,GTX980ti,,
+99,7-Zip,    6707 H/s,4,1024,GTX980ti,,
+100,RAR3-hp,       0 H/s,32,16384,GTX980ti,,
+101,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES,  804.6 kH/s,64,1024,GTX980ti,,
+102,TrueCrypt 5.0+ PBKDF2-HMAC-SHA512 + AES,  293.5 kH/s,16,1000,GTX980ti,,
+103,TrueCrypt 5.0+ PBKDF2-HMAC-Whirlpool + AES,   28795 H/s,8,1000,GTX980ti,,
+104,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES + boot-mode, 1593.3 kH/s,64,1000,GTX980ti,,
+105,Android FDE <= 4.3,  549.6 kH/s,32,1024,GTX980ti,,
+106,eCryptfs,   10032 H/s,8,1024,GTX980ti,,
+107,"MS Office <= 2003 MD5 + RC4, oldoffice$0, oldoffice$1",  163.7 MH/s,32,1024,GTX980ti,,
+108,"MS Office <= 2003 MD5 + RC4, collision-mode #1",  239.8 MH/s,32,1024,GTX980ti,,
+109,"MS Office <= 2003 SHA1 + RC4, oldoffice$3, oldoffice$4",  229.1 MH/s,32,1024,GTX980ti,,
+110,"MS Office <= 2003 SHA1 + RC4, collision-mode #1",  261.7 MH/s,32,1024,GTX980ti,,
+111,Office 2007,   90499 H/s,32,1024,GTX980ti,,
+112,Office 2010,   45735 H/s,32,1024,GTX980ti,,
+113,Office 2013,    6683 H/s,4,1024,GTX980ti,,
+114,PDF 1.1 - 1.3 (Acrobat 2 - 4),  248.7 MH/s,32,1024,GTX980ti,,
+115,PDF 1.1 - 1.3 (Acrobat 2 - 4) + collider-mode #1,  283.2 MH/s,32,1024,GTX980ti,,
+116,PDF 1.4 - 1.6 (Acrobat 5 - 8),12087.3 kH/s,256,70,GTX980ti,,
+117,PDF 1.7 Level 3 (Acrobat 9), 1961.3 MH/s,256,1024,GTX980ti,,
+118,PDF 1.7 Level 8 (Acrobat 10 - 11),   25058 H/s,8,64,GTX980ti,,
+119,Password Safe v2,  200.6 kH/s,16,1000,GTX980ti,,
+120,Password Safe v3,  893.3 kH/s,16,1024,GTX980ti,,
+121,Lastpass, 1771.4 kH/s,64,500,GTX980ti,,
+122,"1Password, agilekeychain", 2184.4 kH/s,64,1000,GTX980ti,,
+123,"1Password, cloudkeychain",    7069 H/s,2,1024,GTX980ti,,
+124,Bitcoin/Litecoin wallet.dat,       0 H/s,4,1024,GTX980ti,,
+125,MD4,28425.5 MH/s,256,1024,GTX980ti,,
+126,MD5,13523.8 MH/s,256,1024,GTX980ti,,
+127,Half MD5, 6649.8 MH/s,256,1024,GTX980ti,,
+128,SHA1, 4404.8 MH/s,256,1024,GTX980ti,,
+129,SHA256, 1688.4 MH/s,256,1024,GTX980ti,,
+130,SHA384,  597.4 MH/s,256,256,GTX980ti,,
+131,SHA512,  596.9 MH/s,256,256,GTX980ti,,
+132,SHA-3(Keccak),  436.4 MH/s,256,128,GTX980ti,,
+133,SipHash,17194.7 MH/s,256,1024,GTX980ti,,
+134,RipeMD160, 2965.8 MH/s,256,1024,GTX980ti,,
+135,Whirlpool,  173.4 MH/s,32,512,GTX980ti,,
+136,GOST R 34.11-94,  163.3 MH/s,64,512,GTX980ti,,
+137,GOST R 34.11-2012 (Streebog) 256-bit,34216.4 kH/s,16,512,GTX980ti,,
+138,GOST R 34.11-2012 (Streebog) 512-bit,34205.9 kH/s,16,512,GTX980ti,,
+139,"phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 3818.6 kH/s,32,1024,GTX980ti,,
+140,scrypt,  236.4 kH/s,64,1,GTX980ti,,
+141,PBKDF2-HMAC-MD5, 4142.1 kH/s,8,1000,GTX980ti,,
+142,PBKDF2-HMAC-SHA1, 1837.6 kH/s,8,1000,GTX980ti,,
+143,PBKDF2-HMAC-SHA256,  767.2 kH/s,8,1000,GTX980ti,,
+144,PBKDF2-HMAC-SHA512,  245.8 kH/s,8,1000,GTX980ti,,
+145,Skype, 7781.5 MH/s,256,1024,GTX980ti,,
+146,WPA/WPA2,  233.2 kH/s,32,1024,GTX980ti,,
+147,IKE-PSK MD5, 1000.7 MH/s,128,512,GTX980ti,,
+148,IKE-PSK SHA1,  330.9 MH/s,128,512,GTX980ti,,
+149,NetNTLMv1-VANILLA / NetNTLMv1+ESS,11592.2 MH/s,256,1024,GTX980ti,,
+150,NetNTLMv2,  918.2 MH/s,256,1024,GTX980ti,,
+151,IPMI2 RAKP HMAC-SHA1,  949.8 MH/s,256,256,GTX980ti,,
+152,Kerberos 5 AS-REQ Pre-Auth etype 23,  153.9 MH/s,32,256,GTX980ti,,
+153,DNSSEC (NSEC3), 1938.1 MH/s,256,512,GTX980ti,,
+154,PostgreSQL Challenge-Response Authentication (MD5), 3385.7 MH/s,256,1024,GTX980ti,,
+155,MySQL Challenge-Response Authentication (SHA1), 1305.3 MH/s,256,1024,GTX980ti,,
+156,SIP digest authentication (MD5), 1091.5 MH/s,32,1024,GTX980ti,,
+157,SMF > v1.1, 3535.7 MH/s,256,512,GTX980ti,,
+158,vBulletin < v3.8.5, 3716.9 MH/s,256,1024,GTX980ti,,
+159,vBulletin > v3.8.5, 1748.2 MH/s,256,1024,GTX980ti,,
+160,"IPB2+, MyBB1.2+", 1786.8 MH/s,256,1024,GTX980ti,,
+161,"WBB3, Woltlab Burning Board 3",  725.1 MH/s,256,256,GTX980ti,,
+162,Joomla < 2.5.18,13513.3 MH/s,256,1024,GTX980ti,,
+163,PHPS, 3775.7 MH/s,256,1024,GTX980ti,,
+164,Drupal7,   33677 H/s,8,1024,GTX980ti,,
+165,"osCommerce, xt:Commerce", 7815.3 MH/s,256,1024,GTX980ti,,
+166,PrestaShop, 4748.6 MH/s,256,1024,GTX980ti,,
+167,Django (SHA-1), 3525.3 MH/s,256,512,GTX980ti,,
+168,Django (PBKDF2-SHA256),   38631 H/s,8,1024,GTX980ti,,
+169,Mediawiki B type, 3429.5 MH/s,256,1024,GTX980ti,,
+170,Redmine Project Management Web App, 1248.1 MH/s,256,1024,GTX980ti,,
+171,PostgreSQL,13551.8 MH/s,256,1024,GTX980ti,,
+172,MSSQL(2000), 4401.0 MH/s,256,512,GTX980ti,,
+173,MSSQL(2005), 4391.3 MH/s,256,512,GTX980ti,,
+174,MySQL323,33399.1 MH/s,256,512,GTX980ti,,
+175,MySQL4.1/MySQL5, 2129.7 MH/s,256,512,GTX980ti,,
+176,Oracle H: Type (Oracle 7+),  501.8 MH/s,64,512,GTX980ti,,
+177,Oracle S: Type (Oracle 11+), 4419.9 MH/s,256,1024,GTX980ti,,
+178,Oracle T: Type (Oracle 12+),   60323 H/s,8,1024,GTX980ti,,
+179,Sybase ASE,  157.0 MH/s,32,512,GTX980ti,,
+180,EPiServer 6.x < v4, 3520.2 MH/s,256,512,GTX980ti,,
+181,EPiServer 6.x > v4, 1571.3 MH/s,256,512,GTX980ti,,
+182,"md5apr1, MD5(APR), Apache MD5", 5901.7 kH/s,32,1000,GTX980ti,,
+183,ColdFusion 10+, 1101.8 MH/s,128,128,GTX980ti,,
+184,hMailServer, 1573.5 MH/s,256,512,GTX980ti,,
+185,"SHA-1(Base64), nsldap, Netscape LDAP SHA", 4418.6 MH/s,256,1024,GTX980ti,,
+186,"SSHA-1(Base64), nsldaps, Netscape LDAP SSHA", 4426.8 MH/s,256,1024,GTX980ti,,
+187,"SSHA-512(Base64), LDAP {SSHA512}",  595.9 MH/s,256,256,GTX980ti,,
+188,LM, 1744.3 MH/s,256,1024,GTX980ti,,
+189,NTLM,28408.9 MH/s,256,1024,GTX980ti,,
+190,"Domain Cached Credentials (DCC), MS Cache", 7874.1 MH/s,256,1024,GTX980ti,,
+191,"Domain Cached Credentials 2 (DCC2), MS Cache 2",  186.7 kH/s,16,1024,GTX980ti,,
+192,"descrypt, DES(Unix), Traditional DES",  120.6 MH/s,64,128,GTX980ti,,
+193,"BSDiCrypt, Extended DES", 1058.3 kH/s,256,1024,GTX980ti,,
+194,"md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 5963.8 kH/s,32,1000,GTX980ti,,
+195,"bcrypt, Blowfish(OpenBSD)",   11914 H/s,2,32,GTX980ti,,
+196,"sha256crypt, SHA256(Unix)",  258.0 kH/s,4,1024,GTX980ti,,
+197,"sha512crypt, SHA512(Unix)",   97348 H/s,8,1024,GTX980ti,,
+198,"OSX v10.4, v10.5, v10.6", 3537.6 MH/s,256,512,GTX980ti,,
+199,OSX v10.7,  551.9 MH/s,256,128,GTX980ti,,
+200,OSX v10.8+,    7003 H/s,2,1024,GTX980ti,,
+201,AIX {smd5}, 5898.7 kH/s,32,1000,GTX980ti,,
+202,AIX {ssha1},24701.7 kH/s,128,64,GTX980ti,,
+203,AIX {ssha256},10739.9 kH/s,128,64,GTX980ti,,
+204,AIX {ssha512}, 3679.8 kH/s,32,64,GTX980ti,,
+205,Cisco-PIX MD5, 9684.7 MH/s,256,1024,GTX980ti,,
+206,Cisco-ASA MD5, 9788.1 MH/s,256,1024,GTX980ti,,
+207,Cisco-IOS SHA256, 1684.1 MH/s,256,1024,GTX980ti,,
+208,Cisco $8$,   38793 H/s,8,1024,GTX980ti,,
+209,Cisco $9$,    1891 H/s,4,1,GTX980ti,,
+210,Juniper Netscreen/SSG (ScreenOS), 7839.9 MH/s,256,1024,GTX980ti,,
+211,Juniper IVE, 5946.7 kH/s,32,1000,GTX980ti,,
+212,Android PIN, 3440.5 kH/s,16,1024,GTX980ti,,
+213,Citrix NetScaler, 4074.0 MH/s,256,512,GTX980ti,,
+214,RACF, 1669.4 MH/s,256,1024,GTX980ti,,
+215,GRUB 2,   24260 H/s,2,1024,GTX980ti,,
+216,Radmin2, 4917.6 MH/s,256,1024,GTX980ti,,
+217,SAP CODVN B (BCODE), 1096.2 MH/s,64,1024,GTX980ti,,
+218,SAP CODVN F/G (PASSCODE),  566.9 MH/s,32,1024,GTX980ti,,
+219,SAP CODVN H (PWDSALTEDHASH) iSSHA-1, 3466.3 kH/s,16,1024,GTX980ti,,
+220,Lotus Notes/Domino 5,  146.0 MH/s,32,256,GTX980ti,,
+221,Lotus Notes/Domino 6,47588.7 kH/s,32,256,GTX980ti,,
+222,Lotus Notes/Domino 8,  380.5 kH/s,64,1024,GTX980ti,,
+223,PeopleSoft, 4397.2 MH/s,256,512,GTX980ti,,
+224,7-Zip,    5716 H/s,4,1024,GTX980ti,,
+225,RAR3-hp,       0 H/s,32,16384,GTX980ti,,
+226,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES,  690.3 kH/s,64,1024,GTX980ti,,
+227,TrueCrypt 5.0+ PBKDF2-HMAC-SHA512 + AES,  248.3 kH/s,16,1000,GTX980ti,,
+228,TrueCrypt 5.0+ PBKDF2-HMAC-Whirlpool + AES,   24909 H/s,8,1000,GTX980ti,,
+229,TrueCrypt 5.0+ PBKDF2-HMAC-RipeMD160 + AES + boot-mode, 1368.5 kH/s,64,1000,GTX980ti,,
+230,Android FDE <= 4.3,  471.8 kH/s,32,1024,GTX980ti,,
+231,eCryptfs,       0 H/s,8,1024,GTX980ti,,
+232,"MS Office <= 2003 MD5 + RC4, oldoffice$0, oldoffice$1",  140.1 MH/s,32,1024,GTX980ti,,
+233,"MS Office <= 2003 MD5 + RC4, collision-mode #1",  206.6 MH/s,32,1024,GTX980ti,,
+234,"MS Office <= 2003 SHA1 + RC4, oldoffice$3, oldoffice$4",  196.1 MH/s,32,1024,GTX980ti,,
+235,"MS Office <= 2003 SHA1 + RC4, collision-mode #1",  223.7 MH/s,32,1024,GTX980ti,,
+236,Office 2007,   77438 H/s,32,1024,GTX980ti,,
+237,Office 2010,   38988 H/s,32,1024,GTX980ti,,
+238,Office 2013,    5693 H/s,4,1024,GTX980ti,,
+239,PDF 1.1 - 1.3 (Acrobat 2 - 4),  213.4 MH/s,32,1024,GTX980ti,,
+240,PDF 1.1 - 1.3 (Acrobat 2 - 4) + collider-mode #1,  242.2 MH/s,32,1024,GTX980ti,,
+241,PDF 1.4 - 1.6 (Acrobat 5 - 8),10444.6 kH/s,256,70,GTX980ti,,
+242,PDF 1.7 Level 3 (Acrobat 9), 1688.1 MH/s,256,1024,GTX980ti,,
+243,PDF 1.7 Level 8 (Acrobat 10 - 11),   21411 H/s,8,64,GTX980ti,,
+244,Password Safe v2,  172.1 kH/s,16,1000,GTX980ti,,
+245,Password Safe v3,  764.1 kH/s,16,1024,GTX980ti,,
+246,Lastpass, 1518.3 kH/s,64,500,GTX980ti,,
+247,"1Password, agilekeychain", 1886.1 kH/s,64,1000,GTX980ti,,
+248,"1Password, cloudkeychain",    6015 H/s,2,1024,GTX980ti,,
+249,Bitcoin/Litecoin wallet.dat,       0 H/s,4,1024,GTX980ti,,
+0,0 - MD5,34949.6 MH/s (53.61ms),64,1024,GTX1080ti,1024.0,4.0
+1,10 - md5($pass.$salt),34780.5 MH/s (53.85ms),64,1024,GTX1080ti,1024.0,4.0
+2,11 - Joomla < 2.5.18,34780.6 MH/s (53.93ms),64,1024,GTX1080ti,1024.0,4.0
+3,12 - PostgreSQL,34742.5 MH/s (53.99ms),64,1024,GTX1080ti,1024.0,4.0
+4,20 - md5($salt.$pass),17676.5 MH/s (53.06ms),64,512,GTX1080ti,1024.0,1.0
+5,"21 - osCommerce, xt:Commerce",17662.8 MH/s (53.08ms),64,512,GTX1080ti,1024.0,1.0
+6,22 - Juniper NetScreen/SSG (ScreenOS),17447.5 MH/s (53.73ms),64,512,GTX1080ti,1024.0,1.0
+7,23 - Skype,17634.1 MH/s (53.17ms),64,512,GTX1080ti,1024.0,1.0
+8,30 - md5(utf16le($pass).$salt),34236.8 MH/s (54.71ms),64,1024,GTX1080ti,1024.0,4.0
+9,40 - md5($salt.utf16le($pass)),17633.8 MH/s (53.18ms),64,512,GTX1080ti,1024.0,1.0
+10,50 - HMAC-MD5 (key = $pass),5221.5 MH/s (89.39ms),64,256,GTX1080ti,1024.0,1.0
+11,60 - HMAC-MD5 (key = $salt),10461.9 MH/s (89.49ms),64,512,GTX1080ti,1024.0,1.0
+12,100 - SHA1,11478.1 MH/s (51.06ms),64,512,GTX1080ti,640.0,1.0
+13,"101 - nsldap, SHA-1(Base64), Netscape LDAP SHA",11474.4 MH/s (51.07ms),64,512,GTX1080ti,640.0,1.0
+14,110 - sha1($pass.$salt),11472.0 MH/s (51.09ms),64,512,GTX1080ti,640.0,1.0
+15,"111 - nsldaps, SSHA-1(Base64), Netscape LDAP SSHA",11457.5 MH/s (51.10ms),64,512,GTX1080ti,640.0,1.0
+16,112 - Oracle S: Type (Oracle 11+),11428.5 MH/s (51.11ms),64,512,GTX1080ti,640.0,1.0
+17,120 - sha1($salt.$pass),9266.8 MH/s (50.44ms),64,256,GTX1080ti,1024.0,1.0
+18,121 - SMF (Simple Machines Forum) > v1.1,9266.3 MH/s (50.43ms),64,256,GTX1080ti,1024.0,1.0
+19,"122 - macOS v10.4, macOS v10.5, MacOS v10.6",9276.7 MH/s (50.39ms),64,256,GTX1080ti,1024.0,1.0
+20,124 - Django (SHA-1),9286.4 MH/s (50.31ms),64,256,GTX1080ti,1024.0,1.0
+21,125 - ArubaOS,9321.3 MH/s (50.21ms),64,256,GTX1080ti,1024.0,1.0
+22,130 - sha1(utf16le($pass).$salt),11460.2 MH/s (50.86ms),64,512,GTX1080ti,640.0,1.0
+23,131 - MSSQL (2000),11473.0 MH/s (50.79ms),64,512,GTX1080ti,640.0,1.0
+24,132 - MSSQL (2005),11520.7 MH/s (50.72ms),64,512,GTX1080ti,640.0,1.0
+25,133 - PeopleSoft,11515.5 MH/s (50.72ms),64,512,GTX1080ti,640.0,1.0
+26,140 - sha1($salt.utf16le($pass)),9363.6 MH/s (49.94ms),64,256,GTX1080ti,1024.0,1.0
+27,141 - Episerver 6.x < .NET 4,9372.9 MH/s (49.94ms),64,256,GTX1080ti,1024.0,1.0
+28,150 - HMAC-SHA1 (key = $pass),2410.7 MH/s (72.91ms),128,128,GTX1080ti,384.0,1.0
+29,160 - HMAC-SHA1 (key = $salt),4731.9 MH/s (86.75ms),64,256,GTX1080ti,896.0,1.0
+30,200 - MySQL323,69668.9 MH/s (26.81ms),64,1024,GTX1080ti,1024.0,4.0
+31,300 - MySQL4.1/MySQL5,5134.3 MH/s (45.65ms),128,128,GTX1080ti,512.0,1.0
+32,"400 - phpass, WordPress (MD5), phpBB3 (MD5), Joomla (MD5) (Iterations: 2048)",9160.7 kH/s (48.41ms),64,512,GTX1080ti,1024.0,1.0
+33,"500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)",13153.7 kH/s (67.23ms),1024,1000,GTX1080ti,32.0,1.0
+34,501 - Juniper IVE (Iterations: 1000),13121.7 kH/s (67.29ms),1024,1000,GTX1080ti,32.0,1.0
+35,600 - BLAKE2b,1644.0 MH/s (89.17ms),64,128,GTX1080ti,640.0,1.0
+36,900 - MD4,60889.4 MH/s (30.76ms),64,1024,GTX1080ti,1024.0,4.0
+37,1000 - NTLM,58138.5 MH/s (32.04ms),64,1024,GTX1080ti,1024.0,2.0
+38,"1100 - Domain Cached Credentials (DCC), MS Cache",16024.4 MH/s (58.51ms),64,512,GTX1080ti,1024.0,4.0
+39,1300 - SHA-224,4180.9 MH/s (56.05ms),64,128,GTX1080ti,1024.0,1.0
+40,1400 - SHA-256,4278.9 MH/s (54.78ms),64,128,GTX1080ti,1024.0,1.0
+41,1410 - sha256($pass.$salt),4278.9 MH/s (54.79ms),64,128,GTX1080ti,1024.0,1.0
+42,"1411 - SSHA-256(Base64), LDAP {SSHA256}",4278.0 MH/s (54.79ms),64,128,GTX1080ti,1024.0,1.0
+43,1420 - sha256($salt.$pass),3786.8 MH/s (61.83ms),64,128,GTX1080ti,1024.0,1.0
+44,1421 - hMailServer,3786.5 MH/s (61.84ms),64,128,GTX1080ti,1024.0,1.0
+45,1430 - sha256(utf16le($pass).$salt),4238.5 MH/s (55.12ms),64,128,GTX1080ti,1024.0,1.0
+46,1440 - sha256($salt.utf16le($pass)),3796.1 MH/s (61.70ms),64,128,GTX1080ti,1024.0,1.0
+47,1441 - Episerver 6.x >= .NET 4,3798.2 MH/s (61.70ms),64,128,GTX1080ti,1024.0,1.0
+48,1450 - HMAC-SHA256 (key = $pass),776.2 MH/s (56.64ms),64,32,GTX1080ti,768.0,1.0
+49,1460 - HMAC-SHA256 (key = $salt),1533.0 MH/s (76.16ms),64,64,GTX1080ti,1024.0,1.0
+50,"1500 - descrypt, DES (Unix), Traditional DES",1192.2 MH/s (49.03ms),8,1024,GTX1080ti,256.0,1.0
+51,"1600 - Apache $apr1$ MD5, md5apr1, MD5 (APR) (Iterations: 1000)",13124.8 kH/s (67.38ms),1024,1000,GTX1080ti,32.0,1.0
+52,1700 - SHA-512,1409.0 MH/s (51.98ms),64,64,GTX1080ti,640.0,1.0
+53,1710 - sha512($pass.$salt),1407.1 MH/s (51.97ms),64,64,GTX1080ti,640.0,1.0
+54,"1711 - SSHA-512(Base64), LDAP {SSHA512}",1407.7 MH/s (51.97ms),64,64,GTX1080ti,640.0,1.0
+55,1720 - sha512($salt.$pass),1276.6 MH/s (57.39ms),64,64,GTX1080ti,640.0,1.0
+56,1722 - macOS v10.7,1276.5 MH/s (57.38ms),64,64,GTX1080ti,640.0,1.0
+57,1730 - sha512(utf16le($pass).$salt),1394.3 MH/s (52.48ms),64,64,GTX1080ti,640.0,1.0
+58,"1731 - MSSQL (2012, 2014)",1394.8 MH/s (52.50ms),64,64,GTX1080ti,640.0,1.0
+59,1740 - sha512($salt.utf16le($pass)),1217.1 MH/s (60.22ms),64,64,GTX1080ti,640.0,1.0
+60,1750 - HMAC-SHA512 (key = $pass),267.2 MH/s (54.88ms),64,16,GTX1080ti,512.0,1.0
+61,1760 - HMAC-SHA512 (key = $salt),600.6 MH/s (48.78ms),64,32,GTX1080ti,512.0,1.0
+62,"1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)",193.5 kH/s (58.54ms),512,128,GTX1080ti,32.0,1.0
+63,"2100 - Domain Cached Credentials 2 (DCC2), MS Cache 2 (Iterations: 10240)",455.7 kH/s (99.64ms),64,256,GTX1080ti,1024.0,1.0
+64,2400 - Cisco-PIX MD5,23783.1 MH/s (78.93ms),64,1024,GTX1080ti,1024.0,2.0
+65,2410 - Cisco-ASA MD5,24173.8 MH/s (48.47ms),64,1024,GTX1080ti,640.0,4.0
+66,2500 - WPA/WPA2 (Iterations: 4096),560.0 kH/s (101.97ms),64,128,GTX1080ti,1024.0,1.0
+67,2501 - WPA/WPA2 PMK (Iterations: 1),261.7 MH/s (0.01ms),64,1,GTX1080ti,1024.0,1.0
+68,2600 - md5(md5($pass)),9227.4 MH/s (50.82ms),64,256,GTX1080ti,1024.0,1.0
+69,2611 - vBulletin < v3.8.5,9223.0 MH/s (50.82ms),64,256,GTX1080ti,1024.0,1.0
+70,2612 - PHPS,9222.4 MH/s (50.83ms),64,256,GTX1080ti,1024.0,1.0
+71,2711 - vBulletin >= v3.8.5,6526.9 MH/s (71.30ms),64,256,GTX1080ti,1024.0,2.0
+72,"2811 - IPB2+ (Invision Power Board), MyBB 1.2+",6763.7 MH/s (69.35ms),64,256,GTX1080ti,1024.0,1.0
+73,3000 - LM,27895.0 MH/s (66.99ms),256,1024,GTX1080ti,256.0,1.0
+74,3100 - Oracle H: Type (Oracle 7+),1286.7 MH/s (79.79ms),64,64,GTX1080ti,896.0,1.0
+75,"3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)",20945 H/s (41.67ms),16,8,GTX1080ti,8.0,1.0
+76,3710 - md5($salt.md5($pass)),8671.3 MH/s (54.08ms),64,256,GTX1080ti,1024.0,1.0
+77,3711 - MediaWiki B type,9064.7 MH/s (90.39ms),64,512,GTX1080ti,896.0,2.0
+78,3800 - md5($salt.$pass.$salt),17655.5 MH/s (53.11ms),64,512,GTX1080ti,1024.0,1.0
+79,3910 - md5(md5($pass).md5($salt)),6555.0 MH/s (71.55ms),64,256,GTX1080ti,1024.0,1.0
+80,4010 - md5($salt.md5($salt.$pass)),7611.8 MH/s (61.60ms),64,256,GTX1080ti,1024.0,1.0
+81,4110 - md5($salt.md5($pass.$salt)),8434.9 MH/s (55.61ms),64,256,GTX1080ti,1024.0,1.0
+82,4300 - md5(strtoupper(md5($pass))),9169.6 MH/s (50.92ms),64,256,GTX1080ti,1024.0,1.0
+83,4400 - md5(sha1($pass)),5973.7 MH/s (78.52ms),64,256,GTX1080ti,1024.0,1.0
+84,4500 - sha1(sha1($pass)),4542.3 MH/s (51.39ms),64,128,GTX1080ti,1024.0,1.0
+85,4520 - sha1($salt.sha1($pass)),4044.5 MH/s (86.52ms),64,256,GTX1080ti,768.0,1.0
+86,4521 - Redmine,4044.3 MH/s (86.42ms),64,256,GTX1080ti,768.0,1.0
+87,4522 - PunBB,4071.6 MH/s (86.41ms),64,256,GTX1080ti,768.0,1.0
+88,4700 - sha1(md5($pass)),6278.2 MH/s (74.70ms),64,256,GTX1080ti,1024.0,1.0
+89,"4800 - iSCSI CHAP authentication, MD5(CHAP)",19061.0 MH/s (49.21ms),64,512,GTX1080ti,1024.0,1.0
+90,4900 - sha1($salt.$pass.$salt),9181.1 MH/s (51.05ms),64,256,GTX1080ti,1024.0,1.0
+91,5000 - SHA-3 (Keccak),1220.1 MH/s (60.09ms),64,64,GTX1080ti,640.0,1.0
+92,5100 - Half MD5,20162.6 MH/s (92.87ms),64,1024,GTX1080ti,1024.0,2.0
+93,5200 - Password Safe v3 (Iterations: 2048),1698.3 kH/s (66.91ms),64,128,GTX1080ti,1024.0,1.0
+94,5300 - IKE-PSK MD5,2658.3 MH/s (88.21ms),64,128,GTX1080ti,1024.0,1.0
+95,5400 - IKE-PSK SHA1,963.1 MH/s (91.07ms),64,64,GTX1080ti,768.0,1.0
+96,5500 - NetNTLMv1 / NetNTLMv1+ESS,28256.0 MH/s (61.71ms),64,1024,GTX1080ti,1024.0,1.0
+97,5600 - NetNTLMv2,2445.1 MH/s (47.68ms),64,64,GTX1080ti,1024.0,1.0
+98,5700 - Cisco-IOS type 4 (SHA256),4279.0 MH/s (54.76ms),64,128,GTX1080ti,1024.0,1.0
+99,5800 - Samsung Android Password/PIN (Iterations: 1023),8271.7 kH/s (43.36ms),64,255,GTX1080ti,1024.0,1.0
+100,6000 - RIPEMD-160,6659.3 MH/s (70.44ms),64,256,GTX1080ti,1024.0,1.0
+101,6100 - Whirlpool,327.5 MH/s (78.35ms),64,16,GTX1080ti,896.0,1.0
+102,6211 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 2000),382.4 kH/s (75.33ms),64,32,GTX1080ti,1024.0,1.0
+103,6212 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 2000),213.0 kH/s (67.49ms),64,16,GTX1080ti,1024.0,1.0
+104,6213 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 2000),151.5 kH/s (94.52ms),64,16,GTX1080ti,1024.0,1.0
+105,6221 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 1000),550.0 kH/s (88.96ms),64,62,GTX1080ti,512.0,1.0
+106,6222 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 1000),266.8 kH/s (68.85ms),64,31,GTX1080ti,384.0,1.0
+107,6223 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 1000),178.1 kH/s (51.14ms),32,31,GTX1080ti,384.0,1.0
+108,6231 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 1000),50805 H/s (278.40ms),32,31,GTX1080ti,512.0,1.0
+109,6232 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 1000),25328 H/s (202.65ms),32,15,GTX1080ti,384.0,1.0
+110,6233 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 1000),16948 H/s (151.72ms),16,15,GTX1080ti,384.0,1.0
+111,6241 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 1000),700.2 kH/s (70.73ms),64,31,GTX1080ti,1024.0,1.0
+112,6242 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 1000),381.1 kH/s (61.18ms),32,31,GTX1080ti,1024.0,1.0
+113,6243 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 1000),262.4 kH/s (86.96ms),32,31,GTX1080ti,1024.0,1.0
+114,6300 - AIX {smd5} (Iterations: 1000),13267.3 kH/s (66.64ms),1024,1000,GTX1080ti,32.0,1.0
+115,6400 - AIX {ssha256} (Iterations: 64),22605.0 kH/s (62.82ms),64,64,GTX1080ti,896.0,1.0
+116,6500 - AIX {ssha512} (Iterations: 64),8042.7 kH/s (97.39ms),64,64,GTX1080ti,512.0,1.0
+117,"6600 - 1Password, agilekeychain (Iterations: 1000)",4519.8 kH/s (97.63ms),64,250,GTX1080ti,1024.0,1.0
+118,6700 - AIX {ssha1} (Iterations: 64),55156.2 kH/s (25.29ms),64,64,GTX1080ti,1024.0,1.0
+119,6800 - LastPass + LastPass sniffed (Iterations: 500),3268.4 kH/s (82.80ms),64,125,GTX1080ti,640.0,1.0
+120,6900 - GOST R 34.11-94,328.1 MH/s (55.86ms),64,16,GTX1080ti,640.0,1.0
+121,7000 - FortiGate (FortiOS),9837.4 MH/s (95.10ms),64,512,GTX1080ti,1024.0,1.0
+122,7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 35000),16842 H/s (49.33ms),64,32,GTX1080ti,512.0,1.0
+123,7200 - GRUB 2 (Iterations: 10000),58453 H/s (98.62ms),128,32,GTX1080ti,512.0,1.0
+124,7300 - IPMI2 RAKP HMAC-SHA1,2348.3 MH/s (74.64ms),64,128,GTX1080ti,768.0,1.0
+125,"7400 - sha256crypt $5$, SHA256 (Unix) (Iterations: 5000)",564.3 kH/s (80.23ms),64,128,GTX1080ti,1024.0,1.0
+126,7500 - Kerberos 5 AS-REQ Pre-Auth etype 23,400.8 MH/s (73.22ms),256,64,GTX1080ti,64.0,1.0
+127,7700 - SAP CODVN B (BCODE),1749.5 MH/s (67.08ms),64,64,GTX1080ti,1024.0,1.0
+128,7800 - SAP CODVN F/G (PASSCODE),1132.4 MH/s (64.76ms),64,64,GTX1080ti,640.0,1.0
+129,7900 - Drupal7 (Iterations: 16384),68448 H/s (103.57ms),128,64,GTX1080ti,512.0,1.0
+130,8000 - Sybase ASE,446.2 MH/s (82.21ms),64,32,GTX1080ti,640.0,2.0
+131,8100 - Citrix NetScaler,10263.8 MH/s (91.11ms),64,512,GTX1080ti,1024.0,1.0
+132,"8200 - 1Password, cloudkeychain (Iterations: 40000)",10628 H/s (68.24ms),64,32,GTX1080ti,512.0,1.0
+133,8300 - DNSSEC (NSEC3),4651.4 MH/s (88.24ms),64,256,GTX1080ti,896.0,1.0
+134,8400 - WBB3 (Woltlab Burning Board),1855.2 MH/s (94.78ms),64,128,GTX1080ti,768.0,1.0
+135,8500 - RACF,3485.0 MH/s (66.81ms),64,128,GTX1080ti,1024.0,1.0
+136,8600 - Lotus Notes/Domino 5,291.2 MH/s (50.34ms),32,16,GTX1080ti,1024.0,1.0
+137,8700 - Lotus Notes/Domino 6,96424.6 kH/s (76.04ms),32,8,GTX1080ti,1024.0,1.0
+138,8800 - Android FDE <= 4.3 (Iterations: 2000),1133.2 kH/s (99.43ms),64,128,GTX1080ti,1024.0,1.0
+139,8900 - scrypt (Iterations: 1),596.0 kH/s (11.74ms),16,1,GTX1080ti,16.0,1.0
+140,9000 - Password Safe v2 (Iterations: 1000),434.5 kH/s (43.50ms),512,250,GTX1080ti,8.0,1.0
+141,9100 - Lotus Notes/Domino 8 (Iterations: 5000),924.7 kH/s (97.46ms),64,256,GTX1080ti,1024.0,1.0
+142,9200 - Cisco-IOS $8$ (PBKDF2-SHA256) (Iterations: 20000),85213 H/s (85.35ms),64,128,GTX1080ti,640.0,1.0
+143,9300 - Cisco-IOS $9$ (scrypt) (Iterations: 1),0 H/s (0.00ms),64,128,GTX1080ti,8.0,1.0
+144,9400 - MS Office 2007 (Iterations: 50000),188.2 kH/s (49.46ms),64,256,GTX1080ti,1024.0,1.0
+145,9500 - MS Office 2010 (Iterations: 100000),94004 H/s (99.06ms),64,512,GTX1080ti,1024.0,1.0
+146,9600 - MS Office 2013 (Iterations: 100000),12776 H/s (90.84ms),64,64,GTX1080ti,1024.0,1.0
+147,"9700 - MS Office <= 2003 $0/$1, MD5 + RC4",360.7 MH/s (81.36ms),256,64,GTX1080ti,64.0,1.0
+148,"9710 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #1",438.6 MH/s (64.16ms),256,64,GTX1080ti,64.0,1.0
+149,"9720 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #2",2861.6 MH/s (81.98ms),64,128,GTX1080ti,1024.0,1.0
+150,"9800 - MS Office <= 2003 $3/$4, SHA1 + RC4",430.3 MH/s (68.14ms),256,64,GTX1080ti,64.0,1.0
+151,"9810 - MS Office <= 2003 $3, SHA1 + RC4, collider #1",469.5 MH/s (60.01ms),256,64,GTX1080ti,64.0,1.0
+152,"9820 - MS Office <= 2003 $3, SHA1 + RC4, collider #2",4867.5 MH/s (96.23ms),64,256,GTX1080ti,1024.0,1.0
+153,9900 - Radmin2,11761.0 MH/s (79.79ms),64,512,GTX1080ti,1024.0,4.0
+154,10000 - Django (PBKDF2-SHA256) (Iterations: 20000),85161 H/s (85.40ms),64,128,GTX1080ti,640.0,1.0
+155,10100 - SipHash,38340.4 MH/s (48.90ms),64,1024,GTX1080ti,1024.0,2.0
+156,10200 - CRAM-MD5,5250.1 MH/s (89.26ms),64,256,GTX1080ti,1024.0,1.0
+157,10300 - SAP CODVN H (PWDSALTEDHASH) iSSHA-1 (Iterations: 1023),7757.0 kH/s (34.52ms),64,255,GTX1080ti,768.0,1.0
+158,10400 - PDF 1.1 - 1.3 (Acrobat 2 - 4),487.6 MH/s (60.12ms),256,64,GTX1080ti,64.0,1.0
+159,"10410 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1",514.3 MH/s (54.81ms),256,64,GTX1080ti,64.0,1.0
+160,"10420 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #2",10071.6 MH/s (92.67ms),64,512,GTX1080ti,1024.0,1.0
+161,10500 - PDF 1.4 - 1.6 (Acrobat 5 - 8) (Iterations: 70),22639.8 kH/s (75.29ms),1024,70,GTX1080ti,64.0,1.0
+162,10600 - PDF 1.7 Level 3 (Acrobat 9),4283.4 MH/s (54.56ms),64,128,GTX1080ti,1024.0,1.0
+163,10700 - PDF 1.7 Level 8 (Acrobat 10 - 11) (Iterations: 64),44695 H/s (160.19ms),16,2,GTX1080ti,512.0,1.0
+164,10800 - SHA-384,1340.5 MH/s (54.65ms),64,64,GTX1080ti,640.0,1.0
+165,10900 - PBKDF2-HMAC-SHA256 (Iterations: 999),1669.1 kH/s (74.32ms),64,124,GTX1080ti,640.0,1.0
+166,11000 - PrestaShop,11194.7 MH/s (83.53ms),64,512,GTX1080ti,1024.0,2.0
+167,11100 - PostgreSQL CRAM (MD5),9033.7 MH/s (51.82ms),64,256,GTX1080ti,1024.0,2.0
+168,11200 - MySQL CRAM (SHA1),3191.6 MH/s (73.48ms),64,128,GTX1080ti,1024.0,1.0
+169,11300 - Bitcoin/Litecoin wallet.dat (Iterations: 199999),6342 H/s (91.49ms),64,64,GTX1080ti,1024.0,1.0
+170,11400 - SIP digest authentication (MD5),4189.0 MH/s (69.96ms),64,256,GTX1080ti,640.0,1.0
+171,11500 - CRC32,6385.1 MH/s (73.57ms),64,256,GTX1080ti,1024.0,1.0
+172,11600 - 7-Zip (Iterations: 524288),12920 H/s (51.58ms),64,256,GTX1080ti,768.0,1.0
+173,11700 - GOST R 34.11-2012 (Streebog) 256-bit,68159.3 kH/s (67.22ms),32,8,GTX1080ti,640.0,1.0
+174,11800 - GOST R 34.11-2012 (Streebog) 512-bit,68946.9 kH/s (53.15ms),32,8,GTX1080ti,512.0,1.0
+175,11900 - PBKDF2-HMAC-MD5 (Iterations: 999),9992.4 kH/s (57.96ms),64,499,GTX1080ti,1024.0,1.0
+176,12000 - PBKDF2-HMAC-SHA1 (Iterations: 999),4431.6 kH/s (80.18ms),64,249,GTX1080ti,1024.0,1.0
+177,12001 - Atlassian (PBKDF2-HMAC-SHA1) (Iterations: 9999),456.7 kH/s (101.73ms),64,256,GTX1080ti,1024.0,1.0
+178,12100 - PBKDF2-HMAC-SHA512 (Iterations: 999),591.8 kH/s (89.57ms),64,62,GTX1080ti,512.0,1.0
+179,12200 - eCryptfs (Iterations: 65535),19367 H/s (91.42ms),64,64,GTX1080ti,1024.0,1.0
+180,12300 - Oracle T: Type (Oracle 12+) (Iterations: 4095),103.8 kH/s (68.21ms),64,32,GTX1080ti,512.0,1.0
+181,"12400 - BSDi Crypt, Extended DES (Iterations: 2899)",2019.5 kH/s (74.72ms),64,256,GTX1080ti,1024.0,1.0
+182,12500 - RAR3-hp (Iterations: 262144),47279 H/s (56.75ms),4,16384,GTX1080ti,384.0,1.0
+183,12600 - ColdFusion 10+,2551.9 MH/s (80.40ms),64,128,GTX1080ti,896.0,1.0
+184,"12700 - Blockchain, My Wallet (Iterations: 10)",65672.1 kH/s (8.85ms),64,10,GTX1080ti,1024.0,1.0
+185,12800 - MS-AzureSync PBKDF2-HMAC-SHA256 (Iterations: 99),13162.6 kH/s (66.39ms),64,99,GTX1080ti,640.0,1.0
+186,12900 - Android FDE (Samsung DEK) (Iterations: 4095),416.3 kH/s (85.36ms),64,128,GTX1080ti,640.0,1.0
+187,13000 - RAR5 (Iterations: 32767),51956 H/s (85.44ms),64,128,GTX1080ti,640.0,1.0
+188,13100 - Kerberos 5 TGS-REP etype 23,403.2 MH/s (72.76ms),256,64,GTX1080ti,64.0,1.0
+189,13200 - AxCrypt (Iterations: 10000),128.2 kH/s (90.72ms),64,64,GTX1080ti,1024.0,1.0
+190,13300 - AxCrypt in-memory SHA1,10794.4 MH/s (54.31ms),64,512,GTX1080ti,640.0,1.0
+191,13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 6000),183.1 kH/s (103.71ms),512,256,GTX1080ti,32.0,1.0
+192,13500 - PeopleSoft PS_TOKEN,4452.4 MH/s (78.95ms),64,256,GTX1080ti,768.0,1.0
+193,13600 - WinZip (Iterations: 1000),1495.4 kH/s (70.84ms),64,62,GTX1080ti,1024.0,1.0
+194,13711 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 655331),1177 H/s (74.72ms),64,32,GTX1080ti,1024.0,1.0
+195,13712 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 655331),658 H/s (66.63ms),64,16,GTX1080ti,1024.0,1.0
+196,13713 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 655331),463 H/s (94.30ms),64,16,GTX1080ti,1024.0,1.0
+197,13721 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 500000),1188 H/s (96.98ms),128,32,GTX1080ti,512.0,1.0
+198,13722 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 500000),606 H/s (72.03ms),64,32,GTX1080ti,384.0,1.0
+199,13723 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 500000),395 H/s (55.14ms),64,16,GTX1080ti,384.0,1.0
+200,13731 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 500000),101 H/s (144.50ms),32,16,GTX1080ti,512.0,1.0
+201,13732 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 500000),51 H/s (216.04ms),32,16,GTX1080ti,384.0,1.0
+202,13733 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 500000),33 H/s (162.66ms),32,8,GTX1080ti,384.0,1.0
+203,13741 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 327661),2360 H/s (74.52ms),64,32,GTX1080ti,1024.0,1.0
+204,13742 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 327661),1312 H/s (66.90ms),64,16,GTX1080ti,1024.0,1.0
+205,13743 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 327661),933 H/s (47.38ms),32,16,GTX1080ti,1024.0,1.0
+206,13751 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit (Iterations: 500000),1510 H/s (57.77ms),64,32,GTX1080ti,768.0,1.0
+207,13752 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit (Iterations: 500000),737 H/s (58.98ms),64,16,GTX1080ti,768.0,1.0
+208,13753 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit (Iterations: 500000),496 H/s (87.48ms),64,16,GTX1080ti,768.0,1.0
+209,13761 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit + boot-mode (Iterations: 200000),3776 H/s (57.75ms),64,32,GTX1080ti,768.0,1.0
+210,13762 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit + boot-mode (Iterations: 200000),1830 H/s (59.40ms),64,16,GTX1080ti,768.0,1.0
+211,13763 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit + boot-mode (Iterations: 200000),1221 H/s (88.86ms),64,16,GTX1080ti,768.0,1.0
+212,13800 - Windows Phone 8+ PIN/password,1030.9 MH/s (84.59ms),64,64,GTX1080ti,768.0,1.0
+213,13900 - OpenCart,2880.4 MH/s (81.35ms),64,128,GTX1080ti,1024.0,1.0
+214,"14000 - DES (PT = $salt, key = $pass)",27874.6 MH/s (67.26ms),256,1024,GTX1080ti,256.0,1.0
+215,"14100 - 3DES (PT = $salt, key = $pass)",1597.1 MH/s (55.08ms),8,1024,GTX1080ti,384.0,1.0
+216,14400 - sha1(CX),486.7 MH/s (60.01ms),64,32,GTX1080ti,512.0,1.0
+217,14600 - LUKS (Iterations: 163044),13643 H/s (24.75ms),2,1024,GTX1080ti,1024.0,1.0
+218,14700 - iTunes backup < 10.0 (Iterations: 9999),229.8 kH/s (101.11ms),64,128,GTX1080ti,1024.0,1.0
+219,14800 - iTunes backup >= 10.0 (Iterations: 9999999),171 H/s (5.20ms),2,250,GTX1080ti,640.0,1.0
+220,"14900 - Skip32 (PT = $salt, key = $pass)",4832.6 MH/s (3.40ms),64,256,GTX1080ti,1024.0,1.0
+221,15000 - FileZilla Server >= 0.9.55,1022.1 MH/s (86.09ms),128,64,GTX1080ti,384.0,1.0
+222,15100 - Juniper/NetBSD sha1crypt (Iterations: 19999),235.3 kH/s (49.42ms),64,128,GTX1080ti,1024.0,1.0
+223,"15200 - Blockchain, My Wallet, V2 (Iterations: 5000)",457.2 kH/s (101.61ms),64,128,GTX1080ti,1024.0,1.0
+224,15300 - DPAPI masterkey file v1 (Iterations: 23999),101.4 kH/s (95.22ms),64,128,GTX1080ti,1024.0,1.0
+225,15400 - ChaCha20,5578.0 MH/s (84.09ms),64,256,GTX1080ti,1024.0,1.0
+226,15500 - JKS Java Key Store Private Keys (SHA1),10931.3 MH/s (53.37ms),64,512,GTX1080ti,640.0,1.0
+227,"15600 - Ethereum Wallet, PBKDF2-HMAC-SHA256 (Iterations: 262143)",6490 H/s (85.51ms),64,128,GTX1080ti,640.0,1.0
+228,"15700 - Ethereum Wallet, SCRYPT (Iterations: 1)",3 H/s (8404.27ms),1,1,GTX1080ti,1.0,1.0
+229,15900 - DPAPI masterkey file v2 (Iterations: 7999),56038 H/s (65.29ms),256,128,GTX1080ti,32.0,1.0
+230,16000 - Tripcode,244.5 MH/s (59.94ms),32,16,GTX1080ti,1024.0,1.0
+231,16100 - TACACS+,18421.2 MH/s (50.82ms),64,512,GTX1080ti,1024.0,1.0
+232,16200 - Apple Secure Notes (Iterations: 19999),86194 H/s (84.48ms),64,128,GTX1080ti,640.0,1.0
+233,"16300 - Ethereum Pre-Sale Wallet, PBKDF2-HMAC-SHA256 (Iterations: 1999)",839.5 kH/s (83.01ms),64,128,GTX1080ti,640.0,1.0
+234,16400 - CRAM-MD5 Dovecot,29470.9 MH/s (63.70ms),64,1024,GTX1080ti,1024.0,1.0
+235,16500 - JWT (JSON Web Token),499.5 MH/s (58.69ms),64,32,GTX1080ti,512.0,1.0
+236,16600 - Electrum Wallet (Salt-Type 1-3),222.9 MH/s (65.79ms),32,16,GTX1080ti,1024.0,1.0
+0,0 - MD5,50515.3 MH/s (44.51ms),128,1024,GTX2080ti,256.0,4.0
+1,10 - md5($pass.$salt),50682.6 MH/s (44.42ms),128,1024,GTX2080ti,256.0,4.0
+2,11 - Joomla < 2.5.18,50957.5 MH/s (44.21ms),128,1024,GTX2080ti,256.0,4.0
+3,12 - PostgreSQL,50968.8 MH/s (44.11ms),128,1024,GTX2080ti,256.0,4.0
+4,20 - md5($salt.$pass),27196.5 MH/s (83.16ms),128,1024,GTX2080ti,256.0,4.0
+5,"21 - osCommerce, xt:Commerce",27224.5 MH/s (83.06ms),128,1024,GTX2080ti,256.0,4.0
+6,22 - Juniper NetScreen/SSG (ScreenOS),27994.1 MH/s (81.02ms),128,1024,GTX2080ti,256.0,4.0
+7,23 - Skype,27843.1 MH/s (81.39ms),128,1024,GTX2080ti,256.0,4.0
+8,30 - md5(utf16le($pass).$salt),51431.9 MH/s (43.86ms),128,1024,GTX2080ti,256.0,4.0
+9,40 - md5($salt.utf16le($pass)),27889.3 MH/s (81.27ms),128,1024,GTX2080ti,256.0,4.0
+10,50 - HMAC-MD5 (key = $pass),8048.5 MH/s (282.53ms),128,1024,GTX2080ti,256.0,1.0
+11,60 - HMAC-MD5 (key = $salt),16993.6 MH/s (133.69ms),128,1024,GTX2080ti,256.0,1.0
+12,100 - SHA1,15924.6 MH/s (142.70ms),128,1024,GTX2080ti,256.0,2.0
+13,"101 - nsldap, SHA-1(Base64), Netscape LDAP SHA",15790.7 MH/s (143.88ms),128,1024,GTX2080ti,256.0,2.0
+14,110 - sha1($pass.$salt),15915.7 MH/s (142.82ms),128,1024,GTX2080ti,256.0,2.0
+15,"111 - nsldaps, SSHA-1(Base64), Netscape LDAP SSHA",15872.7 MH/s (143.18ms),128,1024,GTX2080ti,256.0,2.0
+16,112 - Oracle S: Type (Oracle 11+),15858.9 MH/s (143.32ms),128,1024,GTX2080ti,256.0,2.0
+17,120 - sha1($salt.$pass),12199.0 MH/s (186.35ms),128,1024,GTX2080ti,256.0,4.0
+18,121 - SMF (Simple Machines Forum) > v1.1,12212.6 MH/s (186.18ms),128,1024,GTX2080ti,256.0,4.0
+19,"122 - macOS v10.4, macOS v10.5, MacOS v10.6",12251.3 MH/s (185.64ms),128,1024,GTX2080ti,256.0,4.0
+20,124 - Django (SHA-1),12117.7 MH/s (187.60ms),128,1024,GTX2080ti,256.0,4.0
+21,125 - ArubaOS,12070.4 MH/s (188.32ms),128,1024,GTX2080ti,256.0,4.0
+22,130 - sha1(utf16le($pass).$salt),16070.6 MH/s (141.37ms),128,1024,GTX2080ti,256.0,1.0
+23,131 - MSSQL (2000),16101.5 MH/s (141.11ms),128,1024,GTX2080ti,256.0,1.0
+24,132 - MSSQL (2005),16075.4 MH/s (141.33ms),128,1024,GTX2080ti,256.0,1.0
+25,133 - PeopleSoft,16099.3 MH/s (141.07ms),128,1024,GTX2080ti,256.0,1.0
+26,140 - sha1($salt.utf16le($pass)),12146.3 MH/s (187.17ms),128,1024,GTX2080ti,256.0,4.0
+27,141 - Episerver 6.x < .NET 4,12183.9 MH/s (186.61ms),128,1024,GTX2080ti,256.0,4.0
+28,150 - HMAC-SHA1 (key = $pass),3343.4 MH/s (340.26ms),128,512,GTX2080ti,256.0,1.0
+29,160 - HMAC-SHA1 (key = $salt),6226.1 MH/s (365.46ms),128,1024,GTX2080ti,256.0,1.0
+30,200 - MySQL323,153.2 GH/s (14.52ms),128,1024,GTX2080ti,256.0,4.0
+31,300 - MySQL4.1/MySQL5,6949.2 MH/s (327.51ms),128,1024,GTX2080ti,256.0,1.0
+32,"400 - phpass, WordPress (MD5), phpBB3 (MD5), Joomla (MD5) (Iterations: 2048)",13283.2 kH/s (78.29ms),128,1024,GTX2080ti,256.0,1.0
+33,"500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)",21718.0 kH/s (91.90ms),1024,1000,GTX2080ti,32.0,1.0
+34,501 - Juniper IVE (Iterations: 1000),21747.4 kH/s (91.88ms),1024,1000,GTX2080ti,32.0,1.0
+35,600 - BLAKE2b,3599.8 MH/s (316.05ms),128,512,GTX2080ti,256.0,1.0
+36,900 - MD4,75315.6 MH/s (29.91ms),128,1024,GTX2080ti,256.0,4.0
+37,1000 - NTLM,73602.4 MH/s (30.49ms),128,1024,GTX2080ti,256.0,2.0
+38,"1100 - Domain Cached Credentials (DCC), MS Cache",20814.7 MH/s (109.09ms),128,1024,GTX2080ti,256.0,4.0
+39,1300 - SHA2-224,6938.4 MH/s (327.58ms),128,1024,GTX2080ti,256.0,1.0
+40,1400 - SHA2-256,7154.8 MH/s (317.93ms),128,1024,GTX2080ti,256.0,1.0
+41,1410 - sha256($pass.$salt),7074.7 MH/s (321.37ms),128,1024,GTX2080ti,256.0,1.0
+42,"1411 - SSHA-256(Base64), LDAP {SSHA256}",7074.3 MH/s (321.56ms),128,1024,GTX2080ti,256.0,1.0
+43,1420 - sha256($salt.$pass),6349.7 MH/s (358.42ms),128,1024,GTX2080ti,256.0,1.0
+44,1421 - hMailServer,6367.4 MH/s (357.38ms),128,1024,GTX2080ti,256.0,1.0
+45,1430 - sha256(utf16le($pass).$salt),7078.9 MH/s (321.31ms),128,1024,GTX2080ti,256.0,1.0
+46,1440 - sha256($salt.utf16le($pass)),6271.6 MH/s (362.64ms),128,1024,GTX2080ti,256.0,1.0
+47,1441 - Episerver 6.x >= .NET 4,6265.0 MH/s (363.05ms),128,1024,GTX2080ti,256.0,1.0
+48,1450 - HMAC-SHA256 (key = $pass),1342.4 MH/s (423.91ms),128,256,GTX2080ti,256.0,1.0
+49,1460 - HMAC-SHA256 (key = $salt),2673.1 MH/s (425.55ms),128,512,GTX2080ti,256.0,1.0
+50,"1500 - descrypt, DES (Unix), Traditional DES",1682.3 MH/s (338.36ms),32,1024,GTX2080ti,256.0,1.0
+51,"1600 - Apache $apr1$ MD5, md5apr1, MD5 (APR) (Iterations: 1000)",20532.6 kH/s (97.88ms),1024,1000,GTX2080ti,32.0,1.0
+52,1700 - SHA2-512,2322.4 MH/s (244.86ms),128,256,GTX2080ti,256.0,1.0
+53,1710 - sha512($pass.$salt),2320.9 MH/s (245.02ms),128,256,GTX2080ti,256.0,1.0
+54,"1711 - SSHA-512(Base64), LDAP {SSHA512}",2318.1 MH/s (245.16ms),128,256,GTX2080ti,256.0,1.0
+55,1720 - sha512($salt.$pass),2082.8 MH/s (273.12ms),128,256,GTX2080ti,256.0,1.0
+56,1722 - macOS v10.7,2067.1 MH/s (275.14ms),128,256,GTX2080ti,256.0,1.0
+57,1730 - sha512(utf16le($pass).$salt),2290.7 MH/s (247.92ms),128,256,GTX2080ti,256.0,1.0
+58,"1731 - MSSQL (2012, 2014)",2286.3 MH/s (248.42ms),128,256,GTX2080ti,256.0,1.0
+59,1740 - sha512($salt.utf16le($pass)),2117.6 MH/s (268.33ms),128,256,GTX2080ti,256.0,1.0
+60,1750 - HMAC-SHA512 (key = $pass),465.4 MH/s (305.41ms),128,64,GTX2080ti,256.0,1.0
+61,1760 - HMAC-SHA512 (key = $salt),976.0 MH/s (291.27ms),128,128,GTX2080ti,256.0,1.0
+62,"1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)",313.4 kH/s (357.88ms),1024,256,GTX2080ti,32.0,1.0
+63,"2100 - Domain Cached Credentials 2 (DCC2), MS Cache 2 (Iterations: 10240)",604.4 kH/s (367.12ms),128,1024,GTX2080ti,256.0,1.0
+64,2400 - Cisco-PIX MD5,36246.5 MH/s (62.49ms),128,1024,GTX2080ti,256.0,4.0
+65,2410 - Cisco-ASA MD5,37568.6 MH/s (60.32ms),128,1024,GTX2080ti,256.0,4.0
+66,2500 - WPA-EAPOL-PBKDF2 (Iterations: 4096),744.9 kH/s (372.00ms),128,512,GTX2080ti,256.0,1.0
+67,2501 - WPA-EAPOL-PMK (Iterations: 1),178.7 MH/s (0.01ms),128,1,GTX2080ti,256.0,1.0
+68,2600 - md5(md5($pass)),14676.8 MH/s (154.89ms),128,1024,GTX2080ti,256.0,1.0
+69,2611 - vBulletin < v3.8.5,14457.0 MH/s (157.17ms),128,1024,GTX2080ti,256.0,1.0
+70,2612 - PHPS,14368.4 MH/s (158.00ms),128,1024,GTX2080ti,256.0,1.0
+71,2711 - vBulletin >= v3.8.5,10164.1 MH/s (223.60ms),128,1024,GTX2080ti,256.0,1.0
+72,"2811 - IPB2+ (Invision Power Board), MyBB 1.2+",10571.6 MH/s (215.01ms),128,1024,GTX2080ti,256.0,1.0
+73,3000 - LM,42408.1 MH/s (53.24ms),128,1024,GTX2080ti,256.0,1.0
+74,3100 - Oracle H: Type (Oracle 7+),1298.7 MH/s (438.08ms),128,256,GTX2080ti,256.0,1.0
+75,"3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)",26544 H/s (160.35ms),32,8,GTX2080ti,8.0,1.0
+76,3710 - md5($salt.md5($pass)),13373.0 MH/s (169.92ms),128,1024,GTX2080ti,256.0,1.0
+77,3711 - MediaWiki B type,13403.9 MH/s (169.54ms),128,1024,GTX2080ti,256.0,1.0
+78,3800 - md5($salt.$pass.$salt),27712.7 MH/s (81.85ms),128,1024,GTX2080ti,256.0,4.0
+79,3910 - md5(md5($pass).md5($salt)),10215.2 MH/s (222.63ms),128,1024,GTX2080ti,256.0,1.0
+80,4010 - md5($salt.md5($salt.$pass)),10959.7 MH/s (207.53ms),128,1024,GTX2080ti,256.0,4.0
+81,4110 - md5($salt.md5($pass.$salt)),12127.8 MH/s (187.53ms),128,1024,GTX2080ti,256.0,4.0
+82,4300 - md5(strtoupper(md5($pass))),14360.2 MH/s (158.25ms),128,1024,GTX2080ti,256.0,1.0
+83,4400 - md5(sha1($pass)),8292.6 MH/s (274.20ms),128,1024,GTX2080ti,256.0,1.0
+84,4500 - sha1(sha1($pass)),6141.3 MH/s (370.44ms),128,1024,GTX2080ti,256.0,1.0
+85,4520 - sha1($salt.sha1($pass)),5258.5 MH/s (432.81ms),128,1024,GTX2080ti,256.0,2.0
+86,4521 - Redmine,5285.3 MH/s (430.67ms),128,1024,GTX2080ti,256.0,2.0
+87,4522 - PunBB,5277.8 MH/s (431.31ms),128,1024,GTX2080ti,256.0,2.0
+88,4700 - sha1(md5($pass)),8806.0 MH/s (258.16ms),128,1024,GTX2080ti,256.0,1.0
+89,"4800 - iSCSI CHAP authentication, MD5(CHAP)",29887.1 MH/s (75.86ms),128,1024,GTX2080ti,256.0,4.0
+90,4900 - sha1($salt.$pass.$salt),11808.5 MH/s (192.57ms),128,1024,GTX2080ti,256.0,4.0
+91,5100 - Half MD5,31653.9 MH/s (71.62ms),128,1024,GTX2080ti,256.0,4.0
+92,5200 - Password Safe v3 (Iterations: 2048),2842.9 kH/s (386.29ms),128,1024,GTX2080ti,256.0,1.0
+93,5300 - IKE-PSK MD5,3975.6 MH/s (285.98ms),128,512,GTX2080ti,256.0,1.0
+94,5400 - IKE-PSK SHA1,1440.9 MH/s (394.78ms),128,256,GTX2080ti,256.0,1.0
+95,5500 - NetNTLMv1 / NetNTLMv1+ESS,40620.9 MH/s (55.64ms),128,1024,GTX2080ti,256.0,1.0
+96,5600 - NetNTLMv2,3593.6 MH/s (316.44ms),128,512,GTX2080ti,256.0,1.0
+97,5700 - Cisco-IOS type 4 (SHA256),7073.6 MH/s (321.50ms),128,1024,GTX2080ti,256.0,1.0
+98,5800 - Samsung Android Password/PIN (Iterations: 1023),10705.5 kH/s (196.96ms),128,1023,GTX2080ti,256.0,1.0
+99,6000 - RIPEMD-160,9369.7 MH/s (242.64ms),128,1024,GTX2080ti,256.0,1.0
+100,6100 - Whirlpool,406.5 MH/s (349.85ms),128,64,GTX2080ti,256.0,1.0
+101,6211 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 2000),534.4 kH/s (476.05ms),128,256,GTX2080ti,256.0,1.0
+102,6212 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 2000),328.6 kH/s (426.25ms),128,128,GTX2080ti,256.0,1.0
+103,6213 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 2000),227.1 kH/s (307.55ms),128,64,GTX2080ti,256.0,1.0
+104,6221 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 1000),872.0 kH/s (279.17ms),128,125,GTX2080ti,256.0,1.0
+105,6222 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 1000),491.0 kH/s (278.02ms),128,62,GTX2080ti,256.0,1.0
+106,6223 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 1000),325.3 kH/s (418.73ms),128,62,GTX2080ti,256.0,1.0
+107,6231 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 1000),62569 H/s (1096.05ms),64,62,GTX2080ti,256.0,1.0
+108,6232 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 1000),31149 H/s (1097.57ms),64,31,GTX2080ti,256.0,1.0
+109,6233 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 1000),20872 H/s (821.09ms),32,31,GTX2080ti,256.0,1.0
+110,6241 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 1000),998.5 kH/s (470.55ms),128,250,GTX2080ti,256.0,1.0
+111,6242 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 1000),525.3 kH/s (414.21ms),128,125,GTX2080ti,256.0,1.0
+112,6243 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 1000),455.3 kH/s (297.59ms),128,62,GTX2080ti,256.0,1.0
+113,6300 - AIX {smd5} (Iterations: 1000),20873.5 kH/s (95.68ms),1024,1000,GTX2080ti,32.0,1.0
+114,6400 - AIX {ssha256} (Iterations: 64),35117.2 kH/s (50.22ms),128,64,GTX2080ti,256.0,1.0
+115,6500 - AIX {ssha512} (Iterations: 64),13339.9 kH/s (142.92ms),128,64,GTX2080ti,256.0,1.0
+116,"6600 - 1Password, agilekeychain (Iterations: 1000)",5983.7 kH/s (355.08ms),128,1000,GTX2080ti,256.0,1.0
+117,6700 - AIX {ssha1} (Iterations: 64),51899.5 kH/s (28.65ms),128,64,GTX2080ti,256.0,1.0
+118,6800 - LastPass + LastPass sniffed (Iterations: 500),5529.0 kH/s (376.93ms),128,500,GTX2080ti,256.0,1.0
+119,6900 - GOST R 34.11-94,403.9 MH/s (352.22ms),128,64,GTX2080ti,256.0,1.0
+120,7000 - FortiGate (FortiOS),12951.6 MH/s (175.52ms),128,1024,GTX2080ti,256.0,1.0
+121,7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 35000),28221 H/s (286.76ms),128,128,GTX2080ti,256.0,1.0
+122,7200 - GRUB 2 (Iterations: 10000),98765 H/s (286.75ms),128,128,GTX2080ti,256.0,1.0
+123,7300 - IPMI2 RAKP HMAC-SHA1,3055.8 MH/s (372.25ms),128,512,GTX2080ti,256.0,1.0
+124,"7400 - sha256crypt $5$, SHA256 (Unix) (Iterations: 5000)",953.9 kH/s (460.92ms),128,1024,GTX2080ti,256.0,1.0
+125,7500 - Kerberos 5 AS-REQ Pre-Auth etype 23,620.4 MH/s (458.75ms),512,128,GTX2080ti,64.0,1.0
+126,7700 - SAP CODVN B (BCODE),2638.2 MH/s (431.24ms),128,512,GTX2080ti,256.0,1.0
+127,7701 - SAP CODVN B (BCODE) mangled from RFC_READ_TABLE,2806.3 MH/s (405.41ms),128,512,GTX2080ti,256.0,1.0
+128,7800 - SAP CODVN F/G (PASSCODE),2337.3 MH/s (486.92ms),128,512,GTX2080ti,256.0,1.0
+129,7801 - SAP CODVN F/G (PASSCODE) mangled from RFC_READ_TABLE,3421.8 MH/s (332.47ms),128,512,GTX2080ti,256.0,1.0
+130,7900 - Drupal7 (Iterations: 16384),120.9 kH/s (286.49ms),128,256,GTX2080ti,256.0,1.0
+131,8000 - Sybase ASE,835.8 MH/s (340.33ms),128,128,GTX2080ti,256.0,1.0
+132,8100 - Citrix NetScaler,13527.2 MH/s (168.09ms),128,1024,GTX2080ti,256.0,1.0
+133,"8200 - 1Password, cloudkeychain (Iterations: 40000)",24750 H/s (286.07ms),128,128,GTX2080ti,256.0,1.0
+134,8300 - DNSSEC (NSEC3),5981.1 MH/s (380.34ms),128,1024,GTX2080ti,256.0,1.0
+135,8400 - WBB3 (Woltlab Burning Board),2419.6 MH/s (470.22ms),128,512,GTX2080ti,256.0,1.0
+136,8500 - RACF,4597.4 MH/s (495.11ms),128,1024,GTX2080ti,256.0,1.0
+137,8600 - Lotus Notes/Domino 5,360.0 MH/s (395.22ms),128,64,GTX2080ti,256.0,1.0
+138,8700 - Lotus Notes/Domino 6,118.5 MH/s (300.09ms),64,32,GTX2080ti,256.0,1.0
+139,8800 - Android FDE <= 4.3 (Iterations: 2000),1502.6 kH/s (363.01ms),128,512,GTX2080ti,256.0,1.0
+140,8900 - scrypt (Iterations: 1),1163.7 kH/s (9.70ms),16,1,GTX2080ti,16.0,1.0
+141,9000 - Password Safe v2 (Iterations: 1000),582.6 kH/s (154.10ms),512,500,GTX2080ti,8.0,1.0
+142,9100 - Lotus Notes/Domino 8 (Iterations: 5000),1227.7 kH/s (357.72ms),128,1024,GTX2080ti,256.0,1.0
+143,9200 - Cisco-IOS $8$ (PBKDF2-SHA256) (Iterations: 20000),145.6 kH/s (389.83ms),128,512,GTX2080ti,256.0,1.0
+144,9300 - Cisco-IOS $9$ (scrypt) (Iterations: 1),56475 H/s (103.01ms),16,1,GTX2080ti,8.0,1.0
+145,9400 - MS Office 2007 (Iterations: 50000),248.1 kH/s (183.31ms),128,1024,GTX2080ti,256.0,1.0
+146,9500 - MS Office 2010 (Iterations: 100000),124.1 kH/s (183.22ms),128,1024,GTX2080ti,256.0,1.0
+147,9600 - MS Office 2013 (Iterations: 100000),20297 H/s (279.69ms),128,256,GTX2080ti,256.0,1.0
+148,"9700 - MS Office <= 2003 $0/$1, MD5 + RC4",560.0 MH/s (254.05ms),256,128,GTX2080ti,64.0,1.0
+149,"9710 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #1",615.9 MH/s (459.40ms),256,256,GTX2080ti,64.0,1.0
+150,"9720 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #2",4164.3 MH/s (273.05ms),128,512,GTX2080ti,256.0,1.0
+151,"9800 - MS Office <= 2003 $3/$4, SHA1 + RC4",627.2 MH/s (453.78ms),512,128,GTX2080ti,64.0,1.0
+152,"9810 - MS Office <= 2003 $3, SHA1 + RC4, collider #1",677.5 MH/s (417.33ms),256,256,GTX2080ti,64.0,1.0
+153,"9820 - MS Office <= 2003 $3, SHA1 + RC4, collider #2",6316.6 MH/s (359.97ms),128,1024,GTX2080ti,256.0,1.0
+154,9900 - Radmin2,18113.0 MH/s (125.37ms),128,1024,GTX2080ti,256.0,4.0
+155,10000 - Django (PBKDF2-SHA256) (Iterations: 20000),144.6 kH/s (392.39ms),128,512,GTX2080ti,256.0,1.0
+156,10100 - SipHash,55912.4 MH/s (40.39ms),128,1024,GTX2080ti,256.0,1.0
+157,10200 - CRAM-MD5,8029.8 MH/s (283.20ms),128,1024,GTX2080ti,256.0,1.0
+158,10300 - SAP CODVN H (PWDSALTEDHASH) iSSHA-1 (Iterations: 1023),10248.0 kH/s (206.32ms),128,1023,GTX2080ti,256.0,1.0
+159,10400 - PDF 1.1 - 1.3 (Acrobat 2 - 4),723.6 MH/s (393.21ms),512,128,GTX2080ti,64.0,1.0
+160,"10410 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1",740.1 MH/s (381.73ms),256,256,GTX2080ti,64.0,1.0
+161,"10420 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #2",15228.9 MH/s (149.17ms),128,1024,GTX2080ti,256.0,1.0
+162,10500 - PDF 1.4 - 1.6 (Acrobat 5 - 8) (Iterations: 70),29773.0 kH/s (63.65ms),512,70,GTX2080ti,64.0,1.0
+163,10600 - PDF 1.7 Level 3 (Acrobat 9),7090.3 MH/s (320.77ms),128,1024,GTX2080ti,256.0,1.0
+164,10700 - PDF 1.7 Level 8 (Acrobat 10 - 11) (Iterations: 64),91207 H/s (571.80ms),48,4,GTX2080ti,256.0,1.0
+165,10800 - SHA2-384,2267.9 MH/s (250.68ms),128,256,GTX2080ti,256.0,1.0
+166,10900 - PBKDF2-HMAC-SHA256 (Iterations: 999),2841.8 kH/s (254.88ms),128,499,GTX2080ti,256.0,1.0
+167,11000 - PrestaShop,17755.3 MH/s (127.92ms),128,1024,GTX2080ti,256.0,1.0
+168,11100 - PostgreSQL CRAM (MD5),13969.5 MH/s (162.72ms),128,1024,GTX2080ti,256.0,1.0
+169,11200 - MySQL CRAM (SHA1),4143.6 MH/s (274.49ms),128,512,GTX2080ti,256.0,1.0
+170,11300 - Bitcoin/Litecoin wallet.dat (Iterations: 199999),10020 H/s (283.26ms),128,256,GTX2080ti,256.0,1.0
+171,11400 - SIP digest authentication (MD5),6603.6 MH/s (344.57ms),128,1024,GTX2080ti,256.0,1.0
+172,11500 - CRC32,10896.0 MH/s (208.70ms),128,1024,GTX2080ti,256.0,1.0
+173,11600 - 7-Zip (Iterations: 524288),20577 H/s (210.28ms),128,1024,GTX2080ti,256.0,1.0
+174,11700 - GOST R 34.11-2012 (Streebog) 256-bit,84304.3 kH/s (422.04ms),64,32,GTX2080ti,256.0,1.0
+175,11800 - GOST R 34.11-2012 (Streebog) 512-bit,84241.2 kH/s (422.34ms),64,32,GTX2080ti,256.0,1.0
+176,11900 - PBKDF2-HMAC-MD5 (Iterations: 999),15785.2 kH/s (126.71ms),128,999,GTX2080ti,256.0,1.0
+177,12000 - PBKDF2-HMAC-SHA1 (Iterations: 999),5970.1 kH/s (356.75ms),128,999,GTX2080ti,256.0,1.0
+178,12001 - Atlassian (PBKDF2-HMAC-SHA1) (Iterations: 9999),623.7 kH/s (355.44ms),128,1024,GTX2080ti,256.0,1.0
+179,12100 - PBKDF2-HMAC-SHA512 (Iterations: 999),991.7 kH/s (246.62ms),128,124,GTX2080ti,256.0,1.0
+180,12200 - eCryptfs (Iterations: 65535),33332 H/s (260.00ms),128,256,GTX2080ti,256.0,1.0
+181,12300 - Oracle T: Type (Oracle 12+) (Iterations: 4095),250.8 kH/s (275.03ms),128,128,GTX2080ti,256.0,1.0
+182,"12400 - BSDi Crypt, Extended DES (Iterations: 2899)",2587.4 kH/s (282.15ms),128,1024,GTX2080ti,256.0,1.0
+183,12500 - RAR3-hp (Iterations: 262144),65529 H/s (265.27ms),16,16384,GTX2080ti,256.0,1.0
+184,12600 - ColdFusion 10+,4015.6 MH/s (283.34ms),128,512,GTX2080ti,256.0,1.0
+185,"12700 - Blockchain, My Wallet (Iterations: 10)",82195.1 kH/s (6.99ms),128,10,GTX2080ti,256.0,1.0
+186,12800 - MS-AzureSync PBKDF2-HMAC-SHA256 (Iterations: 99),22422.2 kH/s (75.20ms),128,99,GTX2080ti,256.0,1.0
+187,12900 - Android FDE (Samsung DEK) (Iterations: 4095),713.2 kH/s (388.30ms),128,512,GTX2080ti,256.0,1.0
+188,13000 - RAR5 (Iterations: 32767),89336 H/s (387.90ms),128,512,GTX2080ti,256.0,1.0
+189,13100 - Kerberos 5 TGS-REP etype 23,641.1 MH/s (443.81ms),512,128,GTX2080ti,64.0,1.0
+190,13200 - AxCrypt (Iterations: 10000),180.4 kH/s (315.03ms),128,256,GTX2080ti,256.0,1.0
+191,13300 - AxCrypt in-memory SHA1,14385.1 MH/s (157.96ms),128,1024,GTX2080ti,256.0,4.0
+192,13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 6000),218.2 kH/s (869.13ms),1024,512,GTX2080ti,32.0,1.0
+193,13500 - PeopleSoft PS_TOKEN,5865.5 MH/s (387.92ms),128,1024,GTX2080ti,256.0,1.0
+194,13600 - WinZip (Iterations: 1000),1987.2 kH/s (274.87ms),128,250,GTX2080ti,256.0,1.0
+195,13711 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit (Iterations: 655331),1796 H/s (478.86ms),128,256,GTX2080ti,256.0,1.0
+196,13712 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit (Iterations: 655331),1020 H/s (418.67ms),128,128,GTX2080ti,256.0,1.0
+197,13713 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit (Iterations: 655331),706 H/s (301.41ms),128,64,GTX2080ti,256.0,1.0
+198,13721 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit (Iterations: 500000),2005 H/s (282.16ms),128,128,GTX2080ti,256.0,1.0
+199,13722 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1024 bit (Iterations: 500000),987 H/s (285.49ms),128,64,GTX2080ti,256.0,1.0
+200,13723 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 1536 bit (Iterations: 500000),657 H/s (428.26ms),128,64,GTX2080ti,256.0,1.0
+201,13731 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit (Iterations: 500000),124 H/s (1131.73ms),128,32,GTX2080ti,256.0,1.0
+202,13732 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1024 bit (Iterations: 500000),62 H/s (1143.92ms),64,32,GTX2080ti,256.0,1.0
+203,13733 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 1536 bit (Iterations: 500000),41 H/s (849.87ms),64,16,GTX2080ti,256.0,1.0
+204,13741 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 327661),3580 H/s (480.59ms),128,256,GTX2080ti,256.0,1.0
+205,13742 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 327661),2038 H/s (419.67ms),128,128,GTX2080ti,256.0,1.0
+206,13743 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 327661),1395 H/s (305.93ms),128,64,GTX2080ti,256.0,1.0
+207,13751 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit (Iterations: 500000),2695 H/s (421.28ms),128,256,GTX2080ti,256.0,1.0
+208,13752 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit (Iterations: 500000),1354 H/s (418.72ms),128,128,GTX2080ti,256.0,1.0
+209,13753 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit (Iterations: 500000),868 H/s (325.52ms),128,64,GTX2080ti,256.0,1.0
+210,13761 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit + boot-mode (Iterations: 200000),6684 H/s (424.73ms),128,256,GTX2080ti,256.0,1.0
+211,13762 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1024 bit + boot-mode (Iterations: 200000),3272 H/s (433.06ms),128,128,GTX2080ti,256.0,1.0
+212,13763 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 1536 bit + boot-mode (Iterations: 200000),2148 H/s (329.32ms),128,64,GTX2080ti,256.0,1.0
+213,13800 - Windows Phone 8+ PIN/password,1626.4 MH/s (349.63ms),128,256,GTX2080ti,256.0,2.0
+214,13900 - OpenCart,3731.6 MH/s (304.70ms),128,512,GTX2080ti,256.0,1.0
+215,"14000 - DES (PT = $salt, key = $pass)",42464.4 MH/s (53.16ms),128,1024,GTX2080ti,256.0,1.0
+216,"14100 - 3DES (PT = $salt, key = $pass)",2050.7 MH/s (277.42ms),32,1024,GTX2080ti,256.0,1.0
+217,14400 - sha1(CX),653.6 MH/s (435.16ms),128,128,GTX2080ti,256.0,1.0
+218,14600 - LUKS (Iterations: 163044),18022 H/s (11.25ms),2,1024,GTX2080ti,256.0,1.0
+219,14700 - iTunes backup < 10.0 (Iterations: 9999),310.1 kH/s (366.15ms),128,512,GTX2080ti,256.0,1.0
+220,14800 - iTunes backup >= 10.0 (Iterations: 9999999),277 H/s (2.94ms),2,250,GTX2080ti,256.0,1.0
+221,"14900 - Skip32 (PT = $salt, key = $pass)",9026.6 MH/s (7.01ms),128,1024,GTX2080ti,256.0,1.0
+222,15000 - FileZilla Server >= 0.9.55,2189.8 MH/s (259.56ms),128,256,GTX2080ti,256.0,1.0
+223,15100 - Juniper/NetBSD sha1crypt (Iterations: 19999),310.5 kH/s (366.23ms),128,1024,GTX2080ti,256.0,1.0
+224,"15200 - Blockchain, My Wallet, V2 (Iterations: 5000)",615.8 kH/s (359.50ms),128,512,GTX2080ti,256.0,1.0
+225,15300 - DPAPI masterkey file v1 (Iterations: 23999),131.6 kH/s (359.48ms),128,512,GTX2080ti,256.0,1.0
+226,15400 - ChaCha20,7415.5 MH/s (306.70ms),128,1024,GTX2080ti,256.0,1.0
+227,15500 - JKS Java Key Store Private Keys (SHA1),14849.1 MH/s (153.01ms),128,1024,GTX2080ti,256.0,1.0
+228,"15600 - Ethereum Wallet, PBKDF2-HMAC-SHA256 (Iterations: 262143)",11234 H/s (385.53ms),128,512,GTX2080ti,256.0,1.0
+229,"15700 - Ethereum Wallet, SCRYPT (Iterations: 1)",0 H/s (0.00ms),128,512,GTX2080ti,1.0,1.0
+0,0 - MD5,65079.1 MH/s (41.37ms),32,1024,GTX3090,1024.0,1.0
+1,10 - md5($pass.$salt),66252.7 MH/s (41.33ms),32,1024,GTX3090,1024.0,1.0
+2,11 - Joomla < 2.5.18,58906.6 MH/s (46.51ms),32,1024,GTX3090,1024.0,1.0
+3,12 - PostgreSQL,58905.3 MH/s (46.51ms),32,1024,GTX3090,1024.0,1.0
+4,20 - md5($salt.$pass),37131.6 MH/s (73.85ms),32,1024,GTX3090,1024.0,1.0
+5,"21 - osCommerce, xt:Commerce",37083.6 MH/s (73.72ms),32,1024,GTX3090,1024.0,1.0
+6,22 - Juniper NetScreen/SSG (ScreenOS),37173.4 MH/s (73.76ms),32,1024,GTX3090,1024.0,1.0
+7,23 - Skype,37300.7 MH/s (73.53ms),32,1024,GTX3090,1024.0,1.0
+8,30 - md5(utf16le($pass).$salt),63618.4 MH/s (43.03ms),32,1024,GTX3090,1024.0,1.0
+9,40 - md5($salt.utf16le($pass)),37508.7 MH/s (73.09ms),32,1024,GTX3090,1024.0,1.0
+10,50 - HMAC-MD5 (key = $pass),11170.9 MH/s (61.34ms),16,512,GTX3090,1024.0,1.0
+11,60 - HMAC-MD5 (key = $salt),23600.2 MH/s (58.07ms),16,1024,GTX3090,1024.0,1.0
+12,100 - SHA1,22757.6 MH/s (60.21ms),16,1024,GTX3090,1024.0,1.0
+13,"101 - nsldap, SHA-1(Base64), Netscape LDAP SHA",22765.5 MH/s (60.20ms),32,512,GTX3090,1024.0,1.0
+14,110 - sha1($pass.$salt),22777.5 MH/s (60.19ms),16,1024,GTX3090,1024.0,1.0
+15,"111 - nsldaps, SSHA-1(Base64), Netscape LDAP SSHA",22759.6 MH/s (60.22ms),16,1024,GTX3090,1024.0,1.0
+16,112 - Oracle S: Type (Oracle 11+),22803.5 MH/s (60.10ms),16,1024,GTX3090,1024.0,1.0
+17,120 - sha1($salt.$pass),17429.9 MH/s (78.67ms),32,512,GTX3090,1024.0,1.0
+18,121 - SMF (Simple Machines Forum) > v1.1,17325.5 MH/s (79.13ms),32,512,GTX3090,1024.0,1.0
+19,"122 - macOS v10.4, macOS v10.5, MacOS v10.6",17418.2 MH/s (78.74ms),32,512,GTX3090,1024.0,1.0
+20,124 - Django (SHA-1),17368.8 MH/s (78.87ms),32,512,GTX3090,1024.0,1.0
+21,125 - ArubaOS,17426.6 MH/s (78.69ms),32,512,GTX3090,1024.0,1.0
+22,130 - sha1(utf16le($pass).$salt),22763.1 MH/s (60.15ms),32,512,GTX3090,1024.0,1.0
+23,131 - MSSQL (2000),22777.8 MH/s (59.78ms),16,1024,GTX3090,1024.0,1.0
+24,132 - MSSQL (2005),22778.2 MH/s (60.14ms),16,1024,GTX3090,1024.0,1.0
+25,133 - PeopleSoft,22790.8 MH/s (60.15ms),16,1024,GTX3090,1024.0,1.0
+26,140 - sha1($salt.utf16le($pass)),17406.5 MH/s (78.79ms),16,1024,GTX3090,1024.0,1.0
+27,141 - Episerver 6.x < .NET 4,17396.6 MH/s (78.85ms),16,1024,GTX3090,1024.0,1.0
+28,150 - HMAC-SHA1 (key = $pass),5200.0 MH/s (65.90ms),8,512,GTX3090,1024.0,1.0
+29,160 - HMAC-SHA1 (key = $salt),9555.3 MH/s (71.75ms),8,1024,GTX3090,1024.0,1.0
+30,200 - MySQL323,172.9 GH/s (15.74ms),32,1024,GTX3090,1024.0,1.0
+31,300 - MySQL4.1/MySQL5,9912.1 MH/s (69.16ms),8,1024,GTX3090,1024.0,1.0
+32,400 - phpass (Iterations: 2048),19136.3 kH/s (68.49ms),32,1024,GTX3090,1024.0,1.0
+33,"500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)",32621.8 kH/s (79.31ms),32,1000,GTX3090,1024.0,1.0
+34,501 - Juniper IVE (Iterations: 1000),31889.3 kH/s (80.02ms),32,1000,GTX3090,1024.0,1.0
+35,600 - BLAKE2b-512,5715.6 MH/s (59.88ms),8,512,GTX3090,1024.0,1.0
+36,900 - MD4,121.3 GH/s (22.56ms),32,1024,GTX3090,1024.0,1.0
+37,1000 - NTLM,121.2 GH/s (22.55ms),32,1024,GTX3090,1024.0,1.0
+38,"1100 - Domain Cached Credentials (DCC), MS Cache",32382.2 MH/s (84.70ms),32,1024,GTX3090,1024.0,1.0
+39,1300 - SHA2-224,9456.9 MH/s (72.49ms),16,512,GTX3090,1024.0,1.0
+40,1400 - SHA2-256,9713.2 MH/s (70.57ms),16,512,GTX3090,1024.0,1.0
+41,1410 - sha256($pass.$salt),9746.6 MH/s (70.35ms),8,1024,GTX3090,1024.0,1.0
+42,"1411 - SSHA-256(Base64), LDAP {SSHA256}",9688.7 MH/s (70.56ms),8,1024,GTX3090,1024.0,1.0
+43,1420 - sha256($salt.$pass),8748.8 MH/s (78.38ms),16,512,GTX3090,1024.0,1.0
+44,1421 - hMailServer,8721.5 MH/s (78.56ms),32,256,GTX3090,1024.0,1.0
+45,1430 - sha256(utf16le($pass).$salt),9752.6 MH/s (70.32ms),8,1024,GTX3090,1024.0,1.0
+46,1440 - sha256($salt.utf16le($pass)),8737.1 MH/s (78.46ms),16,512,GTX3090,1024.0,1.0
+47,1441 - Episerver 6.x >= .NET 4,8790.3 MH/s (78.02ms),8,1024,GTX3090,1024.0,1.0
+48,1450 - HMAC-SHA256 (key = $pass),1898.6 MH/s (90.30ms),4,512,GTX3090,1024.0,1.0
+49,1460 - HMAC-SHA256 (key = $salt),4170.0 MH/s (82.24ms),4,1024,GTX3090,1024.0,1.0
+50,"1500 - descrypt, DES (Unix), Traditional DES",2787.3 MH/s (61.41ms),32,1024,GTX3090,64.0,1.0
+51,"1600 - Apache $apr1$ MD5, md5apr1, MD5 (APR) (Iterations: 1000)",32109.8 kH/s (80.36ms),32,1000,GTX3090,1024.0,1.0
+52,1700 - SHA2-512,2863.9 MH/s (59.81ms),2,1024,GTX3090,1024.0,1.0
+53,1710 - sha512($pass.$salt),2865.5 MH/s (59.74ms),2,1024,GTX3090,1024.0,1.0
+54,"1711 - SSHA-512(Base64), LDAP {SSHA512}",2866.1 MH/s (59.77ms),8,256,GTX3090,1024.0,1.0
+55,1720 - sha512($salt.$pass),2834.7 MH/s (60.43ms),2,1024,GTX3090,1024.0,1.0
+56,1722 - macOS v10.7,2835.1 MH/s (60.43ms),4,512,GTX3090,1024.0,1.0
+57,1730 - sha512(utf16le($pass).$salt),2863.1 MH/s (59.84ms),2,1024,GTX3090,1024.0,1.0
+58,"1731 - MSSQL (2012, 2014)",2858.0 MH/s (59.81ms),2,1024,GTX3090,1024.0,1.0
+59,1740 - sha512($salt.utf16le($pass)),2830.2 MH/s (60.52ms),32,64,GTX3090,1024.0,1.0
+60,1750 - HMAC-SHA512 (key = $pass),705.5 MH/s (60.72ms),1,512,GTX3090,1024.0,1.0
+61,1760 - HMAC-SHA512 (key = $salt),1402.1 MH/s (61.09ms),2,512,GTX3090,1024.0,1.0
+62,"1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)",483.7 kH/s (68.87ms),8,256,GTX3090,1024.0,1.0
+63,2000 - STDOUT,24549.4 GH/s (0.01ms),32,1024,GTX3090,1024.0,1.0
+64,"2100 - Domain Cached Credentials 2 (DCC2), MS Cache 2 (Iterations: 10239)",909.2 kH/s (73.60ms),8,1024,GTX3090,1024.0,1.0
+65,2400 - Cisco-PIX MD5,47536.1 MH/s (57.65ms),32,1024,GTX3090,1024.0,1.0
+66,2410 - Cisco-ASA MD5,43007.2 MH/s (63.62ms),32,1024,GTX3090,1024.0,1.0
+67,2500 - WPA-EAPOL-PBKDF2 (Iterations: 4095),1138.3 kH/s (73.44ms),4,1024,GTX3090,1024.0,1.0
+68,2501 - WPA-EAPOL-PMK (Iterations: 0),960.3 MH/s (0.00ms),32,1024,GTX3090,1024.0,1.0
+69,2600 - md5(md5($pass)),20101.2 MH/s (68.13ms),32,512,GTX3090,1024.0,1.0
+70,2611 - vBulletin < v3.8.5,20108.7 MH/s (68.17ms),32,512,GTX3090,1024.0,1.0
+71,2612 - PHPS,20109.8 MH/s (68.18ms),32,512,GTX3090,1024.0,1.0
+72,2711 - vBulletin >= v3.8.5,14107.9 MH/s (97.14ms),32,512,GTX3090,1024.0,1.0
+73,"2811 - MyBB 1.2+, IPB2+ (Invision Power Board)",14901.6 MH/s (45.90ms),32,256,GTX3090,1024.0,1.0
+74,3000 - LM,68416.3 MH/s (39.93ms),512,1024,GTX3090,64.0,1.0
+75,3100 - Oracle H: Type (Oracle 7+),1464.3 MH/s (58.49ms),1,1024,GTX3090,1024.0,1.0
+76,"3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)",96662 H/s (36.29ms),8,16,GTX3090,11.0,1.0
+77,3710 - md5($salt.md5($pass)),18629.3 MH/s (73.61ms),32,512,GTX3090,1024.0,1.0
+78,3711 - MediaWiki B type,18660.7 MH/s (73.49ms),32,512,GTX3090,1024.0,1.0
+79,3800 - md5($salt.$pass.$salt),37141.3 MH/s (73.84ms),32,1024,GTX3090,1024.0,1.0
+80,3910 - md5(md5($pass).md5($salt)),14128.9 MH/s (97.11ms),16,1024,GTX3090,1024.0,1.0
+81,4010 - md5($salt.md5($salt.$pass)),16511.4 MH/s (82.94ms),32,512,GTX3090,1024.0,1.0
+82,4110 - md5($salt.md5($pass.$salt)),17715.6 MH/s (77.41ms),16,1024,GTX3090,1024.0,1.0
+83,4300 - md5(strtoupper(md5($pass))),20044.3 MH/s (68.33ms),32,512,GTX3090,1024.0,1.0
+84,4400 - md5(sha1($pass)),12118.1 MH/s (56.54ms),8,1024,GTX3090,1024.0,1.0
+85,4500 - sha1(sha1($pass)),8739.0 MH/s (78.46ms),8,1024,GTX3090,1024.0,1.0
+86,4520 - sha1($salt.sha1($pass)),5317.5 MH/s (64.43ms),4,1024,GTX3090,1024.0,1.0
+87,4521 - Redmine,5306.1 MH/s (64.58ms),8,512,GTX3090,1024.0,1.0
+88,4522 - PunBB,8064.5 MH/s (85.04ms),16,512,GTX3090,1024.0,1.0
+89,4700 - sha1(md5($pass)),12451.0 MH/s (54.96ms),32,256,GTX3090,1024.0,1.0
+90,4710 - sha1(md5($pass).$salt),11695.4 MH/s (58.59ms),16,512,GTX3090,1024.0,1.0
+91,4711 - Huawei sha1(md5($pass).$salt),11681.6 MH/s (58.66ms),8,1024,GTX3090,1024.0,1.0
+92,"4800 - iSCSI CHAP authentication, MD5(CHAP)",42592.2 MH/s (64.33ms),32,1024,GTX3090,1024.0,1.0
+93,4900 - sha1($salt.$pass.$salt),16904.0 MH/s (81.14ms),16,1024,GTX3090,1024.0,1.0
+94,5100 - Half MD5,44378.3 MH/s (61.75ms),32,1024,GTX3090,1024.0,1.0
+95,5200 - Password Safe v3 (Iterations: 2049),3911.6 kH/s (68.21ms),16,512,GTX3090,1024.0,1.0
+96,5300 - IKE-PSK MD5,2660.7 MH/s (64.40ms),2,1024,GTX3090,1024.0,1.0
+97,5400 - IKE-PSK SHA1,1154.9 MH/s (74.19ms),2,512,GTX3090,1024.0,1.0
+98,5500 - NetNTLMv1 / NetNTLMv1+ESS,68311.9 MH/s (40.07ms),32,1024,GTX3090,1024.0,1.0
+99,5600 - NetNTLMv2,5032.0 MH/s (68.05ms),4,1024,GTX3090,1024.0,1.0
+100,5700 - Cisco-IOS type 4 (SHA256),9698.1 MH/s (70.69ms),16,512,GTX3090,1024.0,1.0
+101,5800 - Samsung Android Password/PIN (Iterations: 1023),15851.2 kH/s (55.56ms),32,511,GTX3090,1024.0,1.0
+102,6000 - RIPEMD-160,15091.4 MH/s (90.87ms),32,512,GTX3090,1024.0,1.0
+103,6100 - Whirlpool,1489.6 MH/s (57.48ms),1,1024,GTX3090,1024.0,1.0
+104,6211 - TrueCrypt RIPEMD160 + XTS 512 bit (Iterations: 1999),854.8 kH/s (90.18ms),16,128,GTX3090,1024.0,1.0
+105,6212 - TrueCrypt RIPEMD160 + XTS 1024 bit (Iterations: 1999),462.5 kH/s (78.57ms),8,128,GTX3090,1024.0,1.0
+106,6213 - TrueCrypt RIPEMD160 + XTS 1536 bit (Iterations: 1999),315.8 kH/s (56.42ms),8,64,GTX3090,1024.0,1.0
+107,6221 - TrueCrypt SHA512 + XTS 512 bit (Iterations: 999),1260.4 kH/s (46.36ms),4,249,GTX3090,1024.0,1.0
+108,6222 - TrueCrypt SHA512 + XTS 1024 bit (Iterations: 999),587.0 kH/s (46.92ms),2,249,GTX3090,1024.0,1.0
+109,6223 - TrueCrypt SHA512 + XTS 1536 bit (Iterations: 999),383.1 kH/s (71.04ms),2,249,GTX3090,1024.0,1.0
+110,6231 - TrueCrypt Whirlpool + XTS 512 bit (Iterations: 999),176.5 kH/s (112.97ms),8,31,GTX3090,1024.0,1.0
+111,6232 - TrueCrypt Whirlpool + XTS 1024 bit (Iterations: 999),86984 H/s (110.30ms),2,62,GTX3090,1024.0,1.0
+112,6233 - TrueCrypt Whirlpool + XTS 1536 bit (Iterations: 999),59426 H/s (168.62ms),8,15,GTX3090,1024.0,1.0
+113,6241 - TrueCrypt RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 999),1575.7 kH/s (72.21ms),8,249,GTX3090,1024.0,1.0
+114,6242 - TrueCrypt RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 999),818.7 kH/s (74.20ms),16,62,GTX3090,1024.0,1.0
+115,6243 - TrueCrypt RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 999),545.9 kH/s (53.21ms),8,62,GTX3090,1024.0,1.0
+116,6300 - AIX {smd5} (Iterations: 1000),32346.1 kH/s (80.09ms),32,1000,GTX3090,1024.0,1.0
+117,6400 - AIX {ssha256} (Iterations: 63),55623.2 kH/s (43.20ms),32,63,GTX3090,1024.0,1.0
+118,6500 - AIX {ssha512} (Iterations: 63),20779.7 kH/s (39.39ms),32,31,GTX3090,1024.0,1.0
+119,"6600 - 1Password, agilekeychain (Iterations: 999)",9365.4 kH/s (70.44ms),8,999,GTX3090,1024.0,1.0
+120,6700 - AIX {ssha1} (Iterations: 63),116.7 MH/s (19.66ms),32,63,GTX3090,1024.0,1.0
+121,6800 - LastPass + LastPass sniffed (Iterations: 499),7938.0 kH/s (55.01ms),16,249,GTX3090,1024.0,1.0
+122,6900 - GOST R 34.11-94,1062.2 MH/s (80.65ms),8,128,GTX3090,1024.0,1.0
+123,7000 - FortiGate (FortiOS),19432.0 MH/s (70.54ms),32,512,GTX3090,1024.0,1.0
+124,7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 1023),1403.2 kH/s (47.29ms),4,255,GTX3090,1024.0,1.0
+125,7200 - GRUB 2 (Iterations: 1023),1414.8 kH/s (39.08ms),2,511,GTX3090,1024.0,1.0
+126,7300 - IPMI2 RAKP HMAC-SHA1,2979.4 MH/s (57.49ms),2,1024,GTX3090,1024.0,1.0
+127,"7400 - sha256crypt $5$, SHA256 (Unix) (Iterations: 5000)",901.1 kH/s (73.43ms),8,512,GTX3090,1024.0,1.0
+128,7401 - MySQL $A$ (sha256crypt) (Iterations: 5000),851.6 kH/s (77.82ms),8,512,GTX3090,1024.0,1.0
+129,"7500 - Kerberos 5, etype 23, AS-REQ Pre-Auth",1461.2 MH/s (58.57ms),64,256,GTX3090,64.0,1.0
+130,7700 - SAP CODVN B (BCODE),4514.6 MH/s (75.94ms),4,1024,GTX3090,1024.0,1.0
+131,7701 - SAP CODVN B (BCODE) from RFC_READ_TABLE,4935.4 MH/s (69.41ms),8,512,GTX3090,1024.0,1.0
+132,7800 - SAP CODVN F/G (PASSCODE),3888.0 MH/s (88.20ms),4,1024,GTX3090,1024.0,1.0
+133,7801 - SAP CODVN F/G (PASSCODE) from RFC_READ_TABLE,3899.9 MH/s (87.85ms),8,512,GTX3090,1024.0,1.0
+134,7900 - Drupal7 (Iterations: 16384),171.5 kH/s (61.02ms),4,512,GTX3090,1024.0,1.0
+135,8000 - Sybase ASE,1294.6 MH/s (66.18ms),8,128,GTX3090,1024.0,1.0
+136,8100 - Citrix NetScaler (SHA1),19091.9 MH/s (71.80ms),16,1024,GTX3090,1024.0,1.0
+137,"8200 - 1Password, cloudkeychain (Iterations: 39999)",35715 H/s (60.03ms),4,256,GTX3090,1024.0,1.0
+138,8300 - DNSSEC (NSEC3),8365.6 MH/s (81.96ms),16,512,GTX3090,1024.0,1.0
+139,8400 - WBB3 (Woltlab Burning Board),3612.2 MH/s (94.94ms),4,1024,GTX3090,1024.0,1.0
+140,8500 - RACF,7219.5 MH/s (94.80ms),16,512,GTX3090,1024.0,1.0
+141,8600 - Lotus Notes/Domino 5,831.4 MH/s (51.49ms),8,64,GTX3090,1024.0,1.0
+142,8700 - Lotus Notes/Domino 6,284.8 MH/s (75.21ms),4,64,GTX3090,1024.0,1.0
+143,8800 - Android FDE <= 4.3 (Iterations: 1999),2317.3 kH/s (71.54ms),4,1024,GTX3090,1024.0,1.0
+144,8900 - scrypt (Iterations: 1),2308.2 kH/s (8.64ms),16,1,GTX3090,16.0,1.0
+145,9000 - Password Safe v2 (Iterations: 1000),2070.7 kH/s (35.31ms),128,1000,GTX3090,11.0,1.0
+146,9100 - Lotus Notes/Domino 8 (Iterations: 4999),1860.0 kH/s (71.35ms),8,1024,GTX3090,1024.0,1.0
+147,9200 - Cisco-IOS $8$ (PBKDF2-SHA256) (Iterations: 19999),187.2 kH/s (91.61ms),16,256,GTX3090,1024.0,1.0
+148,9300 - Cisco-IOS $9$ (scrypt) (Iterations: 1),85331 H/s (122.39ms),16,1,GTX3090,8.0,1.0
+149,9400 - MS Office 2007 (Iterations: 50000),375.8 kH/s (72.74ms),16,1024,GTX3090,1024.0,1.0
+150,9500 - MS Office 2010 (Iterations: 100000),187.7 kH/s (73.12ms),32,512,GTX3090,1024.0,1.0
+151,9600 - MS Office 2013 (Iterations: 100000),29661 H/s (57.84ms),2,1024,GTX3090,1024.0,1.0
+152,"9700 - MS Office <= 2003 $0/$1, MD5 + RC4",1351.2 MH/s (63.39ms),128,128,GTX3090,64.0,1.0
+153,"9710 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #1",1600.8 MH/s (53.37ms),256,64,GTX3090,64.0,1.0
+154,"9720 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #2",5738.4 MH/s (59.71ms),8,512,GTX3090,1024.0,1.0
+155,"9800 - MS Office <= 2003 $3/$4, SHA1 + RC4",1459.9 MH/s (58.68ms),128,128,GTX3090,64.0,1.0
+156,"9810 - MS Office <= 2003 $3, SHA1 + RC4, collider #1",1570.0 MH/s (54.60ms),64,256,GTX3090,64.0,1.0
+157,"9820 - MS Office <= 2003 $3, SHA1 + RC4, collider #2",9089.2 MH/s (75.43ms),16,512,GTX3090,1024.0,1.0
+158,9900 - Radmin2,25115.8 MH/s (54.54ms),32,512,GTX3090,1024.0,1.0
+159,10000 - Django (PBKDF2-SHA256) (Iterations: 9999),375.0 kH/s (89.32ms),4,1024,GTX3090,1024.0,1.0
+160,10100 - SipHash,78969.1 MH/s (34.65ms),32,1024,GTX3090,1024.0,1.0
+161,10200 - CRAM-MD5,11124.8 MH/s (61.60ms),8,1024,GTX3090,1024.0,1.0
+162,10300 - SAP CODVN H (PWDSALTEDHASH) iSSHA-1 (Iterations: 1023),15288.8 kH/s (86.13ms),16,1023,GTX3090,1024.0,1.0
+163,10400 - PDF 1.1 - 1.3 (Acrobat 2 - 4),1719.1 MH/s (49.74ms),64,256,GTX3090,64.0,1.0
+164,"10410 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1",1813.3 MH/s (94.59ms),256,128,GTX3090,64.0,1.0
+165,"10420 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #2",21379.2 MH/s (64.11ms),16,1024,GTX3090,1024.0,1.0
+166,10500 - PDF 1.4 - 1.6 (Acrobat 5 - 8) (Iterations: 70),76833.7 kH/s (31.71ms),512,70,GTX3090,64.0,1.0
+167,10600 - PDF 1.7 Level 3 (Acrobat 9),9713.1 MH/s (70.57ms),8,1024,GTX3090,1024.0,1.0
+168,10700 - PDF 1.7 Level 8 (Acrobat 10 - 11) (Iterations: 64),185.5 kH/s (112.96ms),8,2,GTX3090,1024.0,1.0
+169,10800 - SHA2-384,2862.5 MH/s (59.84ms),4,512,GTX3090,1024.0,1.0
+170,10900 - PBKDF2-HMAC-SHA256 (Iterations: 999),3785.4 kH/s (87.58ms),4,999,GTX3090,1024.0,1.0
+171,10901 - RedHat 389-DS LDAP (PBKDF2-HMAC-SHA256) (Iterations: 8191),457.4 kH/s (91.48ms),8,512,GTX3090,1024.0,1.0
+172,11000 - PrestaShop,24948.2 MH/s (54.92ms),16,1024,GTX3090,1024.0,1.0
+173,11100 - PostgreSQL CRAM (MD5),19422.0 MH/s (70.52ms),16,1024,GTX3090,1024.0,1.0
+174,11200 - MySQL CRAM (SHA1),5934.4 MH/s (57.73ms),4,1024,GTX3090,1024.0,1.0
+175,11300 - Bitcoin/Litecoin wallet.dat (Iterations: 200459),14811 H/s (57.79ms),2,1024,GTX3090,1024.0,1.0
+176,11400 - SIP digest authentication (MD5),9717.4 MH/s (70.55ms),16,512,GTX3090,1024.0,1.0
+177,11500 - CRC32,16977.2 MH/s (40.30ms),32,256,GTX3090,1024.0,1.0
+178,11600 - 7-Zip (Iterations: 16384),955.9 kH/s (70.30ms),4,4096,GTX3090,1024.0,1.0
+179,"11700 - GOST R 34.11-2012 (Streebog) 256-bit, big-endian",220.3 MH/s (48.56ms),1,128,GTX3090,1024.0,1.0
+180,"11750 - HMAC-Streebog-256 (key = $pass), big-endian",78691.0 kH/s (68.04ms),1,64,GTX3090,1024.0,1.0
+181,"11760 - HMAC-Streebog-256 (key = $salt), big-endian",108.6 MH/s (49.26ms),1,64,GTX3090,1024.0,1.0
+182,"11800 - GOST R 34.11-2012 (Streebog) 512-bit, big-endian",220.6 MH/s (48.50ms),4,32,GTX3090,1024.0,1.0
+183,"11850 - HMAC-Streebog-512 (key = $pass), big-endian",68959.6 kH/s (77.67ms),1,64,GTX3090,1024.0,1.0
+184,"11860 - HMAC-Streebog-512 (key = $salt), big-endian",90731.5 kH/s (59.01ms),1,64,GTX3090,1024.0,1.0
+185,11900 - PBKDF2-HMAC-MD5 (Iterations: 999),24250.4 kH/s (53.27ms),16,999,GTX3090,1024.0,1.0
+186,12000 - PBKDF2-HMAC-SHA1 (Iterations: 999),9240.9 kH/s (47.48ms),16,499,GTX3090,1024.0,1.0
+187,12001 - Atlassian (PBKDF2-HMAC-SHA1) (Iterations: 9999),923.3 kH/s (72.49ms),8,1024,GTX3090,1024.0,1.0
+188,12100 - PBKDF2-HMAC-SHA512 (Iterations: 999),1431.6 kH/s (38.64ms),2,499,GTX3090,1024.0,1.0
+189,12200 - eCryptfs (Iterations: 65536),45432 H/s (57.60ms),2,1024,GTX3090,1024.0,1.0
+190,12300 - Oracle T: Type (Oracle 12+) (Iterations: 4095),347.9 kH/s (60.05ms),8,128,GTX3090,1024.0,1.0
+191,"12400 - BSDi Crypt, Extended DES (Iterations: 2194)",7641.1 kH/s (69.05ms),32,512,GTX3090,1024.0,1.0
+192,12500 - RAR3-hp (Iterations: 262144),145.6 kH/s (71.80ms),16,16384,GTX3090,128.0,1.0
+193,12600 - ColdFusion 10+,5548.3 MH/s (61.76ms),4,1024,GTX3090,1024.0,1.0
+194,"12700 - Blockchain, My Wallet (Iterations: 9)",216.5 MH/s (5.66ms),32,9,GTX3090,1024.0,1.0
+195,12800 - MS-AzureSync PBKDF2-HMAC-SHA256 (Iterations: 99),38473.8 kH/s (63.98ms),32,99,GTX3090,1024.0,1.0
+196,12900 - Android FDE (Samsung DEK) (Iterations: 4095),989.6 kH/s (84.36ms),4,1024,GTX3090,1024.0,1.0
+197,13000 - RAR5 (Iterations: 32799),123.0 kH/s (82.54ms),4,1024,GTX3090,1024.0,1.0
+198,"13100 - Kerberos 5, etype 23, TGS-REP",1448.5 MH/s (59.11ms),64,256,GTX3090,64.0,1.0
+199,13200 - AxCrypt 1 (Iterations: 10467),487.0 kH/s (125.08ms),8,1024,GTX3090,1024.0,1.0
+200,13300 - AxCrypt 1 in-memory SHA1,21206.6 MH/s (64.58ms),16,1024,GTX3090,1024.0,1.0
+201,13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 24569),147.6 kH/s (94.58ms),16,256,GTX3090,1024.0,1.0
+202,13500 - PeopleSoft PS_TOKEN,16116.1 MH/s (85.10ms),16,1024,GTX3090,1024.0,1.0
+203,13600 - WinZip (Iterations: 999),9012.3 kH/s (72.95ms),8,999,GTX3090,1024.0,1.0
+204,13711 - VeraCrypt RIPEMD160 + XTS 512 bit (Iterations: 655330),2771 H/s (45.60ms),32,62,GTX3090,1024.0,1.0
+205,13712 - VeraCrypt RIPEMD160 + XTS 1024 bit (Iterations: 655330),1592 H/s (39.72ms),16,62,GTX3090,1024.0,1.0
+206,13713 - VeraCrypt RIPEMD160 + XTS 1536 bit (Iterations: 655330),1061 H/s (28.79ms),32,15,GTX3090,1024.0,1.0
+207,13721 - VeraCrypt SHA512 + XTS 512 bit (Iterations: 499999),2837 H/s (29.47ms),4,250,GTX3090,1024.0,1.0
+208,13722 - VeraCrypt SHA512 + XTS 1024 bit (Iterations: 499999),1425 H/s (29.36ms),2,250,GTX3090,1024.0,1.0
+209,13723 - VeraCrypt SHA512 + XTS 1536 bit (Iterations: 499999),926 H/s (43.21ms),32,15,GTX3090,1024.0,1.0
+210,13731 - VeraCrypt Whirlpool + XTS 512 bit (Iterations: 499999),359 H/s (57.85ms),4,62,GTX3090,1024.0,1.0
+211,13732 - VeraCrypt Whirlpool + XTS 1024 bit (Iterations: 499999),179 H/s (58.00ms),2,62,GTX3090,1024.0,1.0
+212,13733 - VeraCrypt Whirlpool + XTS 1536 bit (Iterations: 499999),119 H/s (84.25ms),8,15,GTX3090,1024.0,1.0
+213,13741 - VeraCrypt RIPEMD160 + XTS 512 bit + boot-mode (Iterations: 327660),5615 H/s (46.60ms),16,128,GTX3090,1024.0,1.0
+214,13742 - VeraCrypt RIPEMD160 + XTS 1024 bit + boot-mode (Iterations: 327660),3182 H/s (41.07ms),16,64,GTX3090,1024.0,1.0
+215,13743 - VeraCrypt RIPEMD160 + XTS 1536 bit + boot-mode (Iterations: 327660),2197 H/s (29.74ms),16,32,GTX3090,1024.0,1.0
+216,13751 - VeraCrypt SHA256 + XTS 512 bit (Iterations: 499999),3985 H/s (42.03ms),8,250,GTX3090,1024.0,1.0
+217,13752 - VeraCrypt SHA256 + XTS 1024 bit (Iterations: 499999),1979 H/s (41.94ms),16,62,GTX3090,1024.0,1.0
+218,13753 - VeraCrypt SHA256 + XTS 1536 bit (Iterations: 499999),1323 H/s (31.38ms),8,62,GTX3090,1024.0,1.0
+219,13761 - VeraCrypt SHA256 + XTS 512 bit + boot-mode (Iterations: 199999),9964 H/s (43.02ms),8,256,GTX3090,1024.0,1.0
+220,13762 - VeraCrypt SHA256 + XTS 1024 bit + boot-mode (Iterations: 199999),4970 H/s (43.13ms),8,128,GTX3090,1024.0,1.0
+221,13763 - VeraCrypt SHA256 + XTS 1536 bit + boot-mode (Iterations: 199999),3316 H/s (32.32ms),4,128,GTX3090,1024.0,1.0
+222,13771 - VeraCrypt Streebog-512 + XTS 512 bit (Iterations: 499999),136 H/s (68.61ms),16,7,GTX3090,1024.0,1.0
+223,13772 - VeraCrypt Streebog-512 + XTS 1024 bit (Iterations: 499999),69 H/s (68.03ms),8,7,GTX3090,1024.0,1.0
+224,13773 - VeraCrypt Streebog-512 + XTS 1536 bit (Iterations: 499999),46 H/s (112.58ms),2,31,GTX3090,1024.0,1.0
+225,13800 - Windows Phone 8+ PIN/password,2455.4 MH/s (69.79ms),2,1024,GTX3090,1024.0,1.0
+226,13900 - OpenCart,5605.9 MH/s (61.16ms),4,1024,GTX3090,1024.0,1.0
+227,"14000 - DES (PT = $salt, key = $pass)",67531.9 MH/s (40.45ms),512,1024,GTX3090,64.0,1.0
+228,"14100 - 3DES (PT = $salt, key = $pass)",7304.8 MH/s (93.58ms),8,1024,GTX3090,1024.0,1.0
+229,14400 - sha1(CX),1064.7 MH/s (80.49ms),2,512,GTX3090,1024.0,1.0
+230,14600 - LUKS (Iterations: 163044),28356 H/s (74.25ms),128,512,GTX3090,64.0,1.0
+231,14700 - iTunes backup < 10.0 (Iterations: 9999),462.2 kH/s (72.23ms),4,1024,GTX3090,1024.0,1.0
+232,14800 - iTunes backup >= 10.0 (Iterations: 9999999),377 H/s (91.12ms),8,512,GTX3090,1024.0,1.0
+233,"14900 - Skip32 (PT = $salt, key = $pass)",20109.1 MH/s (3.20ms),16,1024,GTX3090,1024.0,1.0
+234,15000 - FileZilla Server >= 0.9.55,2869.8 MH/s (59.73ms),2,1024,GTX3090,1024.0,1.0
+235,15100 - Juniper/NetBSD sha1crypt (Iterations: 19999),467.7 kH/s (71.65ms),16,512,GTX3090,1024.0,1.0
+236,"15200 - Blockchain, My Wallet, V2 (Iterations: 4999)",930.7 kH/s (71.83ms),4,1024,GTX3090,1024.0,1.0
+237,15300 - DPAPI masterkey file v1 (Iterations: 23999),192.8 kH/s (72.36ms),4,1024,GTX3090,1024.0,1.0
+238,15400 - ChaCha20,13756.4 MH/s (199.71ms),32,1024,GTX3090,1024.0,1.0
+239,15500 - JKS Java Key Store Private Keys (SHA1),21690.0 MH/s (63.22ms),16,1024,GTX3090,1024.0,1.0
+240,"15600 - Ethereum Wallet, PBKDF2-HMAC-SHA256 (Iterations: 1023)",3934.0 kH/s (56.11ms),8,511,GTX3090,1024.0,1.0
+241,"15700 - Ethereum Wallet, SCRYPT (Iterations: 1)",0 H/s (0.00ms),0,0,GTX3090,1.0,1.0
+242,15900 - DPAPI masterkey file v2 (Iterations: 12899),110.5 kH/s (59.24ms),4,256,GTX3090,1024.0,1.0
+243,16000 - Tripcode,607.0 MH/s (69.60ms),4,128,GTX3090,1024.0,1.0
+244,16100 - TACACS+,40206.6 MH/s (68.18ms),32,1024,GTX3090,1024.0,1.0
+245,16200 - Apple Secure Notes (Iterations: 19999),201.6 kH/s (83.07ms),4,1024,GTX3090,1024.0,1.0
+246,"16300 - Ethereum Pre-Sale Wallet, PBKDF2-HMAC-SHA256 (Iterations: 1999)",1995.5 kH/s (82.72ms),4,1024,GTX3090,1024.0,1.0
+247,16400 - CRAM-MD5 Dovecot,66677.7 MH/s (41.09ms),32,1024,GTX3090,1024.0,1.0
+248,16500 - JWT (JSON Web Token),1854.7 MH/s (92.49ms),2,1024,GTX3090,1024.0,1.0
+249,16600 - Electrum Wallet (Salt-Type 1-3),2140.7 MH/s (80.08ms),8,256,GTX3090,1024.0,1.0
+250,16700 - FileVault 2 (Iterations: 19999),201.7 kH/s (83.01ms),4,1024,GTX3090,1024.0,1.0
+251,16800 - WPA-PMKID-PBKDF2 (Iterations: 4095),1138.8 kH/s (73.45ms),4,1024,GTX3090,1024.0,1.0
+252,16801 - WPA-PMKID-PMK (Iterations: 0),948.8 MH/s (0.00ms),32,1024,GTX3090,1024.0,1.0
+253,16900 - Ansible Vault (Iterations: 9999),403.4 kH/s (83.02ms),8,512,GTX3090,1024.0,1.0
+254,17200 - PKZIP (Compressed),5449.6 MH/s (31.26ms),32,64,GTX3090,1024.0,1.0
+255,17210 - PKZIP (Uncompressed),3826.6 MH/s (44.76ms),32,64,GTX3090,1024.0,1.0
+256,17220 - PKZIP (Compressed Multi-File),23148.8 MH/s (59.13ms),32,512,GTX3090,1024.0,1.0
+257,17225 - PKZIP (Mixed Multi-File),22355.6 MH/s (61.22ms),32,512,GTX3090,1024.0,1.0
+258,17230 - PKZIP (Mixed Multi-File Checksum-Only),25881.8 MH/s (52.94ms),16,1024,GTX3090,1024.0,1.0
+259,17300 - SHA3-224,2236.6 MH/s (76.69ms),2,1024,GTX3090,1024.0,1.0
+260,17400 - SHA3-256,2233.2 MH/s (76.79ms),8,256,GTX3090,1024.0,1.0
+261,17500 - SHA3-384,2232.7 MH/s (76.81ms),2,1024,GTX3090,1024.0,1.0
+262,17600 - SHA3-512,2231.8 MH/s (76.83ms),2,1024,GTX3090,1024.0,1.0
+263,17700 - Keccak-224,2232.8 MH/s (76.78ms),2,1024,GTX3090,1024.0,1.0
+264,17800 - Keccak-256,2233.5 MH/s (76.78ms),2,1024,GTX3090,1024.0,1.0
+265,17900 - Keccak-384,2228.9 MH/s (76.94ms),4,512,GTX3090,1024.0,1.0
+266,18000 - Keccak-512,2222.2 MH/s (77.18ms),2,1024,GTX3090,1024.0,1.0
+267,18100 - TOTP (HMAC-SHA1),4593.9 MH/s (74.61ms),4,1024,GTX3090,1024.0,1.0
+268,"18200 - Kerberos 5, etype 23, AS-REP",1456.4 MH/s (58.83ms),128,128,GTX3090,64.0,1.0
+269,18300 - Apple File System (APFS) (Iterations: 19999),201.2 kH/s (83.18ms),4,1024,GTX3090,1024.0,1.0
+270,"18400 - Open Document Format (ODF) 1.2 (SHA-256, AES) (Iterations: 99999)",46241 H/s (74.22ms),4,1024,GTX3090,1024.0,1.0
+271,18500 - sha1(md5(md5($pass))),8487.4 MH/s (80.78ms),16,512,GTX3090,1024.0,1.0
+272,"18600 - Open Document Format (ODF) 1.1 (SHA-1, Blowfish) (Iterations: 1023)",2011.3 kH/s (47.20ms),512,511,GTX3090,11.0,1.0
+273,18700 - Java Object hashCode(),271.1 GH/s (10.07ms),32,1024,GTX3090,1024.0,1.0
+274,"18800 - Blockchain, My Wallet, Second Password (SHA256) (Iterations: 9999)",801.0 kH/s (83.62ms),16,512,GTX3090,1024.0,1.0
+275,18900 - Android Backup (Iterations: 9999),462.1 kH/s (72.45ms),4,1024,GTX3090,1024.0,1.0
+276,19000 - QNX /etc/shadow (MD5) (Iterations: 1000),99824.1 kH/s (22.93ms),32,1000,GTX3090,1024.0,1.0
+277,19100 - QNX /etc/shadow (SHA256) (Iterations: 1000),46585.0 kH/s (53.15ms),32,1000,GTX3090,1024.0,1.0
+278,19200 - QNX /etc/shadow (SHA512) (Iterations: 1000),27264.4 kH/s (45.11ms),32,500,GTX3090,1024.0,1.0
+279,19300 - sha1($salt1.$pass.$salt2),1553.5 MH/s (55.13ms),2,512,GTX3090,1024.0,1.0
+280,19500 - Ruby on Rails Restful-Authentication,220.4 MH/s (48.57ms),2,64,GTX3090,1024.0,1.0
+281,"19600 - Kerberos 5, etype 17, TGS-REP (Iterations: 4095)",2275.2 kH/s (73.26ms),8,1024,GTX3090,1024.0,1.0
+282,"19700 - Kerberos 5, etype 18, TGS-REP (Iterations: 4095)",1122.4 kH/s (74.27ms),8,512,GTX3090,1024.0,1.0
+283,"19800 - Kerberos 5, etype 17, Pre-Auth (Iterations: 4095)",2274.3 kH/s (73.38ms),8,1024,GTX3090,1024.0,1.0
+284,"19900 - Kerberos 5, etype 18, Pre-Auth (Iterations: 4095)",1138.1 kH/s (73.34ms),4,1024,GTX3090,1024.0,1.0
+285,20011 - DiskCryptor SHA512 + XTS 512 bit (Iterations: 999),1261.0 kH/s (46.37ms),4,249,GTX3090,1024.0,1.0
+286,20012 - DiskCryptor SHA512 + XTS 1024 bit (Iterations: 999),585.7 kH/s (55.67ms),8,62,GTX3090,1024.0,1.0
+287,20013 - DiskCryptor SHA512 + XTS 1536 bit (Iterations: 999),384.6 kH/s (78.94ms),4,124,GTX3090,1024.0,1.0
+288,20200 - Python passlib pbkdf2-sha512 (Iterations: 24999),57305 H/s (59.87ms),4,256,GTX3090,1024.0,1.0
+289,20300 - Python passlib pbkdf2-sha256 (Iterations: 28999),129.4 kH/s (91.46ms),8,512,GTX3090,1024.0,1.0
+290,20400 - Python passlib pbkdf2-sha1 (Iterations: 130999),70577 H/s (74.23ms),8,1024,GTX3090,1024.0,1.0
+291,20500 - PKZIP Master Key,222.9 GH/s (12.26ms),32,1024,GTX3090,1024.0,1.0
+292,20510 - PKZIP Master Key (6 byte optimization),53867.3 MH/s (50.87ms),32,1024,GTX3090,1024.0,1.0
+293,20600 - Oracle Transportation Management (SHA256) (Iterations: 999),8033.0 kH/s (82.68ms),8,999,GTX3090,1024.0,1.0
+294,20710 - sha256(sha256($pass).$salt),2660.0 MH/s (64.43ms),2,1024,GTX3090,1024.0,1.0
+295,20711 - AuthMe sha256,2659.2 MH/s (64.43ms),2,1024,GTX3090,1024.0,1.0
+296,20800 - sha256(md5($pass)),7368.2 MH/s (93.11ms),16,512,GTX3090,1024.0,1.0
+297,20900 - md5(sha1($pass).md5($pass).sha1($pass)),6984.3 MH/s (49.05ms),8,512,GTX3090,1024.0,1.0
+298,21000 - BitShares v0.x - sha512(sha512_bin(pass)),1431.0 MH/s (59.88ms),2,512,GTX3090,1024.0,1.0
+299,21100 - sha1(md5($pass.$salt)),12482.3 MH/s (54.89ms),16,512,GTX3090,1024.0,1.0
+300,21200 - md5(sha1($salt).md5($pass)),14931.4 MH/s (91.88ms),32,512,GTX3090,1024.0,1.0
+301,21300 - md5($salt.sha1($salt.$pass)),8754.6 MH/s (78.35ms),8,1024,GTX3090,1024.0,1.0
+302,21400 - sha256(sha256_bin($pass)),4389.9 MH/s (78.13ms),4,1024,GTX3090,1024.0,1.0
+303,21500 - SolarWinds Orion (Iterations: 999),161.1 kH/s (57.79ms),16,7,GTX3090,1024.0,1.0
+304,21600 - Web2py pbkdf2-sha512 (Iterations: 999),1418.2 kH/s (52.10ms),8,124,GTX3090,1024.0,1.0
+305,21700 - Electrum Wallet (Salt-Type 4) (Iterations: 1023),1040.5 kH/s (47.78ms),4,255,GTX3090,1024.0,1.0
+306,21800 - Electrum Wallet (Salt-Type 5) (Iterations: 1023),1059.4 kH/s (39.18ms),2,511,GTX3090,1024.0,1.0
+307,22000 - WPA-PBKDF2-PMKID+EAPOL (Iterations: 4095),1129.0 kH/s (74.07ms),8,512,GTX3090,1024.0,1.0
+308,22001 - WPA-PMK-PMKID+EAPOL (Iterations: 0),957.1 MH/s (0.00ms),32,1024,GTX3090,1024.0,1.0
+309,22100 - BitLocker (Iterations: 1048576),4363 H/s (75.02ms),1,4096,GTX3090,1024.0,1.0
+310,22200 - Citrix NetScaler (SHA512),2889.1 MH/s (59.23ms),2,1024,GTX3090,1024.0,1.0
+311,22300 - sha256($salt.$pass.$salt),8537.7 MH/s (80.33ms),16,512,GTX3090,1024.0,1.0
+312,22301 - Telegram Mobile App Passcode (SHA256),8603.9 MH/s (79.71ms),8,1024,GTX3090,1024.0,1.0
+313,22400 - AES Crypt (SHA256) (Iterations: 8191),922.9 kH/s (90.14ms),32,256,GTX3090,1024.0,1.0
+314,22500 - MultiBit Classic .key (MD5),2376.6 MH/s (72.12ms),8,256,GTX3090,1024.0,1.0
+315,22600 - Telegram Desktop App Passcode (PBKDF2-HMAC-SHA1) (Iterations: 3999),328.7 kH/s (63.58ms),8,128,GTX3090,1024.0,1.0
+316,22700 - MultiBit HD (scrypt) (Iterations: 1),0 H/s (0.00ms),0,0,GTX3090,16.0,1.0
+317,22911 - RSA/DSA/EC/OpenSSH Private Keys ($0$),1641.1 MH/s (52.20ms),4,256,GTX3090,1024.0,1.0
+318,22921 - RSA/DSA/EC/OpenSSH Private Keys ($6$),5469.3 MH/s (62.65ms),4,1024,GTX3090,1024.0,1.0
+319,"22931 - RSA/DSA/EC/OpenSSH Private Keys ($1, $3$)",3287.9 MH/s (52.11ms),8,256,GTX3090,1024.0,1.0
+320,22941 - RSA/DSA/EC/OpenSSH Private Keys ($4$),2689.1 MH/s (63.72ms),2,1024,GTX3090,1024.0,1.0
+321,22951 - RSA/DSA/EC/OpenSSH Private Keys ($5$),2281.5 MH/s (75.16ms),2,1024,GTX3090,1024.0,1.0
+322,23001 - SecureZIP AES-128,3147.1 MH/s (54.43ms),4,512,GTX3090,1024.0,1.0
+323,23002 - SecureZIP AES-192,2357.4 MH/s (72.71ms),4,512,GTX3090,1024.0,1.0
+324,23003 - SecureZIP AES-256,2044.8 MH/s (83.87ms),4,512,GTX3090,1024.0,1.0
+325,23100 - Apple Keychain (Iterations: 999),4721.8 kH/s (70.18ms),4,999,GTX3090,1024.0,1.0
+326,23200 - XMPP SCRAM PBKDF2-SHA1 (Iterations: 4095),2234.2 kH/s (74.50ms),16,512,GTX3090,1024.0,1.0
+327,23300 - Apple iWork (Iterations: 3999),2328.2 kH/s (71.66ms),8,1024,GTX3090,1024.0,1.0
+328,23400 - Bitwarden (Iterations: 99999),40206 H/s (85.33ms),16,256,GTX3090,1024.0,1.0
+329,23500 - AxCrypt 2 AES-128 (Iterations: 999),209.9 kH/s (35.40ms),8,124,GTX3090,1024.0,1.0
+330,23600 - AxCrypt 2 AES-256 (Iterations: 999),109.2 kH/s (66.65ms),4,249,GTX3090,1024.0,1.0
+331,23700 - RAR3-p (Uncompressed) (Iterations: 262144),146.5 kH/s (71.45ms),16,16384,GTX3090,128.0,1.0
+332,23800 - RAR3-p (Compressed) (Iterations: 262144),132.7 kH/s (71.60ms),16,16384,GTX3090,128.0,1.0
+333,99999 - Plaintext,121.4 GH/s (22.55ms),32,1024,GTX3090,1024.0,1.0
+0,0 (MD5),164.1 GH/s (12.91ms),128,1024,GTX4090,128.0,8.0
+1,10 (md5($pass.$salt)),164.0 GH/s (12.96ms),64,1024,GTX4090,256.0,8.0
+2,11 (Joomla < 2.5.18),159.4 GH/s (13.37ms),512,1024,GTX4090,32.0,8.0
+3,12 (PostgreSQL),160.1 GH/s (13.28ms),512,1024,GTX4090,32.0,8.0
+4,20 (md5($salt.$pass)),84654.8 MH/s (25.18ms),64,1024,GTX4090,256.0,4.0
+5,"21 (osCommerce, xt:Commerce)",86922.7 MH/s (24.55ms),64,1024,GTX4090,256.0,4.0
+6,22 (Juniper NetScreen/SSG (ScreenOS)),84767.8 MH/s (25.17ms),64,1024,GTX4090,256.0,4.0
+7,23 (Skype),84654.8 MH/s (25.19ms),64,1024,GTX4090,256.0,4.0
+8,24 (SolarWinds Serv-U),84981.0 MH/s (50.29ms),64,1024,GTX4090,512.0,1.0
+9,30 (md5(utf16le($pass).$salt)),159.7 GH/s (26.62ms),64,1024,GTX4090,512.0,4.0
+10,40 (md5($salt.utf16le($pass))),86793.5 MH/s (24.53ms),512,1024,GTX4090,32.0,4.0
+11,50 (HMAC-MD5 (key = $pass)),27213.0 MH/s (78.59ms),32,512,GTX4090,1024.0,1.0
+12,60 (HMAC-MD5 (key = $salt)),55648.7 MH/s (76.87ms),64,1024,GTX4090,512.0,1.0
+13,70 (md5(utf16le($pass))),156.6 GH/s (27.16ms),64,1024,GTX4090,512.0,1.0
+14,100 (SHA1),50638.7 MH/s (42.21ms),32,1024,GTX4090,512.0,1.0
+15,"101 (nsldap, SHA-1(Base64), Netscape LDAP SHA)",50746.4 MH/s (42.13ms),32,1024,GTX4090,512.0,1.0
+16,110 (sha1($pass.$salt)),51432.6 MH/s (41.56ms),32,1024,GTX4090,512.0,1.0
+17,"111 (nsldaps, SSHA-1(Base64), Netscape LDAP SSHA)",50620.9 MH/s (42.23ms),32,1024,GTX4090,512.0,1.0
+18,112 (Oracle S: Type (Oracle 11+)),51472.4 MH/s (41.53ms),32,1024,GTX4090,512.0,1.0
+19,120 (sha1($salt.$pass)),39126.2 MH/s (54.68ms),32,1024,GTX4090,512.0,1.0
+20,121 (SMF (Simple Machines Forum) > v1.1),39038.4 MH/s (54.75ms),64,512,GTX4090,512.0,1.0
+21,"122 (macOS v10.4, macOS v10.5, macOS v10.6)",38638.8 MH/s (55.37ms),32,1024,GTX4090,512.0,1.0
+22,124 (Django (SHA-1)),38644.2 MH/s (55.36ms),32,1024,GTX4090,512.0,1.0
+23,125 (ArubaOS),38532.5 MH/s (55.52ms),32,1024,GTX4090,512.0,1.0
+24,130 (sha1(utf16le($pass).$salt)),51419.2 MH/s (41.55ms),32,1024,GTX4090,512.0,1.0
+25,131 (MSSQL (2000)),51210.7 MH/s (41.42ms),32,1024,GTX4090,512.0,1.0
+26,132 (MSSQL (2005)),51336.5 MH/s (41.61ms),32,1024,GTX4090,512.0,1.0
+27,133 (PeopleSoft),50628.2 MH/s (42.20ms),32,1024,GTX4090,512.0,1.0
+28,140 (sha1($salt.utf16le($pass))),38621.1 MH/s (55.38ms),32,1024,GTX4090,512.0,1.0
+29,141 (Episerver 6.x < .NET 4),38519.2 MH/s (55.50ms),64,512,GTX4090,512.0,1.0
+30,150 (HMAC-SHA1 (key = $pass)),11781.3 MH/s (90.92ms),32,1024,GTX4090,256.0,1.0
+31,160 (HMAC-SHA1 (key = $salt)),21791.8 MH/s (49.09ms),16,1024,GTX4090,512.0,1.0
+32,170 (sha1(utf16le($pass))),50631.2 MH/s (42.19ms),32,1024,GTX4090,512.0,1.0
+33,200 (MySQL323),534.4 GH/s (7.90ms),64,1024,GTX4090,512.0,8.0
+34,300 (MySQL4.1/MySQL5),22292.1 MH/s (96.07ms),32,1024,GTX4090,512.0,1.0
+35,400 (phpass) [Iterations: 2048],45561.4 kH/s (39.63ms),128,1024,GTX4090,256.0,1.0
+36,"500 (md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)) [Iterations: 1000]",61283.8 kH/s (56.04ms),64,1000,GTX4090,512.0,1.0
+37,501 (Juniper IVE) [Iterations: 1000],61154.4 kH/s (56.15ms),64,1000,GTX4090,512.0,1.0
+38,600 (BLAKE2b-512),13072.3 MH/s (81.89ms),32,512,GTX4090,512.0,1.0
+39,610 (BLAKE2b-512($pass.$salt)),13071.3 MH/s (81.90ms),32,512,GTX4090,512.0,1.0
+40,620 (BLAKE2b-512($salt.$pass)),12163.4 MH/s (88.06ms),32,1024,GTX4090,256.0,1.0
+41,900 (MD4),290.4 GH/s (7.27ms),512,1024,GTX4090,32.0,8.0
+42,1000 (NTLM),288.5 GH/s (7.24ms),512,1024,GTX4090,32.0,8.0
+43,"1100 (Domain Cached Credentials (DCC), MS Cache)",79393.8 MH/s (53.83ms),64,1024,GTX4090,512.0,4.0
+44,1300 (SHA2-224),21353.8 MH/s (50.10ms),8,1024,GTX4090,1024.0,1.0
+45,1400 (SHA2-256),21975.5 MH/s (48.66ms),32,512,GTX4090,512.0,1.0
+46,1410 (sha256($pass.$salt)),21960.3 MH/s (48.70ms),16,512,GTX4090,1024.0,1.0
+47,"1411 (SSHA-256(Base64), LDAP {SSHA256})",21934.6 MH/s (48.75ms),32,512,GTX4090,512.0,1.0
+48,1420 (sha256($salt.$pass)),19450.8 MH/s (54.99ms),16,512,GTX4090,1024.0,1.0
+49,1421 (hMailServer),19402.0 MH/s (55.16ms),8,1024,GTX4090,1024.0,1.0
+50,1430 (sha256(utf16le($pass).$salt)),21997.7 MH/s (48.62ms),8,1024,GTX4090,1024.0,1.0
+51,1440 (sha256($salt.utf16le($pass))),19425.6 MH/s (55.08ms),8,1024,GTX4090,1024.0,1.0
+52,1441 (Episerver 6.x >= .NET 4),19361.8 MH/s (55.26ms),8,1024,GTX4090,1024.0,1.0
+53,1450 (HMAC-SHA256 (key = $pass)),4333.9 MH/s (61.76ms),8,512,GTX4090,512.0,1.0
+54,1460 (HMAC-SHA256 (key = $salt)),9387.1 MH/s (57.02ms),16,1024,GTX4090,256.0,1.0
+55,1470 (sha256(utf16le($pass))),21942.2 MH/s (48.73ms),16,512,GTX4090,1024.0,1.0
+56,"1500 (descrypt, DES (Unix), Traditional DES)",6276.6 MH/s (85.31ms),16,1024,GTX4090,256.0,1.0
+57,"1600 (Apache $apr1$ MD5, md5apr1, MD5 (APR)) [Iterations: 1000]",61133.8 kH/s (56.21ms),64,1000,GTX4090,512.0,1.0
+58,1700 (SHA2-512),7483.4 MH/s (71.54ms),16,512,GTX4090,512.0,1.0
+59,1710 (sha512($pass.$salt)),7409.5 MH/s (72.25ms),16,512,GTX4090,512.0,1.0
+60,"1711 (SSHA-512(Base64), LDAP {SSHA512})",7411.2 MH/s (72.24ms),8,1024,GTX4090,512.0,1.0
+61,1720 (sha512($salt.$pass)),7106.6 MH/s (75.36ms),16,1024,GTX4090,256.0,1.0
+62,1722 (macOS v10.7),7087.5 MH/s (75.56ms),8,1024,GTX4090,512.0,1.0
+63,1730 (sha512(utf16le($pass).$salt)),7408.8 MH/s (72.27ms),8,1024,GTX4090,512.0,1.0
+64,"1731 (MSSQL (2012, 2014))",7410.9 MH/s (72.24ms),16,512,GTX4090,512.0,1.0
+65,1740 (sha512($salt.utf16le($pass))),7091.1 MH/s (75.50ms),32,512,GTX4090,256.0,1.0
+66,1750 (HMAC-SHA512 (key = $pass)),1645.0 MH/s (81.39ms),8,256,GTX4090,512.0,1.0
+67,1760 (HMAC-SHA512 (key = $salt)),3292.9 MH/s (81.32ms),16,512,GTX4090,256.0,1.0
+68,1770 (sha512(utf16le($pass))),7456.4 MH/s (71.77ms),64,256,GTX4090,256.0,1.0
+69,"1800 (sha512crypt $6$, SHA512 (Unix)) [Iterations: 5000]",1179.6 kH/s (87.68ms),2048,1024,GTX4090,256.0,1.0
+70,2000 (STDOUT),39068.9 GH/s (0.02ms),64,1024,GTX4090,512.0,1.0
+71,"2100 (Domain Cached Credentials 2 (DCC2), MS Cache 2) [Iterations: 10239]",2070.1 kH/s (50.09ms),16,1024,GTX4090,512.0,1.0
+72,2400 (Cisco-PIX MD5),118.3 GH/s (36.11ms),32,1024,GTX4090,1024.0,8.0
+73,2410 (Cisco-ASA MD5),119.8 GH/s (17.77ms),64,1024,GTX4090,256.0,4.0
+74,2600 (md5(md5($pass))),50042.4 MH/s (85.49ms),32,1024,GTX4090,1024.0,1.0
+75,2611 (vBulletin < v3.8.5),49942.9 MH/s (85.67ms),64,1024,GTX4090,512.0,1.0
+76,2612 (PHPS),50100.6 MH/s (85.39ms),64,1024,GTX4090,512.0,1.0
+77,2711 (vBulletin >= v3.8.5),34584.7 MH/s (61.87ms),16,1024,GTX4090,1024.0,1.0
+78,"2811 (MyBB 1.2+, IPB2+ (Invision Power Board))",35724.2 MH/s (59.89ms),64,1024,GTX4090,256.0,1.0
+79,3000 (LM),151.1 GH/s (6.95ms),256,1024,GTX4090,32.0,1.0
+80,3100 (Oracle H: Type (Oracle 7+)),3951.9 MH/s (67.75ms),4,1024,GTX4090,512.0,1.0
+81,"3200 (bcrypt $2*$, Blowfish (Unix)) [Iterations: 32]",184.0 kH/s (50.22ms),4,32,GTX4090,24.0,1.0
+82,3500 (md5(md5(md5($pass)))),31672.4 MH/s (67.58ms),16,1024,GTX4090,1024.0,1.0
+83,3710 (md5($salt.md5($pass))),44081.7 MH/s (48.47ms),64,512,GTX4090,512.0,1.0
+84,3711 (MediaWiki B type),44498.2 MH/s (96.17ms),64,1024,GTX4090,512.0,1.0
+85,3800 (md5($salt.$pass.$salt)),87107.7 MH/s (24.44ms),64,1024,GTX4090,256.0,4.0
+86,3910 (md5(md5($pass).md5($salt))),34545.0 MH/s (61.89ms),32,512,GTX4090,1024.0,1.0
+87,4010 (md5($salt.md5($salt.$pass))),38028.8 MH/s (56.25ms),32,1024,GTX4090,512.0,1.0
+88,4110 (md5($salt.md5($pass.$salt))),44514.9 MH/s (48.04ms),128,1024,GTX4090,128.0,1.0
+89,4300 (md5(strtoupper(md5($pass)))),49904.4 MH/s (85.73ms),32,1024,GTX4090,1024.0,1.0
+90,4400 (md5(sha1($pass))),27771.9 MH/s (77.08ms),32,1024,GTX4090,512.0,1.0
+91,4410 (md5(sha1($pass).$salt)),20557.0 MH/s (52.02ms),32,512,GTX4090,512.0,1.0
+92,4500 (sha1(sha1($pass))),20028.4 MH/s (53.40ms),16,512,GTX4090,1024.0,1.0
+93,4510 (sha1(sha1($pass).$salt)),19169.9 MH/s (55.82ms),16,1024,GTX4090,512.0,1.0
+94,4520 (sha1($salt.sha1($pass))),12402.0 MH/s (86.36ms),32,1024,GTX4090,256.0,1.0
+95,4521 (Redmine),12396.7 MH/s (86.40ms),32,1024,GTX4090,256.0,1.0
+96,4522 (PunBB),18657.2 MH/s (57.36ms),32,1024,GTX4090,256.0,1.0
+97,4700 (sha1(md5($pass))),28174.6 MH/s (75.97ms),32,1024,GTX4090,512.0,1.0
+98,4710 (sha1(md5($pass).$salt)),27008.0 MH/s (79.26ms),32,1024,GTX4090,512.0,1.0
+99,4711 (Huawei sha1(md5($pass).$salt)),27093.8 MH/s (79.02ms),64,1024,GTX4090,256.0,1.0
+100,"4800 (iSCSI CHAP authentication, MD5(CHAP))",116.7 GH/s (18.24ms),256,1024,GTX4090,64.0,8.0
+101,4900 (sha1($salt.$pass.$salt)),37901.1 MH/s (56.44ms),32,1024,GTX4090,512.0,1.0
+102,5000 (sha1(sha1($salt.$pass.$salt))),18690.9 MH/s (57.23ms),16,512,GTX4090,1024.0,1.0
+103,5100 (Half MD5),105.8 GH/s (40.39ms),32,1024,GTX4090,1024.0,1.0
+104,5200 (Password Safe v3) [Iterations: 2049],8660.2 kH/s (46.89ms),16,512,GTX4090,1024.0,1.0
+105,5300 (IKE-PSK MD5),6272.2 MH/s (85.39ms),16,1024,GTX4090,256.0,1.0
+106,5400 (IKE-PSK SHA1),2718.3 MH/s (49.21ms),16,256,GTX4090,256.0,1.0
+107,5500 (NetNTLMv1 / NetNTLMv1+ESS),160.1 GH/s (26.56ms),1024,1024,GTX4090,32.0,2.0
+108,5600 (NetNTLMv2),11764.8 MH/s (45.44ms),64,256,GTX4090,256.0,1.0
+109,5700 (Cisco-IOS type 4 (SHA256)),22033.9 MH/s (48.55ms),8,1024,GTX4090,1024.0,1.0
+110,5800 (Samsung Android Password/PIN) [Iterations: 1023],32340.4 kH/s (57.81ms),32,1023,GTX4090,512.0,1.0
+111,6000 (RIPEMD-160),36234.6 MH/s (59.00ms),32,512,GTX4090,1024.0,1.0
+112,6100 (Whirlpool),3393.6 MH/s (78.90ms),16,512,GTX4090,256.0,1.0
+113,6211 (TrueCrypt RIPEMD160 + XTS 512 bit (legacy)) [Iterations: 1999],1915.6 kH/s (61.18ms),4,512,GTX4090,1024.0,1.0
+114,6212 (TrueCrypt RIPEMD160 + XTS 1024 bit (legacy)) [Iterations: 1999],1048.5 kH/s (53.78ms),8,128,GTX4090,1024.0,1.0
+115,6213 (TrueCrypt RIPEMD160 + XTS 1536 bit (legacy)) [Iterations: 1999],719.5 kH/s (76.78ms),8,128,GTX4090,1024.0,1.0
+116,6221 (TrueCrypt SHA512 + XTS 512 bit (legacy)) [Iterations: 999],2692.0 kH/s (80.40ms),8,999,GTX4090,256.0,1.0
+117,6222 (TrueCrypt SHA512 + XTS 1024 bit (legacy)) [Iterations: 999],1369.3 kH/s (74.21ms),64,62,GTX4090,256.0,1.0
+118,6223 (TrueCrypt SHA512 + XTS 1536 bit (legacy)) [Iterations: 999],869.9 kH/s (39.23ms),2,499,GTX4090,512.0,1.0
+119,6231 (TrueCrypt Whirlpool + XTS 512 bit (legacy)) [Iterations: 999],387.5 kH/s (77.59ms),32,62,GTX4090,128.0,1.0
+120,6232 (TrueCrypt Whirlpool + XTS 1024 bit (legacy)) [Iterations: 999],192.2 kH/s (73.10ms),4,124,GTX4090,256.0,1.0
+121,6233 (TrueCrypt Whirlpool + XTS 1536 bit (legacy)) [Iterations: 999],127.2 kH/s (54.98ms),2,124,GTX4090,256.0,1.0
+122,6241 (TrueCrypt RIPEMD160 + XTS 512 bit + boot-mode (legacy)) [Iterations: 999],3561.1 kH/s (54.48ms),32,124,GTX4090,512.0,1.0
+123,6242 (TrueCrypt RIPEMD160 + XTS 1024 bit + boot-mode (legacy)) [Iterations: 999],1841.5 kH/s (47.83ms),8,124,GTX4090,1024.0,1.0
+124,6243 (TrueCrypt RIPEMD160 + XTS 1536 bit + boot-mode (legacy)) [Iterations: 999],1248.3 kH/s (68.16ms),8,124,GTX4090,1024.0,1.0
+125,6300 (AIX {smd5}) [Iterations: 1000],61250.2 kH/s (56.08ms),32,1000,GTX4090,1024.0,1.0
+126,6400 (AIX {ssha256}) [Iterations: 63],86221.7 kH/s (31.91ms),64,63,GTX4090,512.0,1.0
+127,6500 (AIX {ssha512}) [Iterations: 63],40406.5 kH/s (40.42ms),64,63,GTX4090,256.0,1.0
+128,"6600 (1Password, agilekeychain) [Iterations: 999]",19623.7 kH/s (48.38ms),16,999,GTX4090,512.0,1.0
+129,6700 (AIX {ssha1}) [Iterations: 63],151.5 MH/s (6.16ms),64,63,GTX4090,256.0,1.0
+130,6800 (LastPass + LastPass sniffed) [Iterations: 499],17066.6 kH/s (45.49ms),64,124,GTX4090,512.0,1.0
+131,6900 (GOST R 34.11-94),2424.9 MH/s (55.06ms),32,64,GTX4090,512.0,1.0
+132,7000 (FortiGate (FortiOS)),44602.1 MH/s (47.94ms),32,1024,GTX4090,512.0,1.0
+133,7100 (macOS v10.8+ (PBKDF2-SHA512)) [Iterations: 1023],3023.7 kH/s (82.06ms),4,1023,GTX4090,512.0,1.0
+134,7200 (GRUB 2) [Iterations: 1023],3081.4 kH/s (54.76ms),8,511,GTX4090,512.0,1.0
+135,7300 (IPMI2 RAKP HMAC-SHA1),6888.3 MH/s (77.75ms),8,1024,GTX4090,512.0,1.0
+136,"7400 (sha256crypt $5$, SHA256 (Unix)) [Iterations: 5000]",2022.0 kH/s (50.12ms),4,1024,GTX4090,1024.0,1.0
+137,7401 (MySQL $A$ (sha256crypt)) [Iterations: 5000],1908.2 kH/s (53.12ms),4,1024,GTX4090,1024.0,1.0
+138,"7500 (Kerberos 5, etype 23, AS-REQ Pre-Auth)",3599.6 MH/s (74.34ms),512,128,GTX4090,32.0,1.0
+139,7700 (SAP CODVN B (BCODE)),7542.3 MH/s (70.89ms),1024,128,GTX4090,32.0,1.0
+140,7701 (SAP CODVN B (BCODE) from RFC_READ_TABLE),7539.7 MH/s (70.97ms),512,256,GTX4090,32.0,1.0
+141,7800 (SAP CODVN F/G (PASSCODE)),5988.5 MH/s (44.63ms),128,128,GTX4090,128.0,1.0
+142,7801 (SAP CODVN F/G (PASSCODE) from RFC_READ_TABLE),5967.9 MH/s (44.79ms),128,128,GTX4090,128.0,1.0
+143,7900 (Drupal7) [Iterations: 16384],401.1 kH/s (81.37ms),8,1024,GTX4090,512.0,1.0
+144,8000 (Sybase ASE),2494.7 MH/s (53.63ms),16,512,GTX4090,128.0,1.0
+145,8100 (Citrix NetScaler (SHA1)),43409.7 MH/s (49.27ms),16,1024,GTX4090,1024.0,1.0
+146,"8200 (1Password, cloudkeychain) [Iterations: 39999]",81369 H/s (80.34ms),4,1024,GTX4090,512.0,1.0
+147,8300 (DNSSEC (NSEC3)),19118.0 MH/s (55.95ms),32,512,GTX4090,512.0,1.0
+148,8400 (WBB3 (Woltlab Burning Board)),8354.4 MH/s (64.08ms),8,1024,GTX4090,512.0,1.0
+149,8500 (RACF),21345.9 MH/s (50.12ms),8,1024,GTX4090,1024.0,1.0
+150,8600 (Lotus Notes/Domino 5),2093.7 MH/s (63.93ms),4,256,GTX4090,1024.0,1.0
+151,8700 (Lotus Notes/Domino 6),689.3 MH/s (48.51ms),8,64,GTX4090,512.0,1.0
+152,8800 (Android FDE <= 4.3) [Iterations: 1999],5155.3 kH/s (48.73ms),8,1024,GTX4090,512.0,1.0
+153,8900 (scrypt) [Iterations: 16384],7126 H/s (29.16ms),128,1024,GTX4090,32.0,1.0
+154,9000 (Password Safe v2) [Iterations: 1000],4608.2 kH/s (95.33ms),256,1000,GTX4090,24.0,1.0
+155,9100 (Lotus Notes/Domino 8) [Iterations: 4999],4170.9 kH/s (48.95ms),16,1024,GTX4090,512.0,1.0
+156,9200 (Cisco-IOS $8$ (PBKDF2-SHA256)) [Iterations: 19999],430.1 kH/s (60.71ms),16,512,GTX4090,512.0,1.0
+157,9300 (Cisco-IOS $9$ (scrypt)) [Iterations: 16384],83890 H/s (1.76ms),128,1024,GTX4090,32.0,1.0
+158,9400 (MS Office 2007) [Iterations: 50000],858.0 kH/s (49.65ms),16,1024,GTX4090,1024.0,1.0
+159,9500 (MS Office 2010) [Iterations: 100000],429.2 kH/s (49.88ms),32,1024,GTX4090,512.0,1.0
+160,9600 (MS Office 2013) [Iterations: 100000],68356 H/s (78.39ms),1024,512,GTX4090,1024.0,1.0
+161,"9700 (MS Office <= 2003 $0/$1, MD5 + RC4)",2689.2 MH/s (49.75ms),32,1024,GTX4090,32.0,1.0
+162,"9710 (MS Office <= 2003 $0/$1, MD5 + RC4, collider #1)",3880.1 MH/s (66.44ms),256,256,GTX4090,32.0,1.0
+163,"9720 (MS Office <= 2003 $0/$1, MD5 + RC4, collider #2)",13631.8 MH/s (78.46ms),1024,256,GTX4090,32.0,1.0
+164,"9800 (MS Office <= 2003 $3/$4, SHA1 + RC4)",3573.1 MH/s (74.90ms),512,128,GTX4090,32.0,1.0
+165,"9810 (MS Office <= 2003 $3, SHA1 + RC4, collider #1)",3762.8 MH/s (68.59ms),256,256,GTX4090,32.0,1.0
+166,"9820 (MS Office <= 2003 $3, SHA1 + RC4, collider #2)",20877.4 MH/s (51.19ms),1024,256,GTX4090,32.0,1.0
+167,9900 (Radmin2),58701.8 MH/s (72.87ms),32,1024,GTX4090,1024.0,4.0
+168,10000 (Django (PBKDF2-SHA256)) [Iterations: 9999],858.5 kH/s (60.66ms),16,512,GTX4090,512.0,1.0
+169,10100 (SipHash),179.5 GH/s (23.71ms),64,1024,GTX4090,512.0,1.0
+170,10200 (CRAM-MD5),27359.8 MH/s (78.23ms),32,1024,GTX4090,512.0,1.0
+171,10300 (SAP CODVN H (PWDSALTEDHASH) iSSHA-1) [Iterations: 1023],31387.1 kH/s (59.65ms),32,1023,GTX4090,512.0,1.0
+172,10400 (PDF 1.1 - 1.3 (Acrobat 2 - 4)),4331.0 MH/s (61.76ms),512,128,GTX4090,32.0,1.0
+173,"10410 (PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1)",4247.6 MH/s (60.02ms),256,256,GTX4090,32.0,1.0
+174,"10420 (PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #2)",56709.7 MH/s (75.42ms),1024,1024,GTX4090,32.0,1.0
+175,10500 (PDF 1.4 - 1.6 (Acrobat 5 - 8)) [Iterations: 70],122.0 MH/s (21.46ms),1024,70,GTX4090,32.0,1.0
+176,10600 (PDF 1.7 Level 3 (Acrobat 9)),22058.3 MH/s (48.50ms),8,1024,GTX4090,1024.0,1.0
+177,10700 (PDF 1.7 Level 8 (Acrobat 10 - 11)) [Iterations: 64],427.2 kH/s (76.42ms),16,4,GTX4090,256.0,1.0
+178,10800 (SHA2-384),7382.6 MH/s (72.54ms),8,1024,GTX4090,512.0,1.0
+179,10810 (sha384($pass.$salt)),7364.8 MH/s (72.71ms),8,1024,GTX4090,512.0,1.0
+180,10820 (sha384($salt.$pass)),7000.7 MH/s (76.48ms),16,512,GTX4090,512.0,1.0
+181,10830 (sha384(utf16le($pass).$salt)),7341.8 MH/s (72.92ms),32,512,GTX4090,256.0,1.0
+182,10840 (sha384($salt.utf16le($pass))),7016.7 MH/s (76.31ms),16,512,GTX4090,512.0,1.0
+183,10870 (sha384(utf16le($pass))),7369.4 MH/s (72.66ms),8,1024,GTX4090,512.0,1.0
+184,10900 (PBKDF2-HMAC-SHA256) [Iterations: 999],8865.7 kH/s (50.50ms),64,124,GTX4090,512.0,1.0
+185,10901 (RedHat 389-DS LDAP (PBKDF2-HMAC-SHA256)) [Iterations: 8191],1046.2 kH/s (62.30ms),64,128,GTX4090,512.0,1.0
+186,11000 (PrestaShop),61969.9 MH/s (69.01ms),64,1024,GTX4090,512.0,1.0
+187,11100 (PostgreSQL CRAM (MD5)),49829.5 MH/s (42.90ms),64,1024,GTX4090,256.0,1.0
+188,11200 (MySQL CRAM (SHA1)),13298.3 MH/s (80.53ms),16,1024,GTX4090,512.0,1.0
+189,11300 (Bitcoin/Litecoin wallet.dat) [Iterations: 200459],34064 H/s (78.48ms),4,1024,GTX4090,1024.0,1.0
+190,11400 (SIP digest authentication (MD5)),23031.2 MH/s (46.42ms),64,512,GTX4090,256.0,1.0
+191,11500 (CRC32),41792.4 MH/s (51.18ms),16,1024,GTX4090,1024.0,1.0
+192,11600 (7-Zip) [Iterations: 16384],2699.7 kH/s (89.51ms),256,4096,GTX4090,32.0,1.0
+193,"11700 (GOST R 34.11-2012 (Streebog) 256-bit, big-endian)",488.8 MH/s (68.47ms),4,128,GTX4090,512.0,1.0
+194,"11750 (HMAC-Streebog-256 (key = $pass), big-endian)",174.5 MH/s (95.95ms),8,64,GTX4090,256.0,1.0
+195,"11760 (HMAC-Streebog-256 (key = $salt), big-endian)",241.7 MH/s (69.24ms),2,256,GTX4090,256.0,1.0
+196,"11800 (GOST R 34.11-2012 (Streebog) 512-bit, big-endian)",488.9 MH/s (68.47ms),2,256,GTX4090,512.0,1.0
+197,"11850 (HMAC-Streebog-512 (key = $pass), big-endian)",152.8 MH/s (54.75ms),1,256,GTX4090,256.0,1.0
+198,"11860 (HMAC-Streebog-512 (key = $salt), big-endian)",201.7 MH/s (83.01ms),2,256,GTX4090,256.0,1.0
+199,11900 (PBKDF2-HMAC-MD5) [Iterations: 999],46170.0 kH/s (75.42ms),128,999,GTX4090,256.0,1.0
+200,12000 (PBKDF2-HMAC-SHA1) [Iterations: 999],19124.4 kH/s (48.36ms),16,999,GTX4090,512.0,1.0
+201,12001 (Atlassian (PBKDF2-HMAC-SHA1)) [Iterations: 9999],2129.9 kH/s (48.52ms),16,1024,GTX4090,512.0,1.0
+202,12100 (PBKDF2-HMAC-SHA512) [Iterations: 999],3120.9 kH/s (54.04ms),8,499,GTX4090,512.0,1.0
+203,12200 (eCryptfs) [Iterations: 65536],104.8 kH/s (77.98ms),8,512,GTX4090,1024.0,1.0
+204,12300 (Oracle T: Type (Oracle 12+)) [Iterations: 4095],782.5 kH/s (82.49ms),4,1024,GTX4090,512.0,1.0
+205,"12400 (BSDi Crypt, Extended DES) [Iterations: 2194]",18617.6 kH/s (34.35ms),32,1024,GTX4090,512.0,1.0
+206,12500 (RAR3-hp) [Iterations: 262144],261.6 kH/s (54.20ms),8,16384,GTX4090,512.0,1.0
+207,12600 (ColdFusion 10+),12774.1 MH/s (83.84ms),8,1024,GTX4090,1024.0,1.0
+208,"12700 (Blockchain, My Wallet) [Iterations: 9]",186.2 MH/s (1.79ms),64,9,GTX4090,256.0,1.0
+209,12800 (MS-AzureSync PBKDF2-HMAC-SHA256) [Iterations: 99],66718.7 kH/s (44.89ms),64,99,GTX4090,512.0,1.0
+210,12900 (Android FDE (Samsung DEK)) [Iterations: 4095],2207.8 kH/s (58.38ms),8,512,GTX4090,1024.0,1.0
+211,13000 (RAR5) [Iterations: 32799],280.4 kH/s (57.34ms),16,512,GTX4090,512.0,1.0
+212,"13100 (Kerberos 5, etype 23, TGS-REP)",3478.0 MH/s (76.95ms),512,128,GTX4090,32.0,1.0
+213,13200 (AxCrypt 1) [Iterations: 10467],1081.5 kH/s (91.90ms),64,512,GTX4090,256.0,1.0
+214,13300 (AxCrypt 1 in-memory SHA1),47130.9 MH/s (45.37ms),32,1024,GTX4090,512.0,1.0
+215,13400 (KeePass 1 (AES/Twofish) and KeePass 2 (AES)) [Iterations: 24569],329.8 kH/s (66.02ms),16,1024,GTX4090,256.0,1.0
+216,13500 (PeopleSoft PS_TOKEN),36801.9 MH/s (58.13ms),64,1024,GTX4090,256.0,1.0
+217,13600 (WinZip) [Iterations: 999],18870.1 kH/s (48.89ms),16,999,GTX4090,512.0,1.0
+218,13711 (VeraCrypt RIPEMD160 + XTS 512 bit (legacy)) [Iterations: 655330],6622 H/s (30.12ms),256,1000,GTX4090,1024.0,1.0
+219,13712 (VeraCrypt RIPEMD160 + XTS 1024 bit (legacy)) [Iterations: 655330],3786 H/s (26.33ms),256,500,GTX4090,1024.0,1.0
+220,13713 (VeraCrypt RIPEMD160 + XTS 1536 bit (legacy)) [Iterations: 655330],2649 H/s (37.66ms),256,500,GTX4090,1024.0,1.0
+221,13721 (VeraCrypt SHA512 + XTS 512 bit (legacy)) [Iterations: 499999],6597 H/s (39.65ms),512,1000,GTX4090,512.0,1.0
+222,13722 (VeraCrypt SHA512 + XTS 1024 bit (legacy)) [Iterations: 499999],3306 H/s (39.57ms),256,1000,GTX4090,512.0,1.0
+223,13723 (VeraCrypt SHA512 + XTS 1536 bit (legacy)) [Iterations: 499999],2201 H/s (29.68ms),256,500,GTX4090,512.0,1.0
+224,13731 (VeraCrypt Whirlpool + XTS 512 bit (legacy)) [Iterations: 499999],781 H/s (41.84ms),1024,250,GTX4090,128.0,1.0
+225,13732 (VeraCrypt Whirlpool + XTS 1024 bit (legacy)) [Iterations: 499999],387 H/s (42.19ms),512,250,GTX4090,128.0,1.0
+226,13733 (VeraCrypt Whirlpool + XTS 1536 bit (legacy)) [Iterations: 499999],257 H/s (31.75ms),128,250,GTX4090,256.0,1.0
+227,13741 (VeraCrypt RIPEMD160 + XTS 512 bit + boot-mode (legacy)) [Iterations: 327660],13127 H/s (31.10ms),1024,256,GTX4090,1024.0,1.0
+228,13742 (VeraCrypt RIPEMD160 + XTS 1024 bit + boot-mode (legacy)) [Iterations: 327660],7528 H/s (27.13ms),256,512,GTX4090,1024.0,1.0
+229,13743 (VeraCrypt RIPEMD160 + XTS 1536 bit + boot-mode (legacy)) [Iterations: 327660],5271 H/s (38.76ms),256,512,GTX4090,1024.0,1.0
+230,13751 (VeraCrypt SHA256 + XTS 512 bit (legacy)) [Iterations: 499999],9060 H/s (28.86ms),512,1000,GTX4090,512.0,1.0
+231,13752 (VeraCrypt SHA256 + XTS 1024 bit (legacy)) [Iterations: 499999],4557 H/s (28.69ms),256,1000,GTX4090,512.0,1.0
+232,13753 (VeraCrypt SHA256 + XTS 1536 bit (legacy)) [Iterations: 499999],3044 H/s (42.98ms),256,1000,GTX4090,512.0,1.0
+233,13761 (VeraCrypt SHA256 + XTS 512 bit + boot-mode (legacy)) [Iterations: 199999],22728 H/s (29.45ms),512,1024,GTX4090,512.0,1.0
+234,13762 (VeraCrypt SHA256 + XTS 1024 bit + boot-mode (legacy)) [Iterations: 199999],11360 H/s (29.45ms),256,1024,GTX4090,512.0,1.0
+235,13763 (VeraCrypt SHA256 + XTS 1536 bit + boot-mode (legacy)) [Iterations: 199999],7591 H/s (44.12ms),256,1024,GTX4090,512.0,1.0
+236,13771 (VeraCrypt Streebog-512 + XTS 512 bit (legacy)) [Iterations: 499999],306 H/s (26.65ms),256,125,GTX4090,256.0,1.0
+237,13772 (VeraCrypt Streebog-512 + XTS 1024 bit (legacy)) [Iterations: 499999],153 H/s (26.69ms),128,125,GTX4090,256.0,1.0
+238,13773 (VeraCrypt Streebog-512 + XTS 1536 bit (legacy)) [Iterations: 499999],102 H/s (40.03ms),128,125,GTX4090,256.0,1.0
+239,13781 (VeraCrypt Streebog-512 + XTS 512 bit + boot-mode (legacy)) [Iterations: 199999],763 H/s (27.39ms),256,128,GTX4090,256.0,1.0
+240,13782 (VeraCrypt Streebog-512 + XTS 1024 bit + boot-mode (legacy)) [Iterations: 199999],380 H/s (27.47ms),128,128,GTX4090,256.0,1.0
+241,13783 (VeraCrypt Streebog-512 + XTS 1536 bit + boot-mode (legacy)) [Iterations: 199999],252 H/s (41.49ms),128,128,GTX4090,256.0,1.0
+242,13800 (Windows Phone 8+ PIN/password),5629.5 MH/s (95.15ms),8,1024,GTX4090,512.0,1.0
+243,13900 (OpenCart),12692.1 MH/s (84.37ms),32,1024,GTX4090,256.0,1.0
+244,"14000 (DES (PT = $salt, key = $pass))",146.6 GH/s (7.14ms),256,1024,GTX4090,32.0,1.0
+245,"14100 (3DES (PT = $salt, key = $pass))",21190.6 MH/s (50.48ms),8,1024,GTX4090,1024.0,1.0
+246,14400 (sha1(CX)),2484.2 MH/s (53.85ms),4,1024,GTX4090,256.0,1.0
+247,14500 (Linux Kernel Crypto API (2.4)),7409.5 MH/s (17.97ms),128,64,GTX4090,128.0,1.0
+248,14600 (LUKS v1 (legacy)) [Iterations: 163044],65253 H/s (50.30ms),16,1024,GTX4090,256.0,1.0
+249,14700 (iTunes backup < 10.0) [Iterations: 9999],1049.1 kH/s (49.33ms),8,1024,GTX4090,512.0,1.0
+250,14800 (iTunes backup >= 10.0) [Iterations: 9999999],861 H/s (62.14ms),2048,512,GTX4090,512.0,1.0
+251,"14900 (Skip32 (PT = $salt, key = $pass))",28021.8 MH/s (2.27ms),32,1024,GTX4090,1024.0,1.0
+252,15000 (FileZilla Server >= 0.9.55),6695.5 MH/s (79.98ms),8,1024,GTX4090,512.0,1.0
+253,15100 (Juniper/NetBSD sha1crypt) [Iterations: 19999],1074.4 kH/s (48.43ms),16,1024,GTX4090,512.0,1.0
+254,"15200 (Blockchain, My Wallet, V2) [Iterations: 4999]",2105.3 kH/s (48.95ms),8,1024,GTX4090,512.0,1.0
+255,15300 (DPAPI masterkey file v1 (context 1 and 2)) [Iterations: 23999],445.9 kH/s (48.65ms),8,1024,GTX4090,512.0,1.0
+256,15310 (DPAPI masterkey file v1 (context 3)) [Iterations: 9999],413.2 kH/s (53.68ms),16,512,GTX4090,512.0,1.0
+257,15400 (ChaCha20),32221.9 MH/s (132.83ms),64,1024,GTX4090,512.0,1.0
+258,15500 (JKS Java Key Store Private Keys (SHA1)),48425.8 MH/s (44.13ms),32,1024,GTX4090,512.0,1.0
+259,"15600 (Ethereum Wallet, PBKDF2-HMAC-SHA256) [Iterations: 1023]",8341.3 kH/s (39.46ms),16,511,GTX4090,512.0,1.0
+260,"15700 (Ethereum Wallet, SCRYPT) [Iterations: 262144]",1 H/s (7.95ms),1,1024,GTX4090,4.0,1.0
+261,15900 (DPAPI masterkey file v2 (context 1 and 2)) [Iterations: 12899],251.5 kH/s (79.80ms),8,512,GTX4090,512.0,1.0
+262,15910 (DPAPI masterkey file v2 (context 3)) [Iterations: 9999],188.5 kH/s (115.36ms),4,1024,GTX4090,1024.0,1.0
+263,16000 (Tripcode),1696.6 MH/s (78.93ms),4,512,GTX4090,512.0,1.0
+264,16100 (TACACS+),108.9 GH/s (19.55ms),64,1024,GTX4090,256.0,1.0
+265,16200 (Apple Secure Notes) [Iterations: 19999],455.7 kH/s (57.27ms),16,512,GTX4090,512.0,1.0
+266,"16300 (Ethereum Pre-Sale Wallet, PBKDF2-HMAC-SHA256) [Iterations: 1999]",4457.8 kH/s (56.81ms),32,256,GTX4090,512.0,1.0
+267,16400 (CRAM-MD5 Dovecot),162.7 GH/s (13.02ms),512,1024,GTX4090,32.0,8.0
+268,16500 (JWT (JSON Web Token)),4209.2 MH/s (63.59ms),8,512,GTX4090,512.0,1.0
+269,16600 (Electrum Wallet (Salt-Type 1-3)),5092.5 MH/s (52.54ms),16,512,GTX4090,256.0,1.0
+270,16700 (FileVault 2) [Iterations: 19999],430.1 kH/s (60.66ms),8,1024,GTX4090,512.0,1.0
+271,16900 (Ansible Vault) [Iterations: 9999],912.1 kH/s (56.84ms),16,512,GTX4090,512.0,1.0
+272,17010 (GPG (AES-128/AES-256 (SHA-1($pass)))) [Iterations: 65536],26834.4 kH/s (62.56ms),64,65536,GTX4090,256.0,1.0
+273,17200 (PKZIP (Compressed)),7543.5 MH/s (15.85ms),29,1024,GTX4090,32.0,1.0
+274,17210 (PKZIP (Uncompressed)),8634.4 MH/s (30.89ms),512,64,GTX4090,64.0,1.0
+275,17220 (PKZIP (Compressed Multi-File)),50015.3 MH/s (42.57ms),1024,512,GTX4090,32.0,1.0
+276,17225 (PKZIP (Mixed Multi-File)),55798.1 MH/s (76.40ms),1024,1024,GTX4090,32.0,1.0
+277,17230 (PKZIP (Mixed Multi-File Checksum-Only)),64666.3 MH/s (33.03ms),256,1024,GTX4090,64.0,1.0
+278,17300 (SHA3-224),5054.9 MH/s (52.93ms),8,512,GTX4090,512.0,1.0
+279,17400 (SHA3-256),5058.7 MH/s (52.90ms),8,1024,GTX4090,256.0,1.0
+280,17500 (SHA3-384),5051.1 MH/s (52.98ms),4,1024,GTX4090,512.0,1.0
+281,17600 (SHA3-512),5056.8 MH/s (52.91ms),8,512,GTX4090,512.0,1.0
+282,17700 (Keccak-224),5051.5 MH/s (52.97ms),8,512,GTX4090,512.0,1.0
+283,17800 (Keccak-256),5059.0 MH/s (52.89ms),16,512,GTX4090,256.0,1.0
+284,17900 (Keccak-384),5042.5 MH/s (53.07ms),4,1024,GTX4090,512.0,1.0
+285,18000 (Keccak-512),5045.0 MH/s (53.04ms),8,512,GTX4090,512.0,1.0
+286,18100 (TOTP (HMAC-SHA1)),10364.1 MH/s (51.63ms),128,1024,GTX4090,32.0,1.0
+287,"18200 (Kerberos 5, etype 23, AS-REP)",3564.1 MH/s (75.11ms),256,256,GTX4090,32.0,1.0
+288,18300 (Apple File System (APFS)) [Iterations: 19999],457.5 kH/s (57.03ms),16,512,GTX4090,512.0,1.0
+289,"18400 (Open Document Format (ODF) 1.2 (SHA-256, AES)) [Iterations: 99999]",107.1 kH/s (49.99ms),8,1024,GTX4090,512.0,1.0
+290,18500 (sha1(md5(md5($pass)))),19462.1 MH/s (54.98ms),8,1024,GTX4090,1024.0,1.0
+291,"18600 (Open Document Format (ODF) 1.1 (SHA-1, Blowfish)) [Iterations: 1023]",5515.0 kH/s (25.88ms),32,1023,GTX4090,64.0,1.0
+292,18700 (Java Object hashCode()),1611.9 GH/s (2.53ms),512,1024,GTX4090,64.0,8.0
+293,"18800 (Blockchain, My Wallet, Second Password (SHA256)) [Iterations: 9999]",1824.8 kH/s (56.94ms),8,1024,GTX4090,1024.0,1.0
+294,18900 (Android Backup) [Iterations: 9999],1064.2 kH/s (48.80ms),8,1024,GTX4090,512.0,1.0
+295,19000 (QNX /etc/shadow (MD5)) [Iterations: 1000],114.7 MH/s (10.06ms),256,1000,GTX4090,64.0,1.0
+296,19100 (QNX /etc/shadow (SHA256)) [Iterations: 1000],70676.6 kH/s (21.01ms),128,1000,GTX4090,128.0,1.0
+297,19200 (QNX /etc/shadow (SHA512)) [Iterations: 1000],49357.5 kH/s (14.90ms),256,1000,GTX4090,32.0,1.0
+298,19300 (sha1($salt1.$pass.$salt2)),6916.3 MH/s (77.43ms),16,1024,GTX4090,256.0,1.0
+299,19500 (Ruby on Rails Restful-Authentication),384.2 MH/s (87.15ms),32,128,GTX4090,64.0,1.0
+300,"19600 (Kerberos 5, etype 17, TGS-REP) [Iterations: 4095]",5100.2 kH/s (49.92ms),16,1024,GTX4090,512.0,1.0
+301,"19700 (Kerberos 5, etype 18, TGS-REP) [Iterations: 4095]",2562.9 kH/s (50.25ms),32,512,GTX4090,256.0,1.0
+302,"19800 (Kerberos 5, etype 17, Pre-Auth) [Iterations: 4095]",5135.3 kH/s (49.57ms),16,1024,GTX4090,512.0,1.0
+303,"19900 (Kerberos 5, etype 18, Pre-Auth) [Iterations: 4095]",2571.6 kH/s (49.80ms),8,1024,GTX4090,512.0,1.0
+304,20011 (DiskCryptor SHA512 + XTS 512 bit) [Iterations: 999],2835.3 kH/s (71.47ms),32,124,GTX4090,512.0,1.0
+305,20012 (DiskCryptor SHA512 + XTS 1024 bit) [Iterations: 999],1364.4 kH/s (69.76ms),16,124,GTX4090,512.0,1.0
+306,20013 (DiskCryptor SHA512 + XTS 1536 bit) [Iterations: 999],888.8 kH/s (52.55ms),8,124,GTX4090,512.0,1.0
+307,20200 (Python passlib pbkdf2-sha512) [Iterations: 24999],130.1 kH/s (82.03ms),8,512,GTX4090,512.0,1.0
+308,20300 (Python passlib pbkdf2-sha256) [Iterations: 28999],297.0 kH/s (61.74ms),16,512,GTX4090,512.0,1.0
+309,20400 (Python passlib pbkdf2-sha1) [Iterations: 130999],164.1 kH/s (49.79ms),16,1024,GTX4090,512.0,1.0
+310,20500 (PKZIP Master Key),574.5 GH/s (7.32ms),64,1024,GTX4090,512.0,1.0
+311,20510 (PKZIP Master Key (6 byte optimization)),130.0 GH/s (32.84ms),512,1024,GTX4090,64.0,1.0
+312,20600 (Oracle Transportation Management (SHA256)) [Iterations: 999],17107.2 kH/s (56.72ms),8,999,GTX4090,1024.0,1.0
+313,20710 (sha256(sha256($pass).$salt)),6002.3 MH/s (89.24ms),16,1024,GTX4090,256.0,1.0
+314,20711 (AuthMe sha256),6002.5 MH/s (89.24ms),16,1024,GTX4090,256.0,1.0
+315,20720 (sha256($salt.sha256($pass))),5458.9 MH/s (49.01ms),4,1024,GTX4090,512.0,1.0
+316,20800 (sha256(md5($pass))),17211.7 MH/s (62.19ms),8,1024,GTX4090,1024.0,1.0
+317,20900 (md5(sha1($pass).md5($pass).sha1($pass))),16286.0 MH/s (65.73ms),16,1024,GTX4090,512.0,1.0
+318,21000 (BitShares v0.x - sha512(sha512_bin(pass))),3527.7 MH/s (75.85ms),64,128,GTX4090,256.0,1.0
+319,21100 (sha1(md5($pass.$salt))),28247.5 MH/s (75.71ms),64,512,GTX4090,512.0,1.0
+320,21200 (md5(sha1($salt).md5($pass))),36137.6 MH/s (59.20ms),64,1024,GTX4090,256.0,1.0
+321,21300 (md5($salt.sha1($salt.$pass))),21077.7 MH/s (50.76ms),256,1024,GTX4090,32.0,1.0
+322,21400 (sha256(sha256_bin($pass))),9985.1 MH/s (53.59ms),4,1024,GTX4090,1024.0,1.0
+323,21420 (sha256($salt.sha256_bin($pass))),5463.8 MH/s (48.96ms),8,512,GTX4090,512.0,1.0
+324,21500 (SolarWinds Orion) [Iterations: 999],397.2 kH/s (78.31ms),32,15,GTX4090,512.0,1.0
+325,21501 (SolarWinds Orion v2) [Iterations: 999],394.9 kH/s (76.56ms),64,62,GTX4090,64.0,1.0
+326,21600 (Web2py pbkdf2-sha512) [Iterations: 999],3135.4 kH/s (53.78ms),8,499,GTX4090,512.0,1.0
+327,21700 (Electrum Wallet (Salt-Type 4)) [Iterations: 1023],1908.0 kH/s (81.80ms),4,1023,GTX4090,512.0,1.0
+328,21800 (Electrum Wallet (Salt-Type 5)) [Iterations: 1023],1887.6 kH/s (85.41ms),64,1023,GTX4090,32.0,1.0
+329,22000 (WPA-PBKDF2-PMKID+EAPOL) [Iterations: 4095],2533.3 kH/s (50.73ms),128,1024,GTX4090,32.0,1.0
+330,22001 (WPA-PMK-PMKID+EAPOL) [Iterations: 0],275.3 MH/s (0.00ms),128,1024,GTX4090,256.0,1.0
+331,22100 (BitLocker) [Iterations: 1048576],10025 H/s (50.98ms),128,4096,GTX4090,1024.0,1.0
+332,22200 (Citrix NetScaler (SHA512)),7323.8 MH/s (73.10ms),16,512,GTX4090,512.0,1.0
+333,22300 (sha256($salt.$pass.$salt)),18751.8 MH/s (57.05ms),32,1024,GTX4090,256.0,1.0
+334,22301 (Telegram Mobile App Passcode (SHA256)),19001.8 MH/s (56.31ms),8,1024,GTX4090,1024.0,1.0
+335,22400 (AES Crypt (SHA256)) [Iterations: 8191],2111.5 kH/s (60.98ms),512,512,GTX4090,32.0,1.0
+336,22500 (MultiBit Classic .key (MD5)),5307.6 MH/s (50.41ms),32,512,GTX4090,128.0,1.0
+337,22600 (Telegram Desktop < v2.1.14 (PBKDF2-HMAC-SHA1)) [Iterations: 3999],760.7 kH/s (85.47ms),16,256,GTX4090,512.0,1.0
+338,22700 (MultiBit HD (scrypt)) [Iterations: 16384],7156 H/s (29.16ms),128,1024,GTX4090,32.0,1.0
+339,22911 (RSA/DSA/EC/OpenSSH Private Keys ($0$)),4382.6 MH/s (61.07ms),128,512,GTX4090,32.0,1.0
+340,22921 (RSA/DSA/EC/OpenSSH Private Keys ($6$)),15080.4 MH/s (70.99ms),64,1024,GTX4090,128.0,1.0
+341,"22931 (RSA/DSA/EC/OpenSSH Private Keys ($1, $3$))",7364.8 MH/s (72.66ms),256,256,GTX4090,64.0,1.0
+342,22941 (RSA/DSA/EC/OpenSSH Private Keys ($4$)),6132.9 MH/s (87.32ms),32,512,GTX4090,256.0,1.0
+343,22951 (RSA/DSA/EC/OpenSSH Private Keys ($5$)),5041.6 MH/s (53.07ms),64,512,GTX4090,64.0,1.0
+344,23001 (SecureZIP AES-128),7343.0 MH/s (72.89ms),32,512,GTX4090,256.0,1.0
+345,23002 (SecureZIP AES-192),5585.4 MH/s (47.88ms),8,1024,GTX4090,256.0,1.0
+346,23003 (SecureZIP AES-256),4597.2 MH/s (58.20ms),16,512,GTX4090,256.0,1.0
+347,23100 (Apple Keychain) [Iterations: 999],10227.9 kH/s (39.11ms),32,249,GTX4090,512.0,1.0
+348,23200 (XMPP SCRAM PBKDF2-SHA1) [Iterations: 4095],5110.7 kH/s (49.63ms),16,1024,GTX4090,512.0,1.0
+349,23300 (Apple iWork) [Iterations: 3999],5268.1 kH/s (48.42ms),16,1024,GTX4090,512.0,1.0
+350,23400 (Bitwarden) [Iterations: 99999],92022 H/s (58.21ms),8,1024,GTX4090,512.0,1.0
+351,23500 (AxCrypt 2 AES-128) [Iterations: 999],469.1 kH/s (46.13ms),4,999,GTX4090,512.0,1.0
+352,23600 (AxCrypt 2 AES-256) [Iterations: 999],220.4 kH/s (98.66ms),4,999,GTX4090,512.0,1.0
+353,23700 (RAR3-p (Uncompressed)) [Iterations: 262144],258.7 kH/s (54.83ms),8,16384,GTX4090,512.0,1.0
+354,23800 (RAR3-p (Compressed)) [Iterations: 262144],53768 H/s (54.60ms),8,16384,GTX4090,512.0,1.0
+355,23900 (BestCrypt v3 Volume Encryption) [Iterations: 1],14264.8 kH/s (66.48ms),256,1,GTX4090,32.0,1.0
+356,24100 (MongoDB ServerKey SCRAM-SHA-1) [Iterations: 9999],2125.4 kH/s (48.75ms),16,1024,GTX4090,512.0,1.0
+357,24200 (MongoDB ServerKey SCRAM-SHA-256) [Iterations: 14999],610.2 kH/s (56.99ms),16,512,GTX4090,512.0,1.0
+358,24300 (sha1($salt.sha1($pass.$salt))),18810.8 MH/s (56.89ms),16,1024,GTX4090,512.0,1.0
+359,24410 (PKCS#8 Private Keys (PBKDF2-HMAC-SHA1 + 3DES/AES)) [Iterations: 2047],5034.5 kH/s (50.33ms),32,512,GTX4090,256.0,1.0
+360,24420 (PKCS#8 Private Keys (PBKDF2-HMAC-SHA256 + 3DES/AES)) [Iterations: 2047],4057.1 kH/s (62.02ms),16,512,GTX4090,512.0,1.0
+361,24500 (Telegram Desktop >= v2.1.14 (PBKDF2-HMAC-SHA512)) [Iterations: 99999],11099 H/s (60.37ms),128,1024,GTX4090,512.0,1.0
+362,24600 (SQLCipher) [Iterations: 63999],167.0 kH/s (49.67ms),8,1024,GTX4090,512.0,1.0
+363,24700 (Stuffit5),57033.3 MH/s (75.00ms),1024,1024,GTX4090,32.0,1.0
+364,24800 (Umbraco HMAC-SHA1),10784.6 MH/s (49.60ms),32,512,GTX4090,256.0,1.0
+365,24900 (Dahua Authentication MD5),85504.5 MH/s (49.98ms),32,1024,GTX4090,1024.0,1.0
+366,25000 (SNMPv3 HMAC-MD5-96/HMAC-SHA1-96) [Iterations: 1048576],1323.5 kH/s (22.08ms),8,131072,GTX4090,256.0,1.0
+367,25100 (SNMPv3 HMAC-MD5-96) [Iterations: 1048576],3996.5 kH/s (29.27ms),256,131072,GTX4090,32.0,1.0
+368,25200 (SNMPv3 HMAC-SHA1-96) [Iterations: 1048576],1998.2 kH/s (29.58ms),64,131072,GTX4090,64.0,1.0
+369,25300 (MS Office 2016 - SheetProtection) [Iterations: 100000],68830 H/s (77.82ms),8,512,GTX4090,1024.0,1.0
+370,25400 (PDF 1.4 - 1.6 (Acrobat 5 - 8) - user and owner pass) [Iterations: 70],120.2 MH/s (22.00ms),1024,70,GTX4090,32.0,1.0
+371,25500 (Stargazer Stellar Wallet XLM) [Iterations: 4095],2075.5 kH/s (62.18ms),16,512,GTX4090,512.0,1.0
+372,25600 (bcrypt(md5($pass)) / bcryptmd5) [Iterations: 32],191.2 kH/s (48.16ms),4,32,GTX4090,24.0,1.0
+373,25700 (MurmurHash),643.7 GH/s (6.53ms),1024,1024,GTX4090,32.0,1.0
+374,25800 (bcrypt(sha1($pass)) / bcryptsha1) [Iterations: 32],189.7 kH/s (48.17ms),4,32,GTX4090,24.0,1.0
+375,25900 (KNX IP Secure - Device Authentication Code) [Iterations: 65535],139.6 kH/s (58.44ms),32,256,GTX4090,512.0,1.0
+376,26000 (Mozilla key3.db),1325.1 MH/s (50.47ms),32,512,GTX4090,32.0,1.0
+377,26100 (Mozilla key4.db) [Iterations: 9999],854.2 kH/s (60.90ms),8,1024,GTX4090,512.0,1.0
+378,26200 (OpenEdge Progress Encode),259.5 MH/s (64.49ms),4,64,GTX4090,512.0,1.0
+379,26300 (FortiGate256 (FortiOS256)),15521.9 MH/s (68.98ms),32,1024,GTX4090,256.0,1.0
+380,"26401 (AES-128-ECB NOKDF (PT = $salt, key = $pass))",21900.7 MH/s (97.70ms),256,512,GTX4090,128.0,1.0
+381,"26402 (AES-192-ECB NOKDF (PT = $salt, key = $pass))",18518.5 MH/s (57.79ms),16,1024,GTX4090,512.0,1.0
+382,"26403 (AES-256-ECB NOKDF (PT = $salt, key = $pass))",15400.0 MH/s (69.52ms),8,1024,GTX4090,1024.0,1.0
+383,26500 (iPhone passcode (UID key + System Keybag)) [Iterations: 50000],226.3 kH/s (94.64ms),32,512,GTX4090,512.0,1.0
+384,26600 (MetaMask Wallet) [Iterations: 9999],847.2 kH/s (60.87ms),8,512,GTX4090,1024.0,1.0
+385,26700 (SNMPv3 HMAC-SHA224-128) [Iterations: 1048576],990.5 kH/s (63.06ms),8,131072,GTX4090,512.0,1.0
+386,26800 (SNMPv3 HMAC-SHA256-192) [Iterations: 1048576],987.3 kH/s (63.27ms),8,131072,GTX4090,512.0,1.0
+387,26900 (SNMPv3 HMAC-SHA384-256) [Iterations: 1048576],743.6 kH/s (82.73ms),4,262144,GTX4090,512.0,1.0
+388,27000 (NetNTLMv1 / NetNTLMv1+ESS (NT)) [Iterations: 0],318.0 MH/s (0.00ms),64,1024,GTX4090,512.0,1.0
+389,27100 (NetNTLMv2 (NT)) [Iterations: 0],310.9 MH/s (0.00ms),64,1024,GTX4090,512.0,1.0
+390,"27200 (Ruby on Rails Restful Auth (one round, no sitekey))",46565.0 MH/s (91.89ms),64,1024,GTX4090,512.0,1.0
+391,27300 (SNMPv3 HMAC-SHA512-384) [Iterations: 1048576],740.7 kH/s (83.08ms),4,262144,GTX4090,512.0,1.0
+392,27400 (VMware VMX (PBKDF2-HMAC-SHA1 + AES-256-CBC)) [Iterations: 9999],1059.9 kH/s (48.90ms),8,1024,GTX4090,512.0,1.0
+393,27500 (VirtualBox (PBKDF2-HMAC-SHA256 & AES-128-XTS)) [Iterations: 259999],30676 H/s (62.30ms),16,512,GTX4090,512.0,1.0
+394,27600 (VirtualBox (PBKDF2-HMAC-SHA256 & AES-256-XTS)) [Iterations: 159999],23143 H/s (64.24ms),4,512,GTX4090,1024.0,1.0
+395,27700 (MultiBit Classic .wallet (scrypt)) [Iterations: 16384],7107 H/s (28.89ms),128,1024,GTX4090,32.0,1.0
+396,27800 (MurmurHash3),584.1 GH/s (7.21ms),1024,1024,GTX4090,32.0,1.0
+397,27900 (CRC32C),42171.5 MH/s (50.70ms),16,1024,GTX4090,1024.0,1.0
+398,28000 (CRC64Jones),237.2 GH/s (17.92ms),64,1024,GTX4090,512.0,1.0
+399,28100 (Windows Hello PIN/Password) [Iterations: 9999],855.5 kH/s (60.78ms),16,512,GTX4090,512.0,1.0
+400,28200 (Exodus Desktop Wallet (scrypt)) [Iterations: 16384],7078 H/s (29.05ms),128,1024,GTX4090,32.0,1.0
+401,28300 (Teamspeak 3 (channel hash)),8597.9 MH/s (62.25ms),32,512,GTX4090,256.0,1.0
+402,28400 (bcrypt(sha512($pass)) / bcryptsha512) [Iterations: 4096],1974 H/s (48.07ms),1,128,GTX4090,24.0,1.0
+403,"28501 (Bitcoin WIF private key (P2PKH), compressed)",302.2 GH/s (3.34ms),32,1024,GTX4090,256.0,1.0
+404,"28502 (Bitcoin WIF private key (P2PKH), uncompressed)",375.4 GH/s (2.68ms),32,1024,GTX4090,256.0,1.0
+405,"28503 (Bitcoin WIF private key (P2WPKH, Bech32), compressed)",319.4 GH/s (3.22ms),128,1024,GTX4090,64.0,1.0
+406,"28504 (Bitcoin WIF private key (P2WPKH, Bech32), uncompressed)",379.5 GH/s (2.68ms),32,1024,GTX4090,256.0,1.0
+407,"28505 (Bitcoin WIF private key (P2SH(P2WPKH)), compressed)",269.7 GH/s (3.32ms),32,1024,GTX4090,256.0,1.0
+408,"28506 (Bitcoin WIF private key (P2SH(P2WPKH)), uncompressed)",384.2 GH/s (2.09ms),128,1024,GTX4090,64.0,1.0
+409,28600 (PostgreSQL SCRAM-SHA-256) [Iterations: 4095],2212.3 kH/s (58.15ms),8,1024,GTX4090,512.0,1.0
+410,28700 (Amazon AWS4-HMAC-SHA256),701.8 MH/s (95.40ms),8,128,GTX4090,512.0,1.0
+411,"28800 (Kerberos 5, etype 17, DB) [Iterations: 4095]",4844.3 kH/s (52.70ms),16,1024,GTX4090,512.0,1.0
+412,"28900 (Kerberos 5, etype 18, DB) [Iterations: 4095]",2576.2 kH/s (49.79ms),8,1024,GTX4090,512.0,1.0
+413,29000 (sha1($salt.sha1(utf16le($username).':'.utf16le($pass)))),16680.0 MH/s (64.17ms),32,1024,GTX4090,256.0,1.0
+414,29100 (Flask Session Cookie ($salt.$salt.$pass)),2809.4 MH/s (47.60ms),64,128,GTX4090,128.0,1.0
+415,29200 (Radmin3),3560.3 kH/s (73.46ms),1,8,GTX4090,256.0,1.0
+416,29311 (TrueCrypt RIPEMD160 + XTS 512 bit) [Iterations: 1999],1944.4 kH/s (60.99ms),256,1024,GTX4090,1024.0,1.0
+417,29312 (TrueCrypt RIPEMD160 + XTS 1024 bit) [Iterations: 1999],1053.3 kH/s (53.51ms),256,512,GTX4090,1024.0,1.0
+418,29313 (TrueCrypt RIPEMD160 + XTS 1536 bit) [Iterations: 1999],724.4 kH/s (76.24ms),256,512,GTX4090,1024.0,1.0
+419,29321 (TrueCrypt SHA512 + XTS 512 bit) [Iterations: 999],2821.6 kH/s (53.66ms),1024,499,GTX4090,512.0,1.0
+420,29322 (TrueCrypt SHA512 + XTS 1024 bit) [Iterations: 999],1364.6 kH/s (52.46ms),512,499,GTX4090,512.0,1.0
+421,29323 (TrueCrypt SHA512 + XTS 1536 bit) [Iterations: 999],893.7 kH/s (39.24ms),256,499,GTX4090,512.0,1.0
+422,29331 (TrueCrypt Whirlpool + XTS 512 bit) [Iterations: 999],387.6 kH/s (66.00ms),512,249,GTX4090,256.0,1.0
+423,29332 (TrueCrypt Whirlpool + XTS 1024 bit) [Iterations: 999],192.9 kH/s (65.91ms),256,249,GTX4090,256.0,1.0
+424,29333 (TrueCrypt Whirlpool + XTS 1536 bit) [Iterations: 999],128.2 kH/s (54.99ms),256,124,GTX4090,256.0,1.0
+425,29341 (TrueCrypt RIPEMD160 + XTS 512 bit + boot-mode) [Iterations: 999],3561.9 kH/s (40.85ms),512,499,GTX4090,1024.0,1.0
+426,29342 (TrueCrypt RIPEMD160 + XTS 1024 bit + boot-mode) [Iterations: 999],1849.0 kH/s (43.01ms),512,249,GTX4090,1024.0,1.0
+427,29343 (TrueCrypt RIPEMD160 + XTS 1536 bit + boot-mode) [Iterations: 999],1246.0 kH/s (51.15ms),256,499,GTX4090,1024.0,1.0
+428,29411 (VeraCrypt RIPEMD160 + XTS 512 bit) [Iterations: 655330],6587 H/s (30.28ms),512,500,GTX4090,1024.0,1.0
+429,29412 (VeraCrypt RIPEMD160 + XTS 1024 bit) [Iterations: 655330],3771 H/s (26.45ms),256,500,GTX4090,1024.0,1.0
+430,29413 (VeraCrypt RIPEMD160 + XTS 1536 bit) [Iterations: 655330],2639 H/s (37.79ms),512,250,GTX4090,1024.0,1.0
+431,29421 (VeraCrypt SHA512 + XTS 512 bit) [Iterations: 499999],6432 H/s (40.66ms),1024,1000,GTX4090,256.0,1.0
+432,29422 (VeraCrypt SHA512 + XTS 1024 bit) [Iterations: 499999],3230 H/s (40.49ms),256,1000,GTX4090,512.0,1.0
+433,29423 (VeraCrypt SHA512 + XTS 1536 bit) [Iterations: 499999],2198 H/s (29.73ms),128,1000,GTX4090,512.0,1.0
+434,29431 (VeraCrypt Whirlpool + XTS 512 bit) [Iterations: 499999],776 H/s (42.15ms),512,500,GTX4090,128.0,1.0
+435,29432 (VeraCrypt Whirlpool + XTS 1024 bit) [Iterations: 499999],386 H/s (42.37ms),512,250,GTX4090,128.0,1.0
+436,29433 (VeraCrypt Whirlpool + XTS 1536 bit) [Iterations: 499999],258 H/s (31.65ms),128,250,GTX4090,256.0,1.0
+437,29441 (VeraCrypt RIPEMD160 + XTS 512 bit + boot-mode) [Iterations: 327660],13233 H/s (30.86ms),512,512,GTX4090,1024.0,1.0
+438,29442 (VeraCrypt RIPEMD160 + XTS 1024 bit + boot-mode) [Iterations: 327660],7554 H/s (27.04ms),256,512,GTX4090,1024.0,1.0
+439,29443 (VeraCrypt RIPEMD160 + XTS 1536 bit + boot-mode) [Iterations: 327660],5298 H/s (38.56ms),256,512,GTX4090,1024.0,1.0
+440,29451 (VeraCrypt SHA256 + XTS 512 bit) [Iterations: 499999],9066 H/s (28.83ms),512,1000,GTX4090,512.0,1.0
+441,29452 (VeraCrypt SHA256 + XTS 1024 bit) [Iterations: 499999],4545 H/s (28.77ms),256,1000,GTX4090,512.0,1.0
+442,29453 (VeraCrypt SHA256 + XTS 1536 bit) [Iterations: 499999],3036 H/s (43.09ms),256,1000,GTX4090,512.0,1.0
+443,29461 (VeraCrypt SHA256 + XTS 512 bit + boot-mode) [Iterations: 199999],22670 H/s (29.52ms),512,1024,GTX4090,512.0,1.0
+444,29462 (VeraCrypt SHA256 + XTS 1024 bit + boot-mode) [Iterations: 199999],11365 H/s (29.45ms),256,1024,GTX4090,512.0,1.0
+445,29463 (VeraCrypt SHA256 + XTS 1536 bit + boot-mode) [Iterations: 199999],7586 H/s (44.15ms),256,1024,GTX4090,512.0,1.0
+446,29471 (VeraCrypt Streebog-512 + XTS 512 bit) [Iterations: 499999],306 H/s (26.70ms),128,250,GTX4090,256.0,1.0
+447,29472 (VeraCrypt Streebog-512 + XTS 1024 bit) [Iterations: 499999],150 H/s (27.26ms),128,125,GTX4090,256.0,1.0
+448,29473 (VeraCrypt Streebog-512 + XTS 1536 bit) [Iterations: 499999],102 H/s (39.91ms),128,125,GTX4090,256.0,1.0
+449,29481 (VeraCrypt Streebog-512 + XTS 512 bit + boot-mode) [Iterations: 199999],753 H/s (27.73ms),128,256,GTX4090,256.0,1.0
+450,29482 (VeraCrypt Streebog-512 + XTS 1024 bit + boot-mode) [Iterations: 199999],384 H/s (27.21ms),128,128,GTX4090,256.0,1.0
+451,29483 (VeraCrypt Streebog-512 + XTS 1536 bit + boot-mode) [Iterations: 199999],256 H/s (40.82ms),128,128,GTX4090,256.0,1.0
+452,29511 (LUKS v1 SHA-1 + AES) [Iterations: 151350],140.6 kH/s (50.28ms),32,1024,GTX4090,256.0,1.0
+453,29512 (LUKS v1 SHA-1 + Serpent) [Iterations: 152379],69793 H/s (50.30ms),16,1024,GTX4090,256.0,1.0
+454,29513 (LUKS v1 SHA-1 + Twofish) [Iterations: 151350],70293 H/s (50.30ms),8,1024,GTX4090,512.0,1.0
+455,29521 (LUKS v1 SHA-256 + AES) [Iterations: 92179],93025 H/s (62.39ms),4,1024,GTX4090,1024.0,1.0
+456,29522 (LUKS v1 SHA-256 + Serpent) [Iterations: 92560],46282 H/s (62.43ms),4,512,GTX4090,1024.0,1.0
+457,29523 (LUKS v1 SHA-256 + Twofish) [Iterations: 92560],92639 H/s (62.42ms),4,1024,GTX4090,1024.0,1.0
+458,29531 (LUKS v1 SHA-512 + AES) [Iterations: 71793],46301 H/s (80.54ms),4,1024,GTX4090,512.0,1.0
+459,29532 (LUKS v1 SHA-512 + Serpent) [Iterations: 71793],46284 H/s (80.58ms),4,1024,GTX4090,512.0,1.0
+460,29533 (LUKS v1 SHA-512 + Twofish) [Iterations: 72256],45565 H/s (81.31ms),4,1024,GTX4090,512.0,1.0
+461,29541 (LUKS v1 RIPEMD-160 + AES) [Iterations: 106665],82297 H/s (60.94ms),8,512,GTX4090,1024.0,1.0
+462,29542 (LUKS v1 RIPEMD-160 + Serpent) [Iterations: 107690],81526 H/s (60.94ms),8,512,GTX4090,1024.0,1.0
+463,29543 (LUKS v1 RIPEMD-160 + Twofish) [Iterations: 107690],163.1 kH/s (60.91ms),8,1024,GTX4090,1024.0,1.0
+464,29600 (Terra Station Wallet (AES256-CBC(PBKDF2($pass)))) [Iterations: 99],70117.1 kH/s (19.78ms),256,99,GTX4090,64.0,1.0
+465,29700 (KeePass 1 (AES/Twofish) and KeePass 2 (AES) - keyfile only mode) [Iterations: 60000],133.1 kH/s (67.00ms),64,256,GTX4090,256.0,1.0
+466,30000 (Python Werkzeug MD5 (HMAC-MD5 (key = $salt))),55627.6 MH/s (76.89ms),128,1024,GTX4090,256.0,1.0
+467,30120 (Python Werkzeug SHA256 (HMAC-SHA256 (key = $salt))),9349.1 MH/s (57.20ms),32,256,GTX4090,512.0,1.0
+468,99999 (Plaintext),265.3 GH/s (15.96ms),128,1024,GTX4090,256.0,1.0

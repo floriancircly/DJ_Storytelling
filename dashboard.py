@@ -19,7 +19,7 @@ text = markdown.markdown('''
 
 # 48 Minuten bis zum Identitätsdiebstahl
 ### Identitäten sind heute mit der digitalen Welt verbunden oder hängen sogar schon vollständig von ihr ab. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, 
-aber wie sicher sind sie? Über 30% der Accounts sind massiv gefährdet.
+### aber wie sicher sind sie? Über 30% der Accounts sind massiv gefährdet.
 Von Andreas Braun, René Langschwert & Florian Voglauer
 
 #### Ausgangsthese
@@ -35,12 +35,12 @@ Ziel des Artikels ist es, die unterschiedlichen Grafikkarten-Generationen zu ver
 
 #### Fazit, ob Ausgangsthese be- oder widerlegt wurde
 
-### Was habt ihr aus der Story gelernt?
+#### Was habt ihr aus der Story gelernt?
 
 #### Beantwortung der W-Fragen
 * Was ist die Geschichte?
 
-* Woher sind die Daten?
+* Woher sind die Daten? </br>
 Dieser Artikel analysiert Benchmarkwerte unterschiedlicher Hardware-Generationen einer “Recovery” Software für Passwörter:
 Um die Berechnungszeit der Passwortsuche zu messen, wird das Tool “Hashcat” verwendet ( https://hashcat.net/hashcat/ ).
 
