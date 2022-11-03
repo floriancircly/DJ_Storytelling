@@ -34,13 +34,13 @@ Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert die Datenanalyse des Artikel unterstreicht diese drastische Entwicklung.
 
 #### Expert:innen-Leitfaden
-**5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management.** 
-* Welche konkreten Maßnahmen kann man selbst ergreifen, um seine Identität zu schützen?
-* Wie können Passwörter sicher gespeichert werden?
-* Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
+* 5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management. 
+    * Welche konkreten Maßnahmen kann man selbst ergreifen, um seine Identität zu schützen?
+    * Wie können Passwörter sicher gespeichert werden?
+    * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
 </br>
-**Warum haben wir genau diesen Experten ausgewählt?** </br>
+* Warum haben wir genau diesen Experten ausgewählt? </br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
 Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist dort als Dozent tätig.
 Daher ist er der richtige Ansprechpartner für die Fragen, die im Expert:innen-Leitfaden gestellt wurden.
