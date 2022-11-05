@@ -171,7 +171,7 @@ data_vergleich = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
 
 ####test
 def timerequired(kombinationen, gpu, anzahl_gpus):
-    my_time = kombinationen / data_vergleich[data_vergleich["GPU"]==gpu / anzahl_gpus
+    my_time = kombinationen / data_vergleich[data_vergleich["GPU"]==gpu]["speed (H/s)"].item() / anzahl_gpus
     my_day = my_time // (24 * 3600)
     my_time = my_time % (24 * 3600)
     my_hour = my_time // 3600
