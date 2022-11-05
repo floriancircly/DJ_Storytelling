@@ -207,7 +207,7 @@ st.write("Benötigte Tage: ", np.round(dauer_tag,2))
 st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
 st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
-my_time = float(input("Input time in seconds: "))
+my_time = kombinationen / data_vergleich["speed (H/s)"].item()
 my_day = my_time // (24 * 3600)
 my_time = my_time % (24 * 3600)
 my_hour = my_time // 3600
