@@ -215,7 +215,7 @@ my_time %= 3600
 my_minutes = my_time // 60
 my_time %= 60
 my_seconds = my_time
-st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d", (my_day, my_hour, my_minutes, my_seconds))
+st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
 
 
 
