@@ -35,6 +35,7 @@ fourth_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'sp
 fourth_df["hash_mode"] = "SHA-1"
 
 data_vergleich = pd.concat([zip_df, SHA_df, third_df, fourth_df], ignore_index=True)
+data_vergleich_personal = pd.concat([zip_df, SHA_df, third_df, fourth_df], ignore_index=True)
 
 ##########################################################################################################################
 
@@ -166,9 +167,8 @@ stunden = 60
 tage = 24
 anzahl_gpus = 8
 
-data_alg = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
+data_vergleich = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
 
-st.write(data_alg)
 st.write(data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"])
 
 # 'GTX980ti (2015)'
@@ -275,19 +275,19 @@ alles = zahlen + buchstaben_groß + buchstaben_klein + sonderzeichen
 laenge = number
 kombinationen = alles**laenge
 
-data_vergleich = data_vergleich[(data_vergleich["GPU"]=="RTX4090 (2022)") & (data_vergleich["hash_mode"]==algorithmus)]
+data_vergleich_personal = data_vergleich_personal[(data_vergleich_personal["GPU"]=="RTX4090 (2022)") & (data_vergleich_personal["hash_mode"]==algorithmus)]
 
 #anzahl_gpus = 8
 anzahl_gpus = st.slider('Anzhal der Grafikkarten', 1, 10, 8)
 
-dauer_tag = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / stunden / tage / anzahl_gpus # WARUM ACHT ERKLÄREN
-dauer_stund = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / stunden / anzahl_gpus # WARUM ACHT ERKLÄREN
-dauer_min = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / anzahl_gpus # WARUM ACHT ERKLÄREN
+dauer_tag = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / stunden / tage / anzahl_gpus # WARUM ACHT ERKLÄREN
+dauer_stund = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / stunden / anzahl_gpus # WARUM ACHT ERKLÄREN
+dauer_min = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / anzahl_gpus # WARUM ACHT ERKLÄREN
 st.write("Benötigte Tage: ", np.round(dauer_tag,2))
 st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
 st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
-my_time = kombinationen / data_vergleich["speed (H/s)"].item() / anzahl_gpus
+my_time = kombinationen / data_vergleich_personal["speed (H/s)"].item() / anzahl_gpus
 my_day = my_time // (24 * 3600)
 my_time = my_time % (24 * 3600)
 my_hour = my_time // 3600
