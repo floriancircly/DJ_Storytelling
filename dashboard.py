@@ -11,23 +11,23 @@ import plotly.figure_factory as ff
 # Daten
 
 data = pd.read_csv("Data/all_devices.csv", sep=",")
-gpu = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'GTX2080ti (2018)', 'GTX3090 (2020)', 'GTX4090 (2022)']
+gpu = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)', 'RTX3090 (2020)', 'RTX4090 (2022)']
 scores = [4981,  9421,  14621,  19977,  36529]
 zip_hash =  [6212,12920,20577,955900,2699700]
 gpu_scores = pd.DataFrame(list(zip(gpu, scores)), columns = ['GPU', 'scores'])
 zip_scores = pd.DataFrame(list(zip(gpu, zip_hash)), columns = ['GPU', 'Hashes (H/s)'])
 image = Image.open('Data/pass.png')
 
-z = [[.1, .3],
-     [1.0, .8],
-     [.6, .4]]
+z = [[.1, .3, .4, .7],
+    [.2, .4, .5, .8],
+    [.3, .5, .6, .9]]
 
-z_text = [[.1, .3],
-     [1.0, .8],
-     [.6, .4]]
+z_text = [[.1, .3, .4, .7],
+    [.2, .4, .5, .8],
+    [.3, .5, .6, .9]]
 
-x = ['Passwortlänge', 'Zeit zu hacken']
-y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'GTX2080ti (2018)']
+x = ['Passwortlänge (5 Z.)', 'Passwortlänge (8 Z.)','Passwortlänge (10 Z.)','Passwortlänge (14 Z.)']
+y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)']
 
 ##########################################################################################################################
 
@@ -78,7 +78,8 @@ in eine Zeichenkette übersetzt, den sogenannten Hash. Diese Umwandlung ist esse
 System gespeichert werden sollte, da ansonsten ein potenzieller Angreifer das originale Passwort zur Verfügung hätte. </br>
 
 Will ein Angreifer nun an ein Passwort gelangen wäre der Ablauf wie folgt: </br>
-Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht nun der Hash als auch mit welchem Hash-Algorithmus die Datei geschützt ist.
+Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht nun der Hash als auch mit welchem Hash-Algorithmus die Datei geschützt ist. Unterschiedliche
+Anwendungen verwenden auch unterschiedliche Hash-Algorithmen, also andere Methoden, um das Passwort in eine bedeutungslose Zeichenkette umzuwandeln. 
 Anschließend kann der Angreifer aus einer Vielzahl an Angriffsmethoden wählen. Die simpelste ist hierbei ein "Brute-Force-Attack", bei dem alle möglichen Kombinationen aus Buchstaben, Zahlen und Zeichen ausprobiert werden. 
 Der Angreifer probiert nun etliche Kombinationen aus und sieht sich dabei den Hash der Hashfunktion an und vergleicht diesen mit der zuvor 
 erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort gelangt und hat somit Zugriff auf die Ziel-Datei. </br>
@@ -105,7 +106,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
                                         showarrow=False,
-                                        text="Hier gehört noch was hin",
+                                        text="Quelle: Hashcat Berechnung",
                                         textangle=0,
                                         xanchor='left',
                                         xref="paper",
@@ -120,22 +121,49 @@ langes Passwort mit Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen zu verw
 abhängig vom Hash-Algorithmus - in unter einer Stunde geknackt werden. Laut einer <a href='https://www-statista-com.ezproxy.fhstp.ac.at:2443/statistics/744216/worldwide-distribution-of-password-length/'>Erhebung</a> sind über 50% der Passwörter genau oder unter 8 Zeichen lang und 
 daher gefährdet.
 
+In der nachstehenden Grafik ist es möglich, für unterschiedliche Hash-Algorithmen die Dauer bis zum Knacken von Passwörtern mit verschiedenen Längen zu analysieren.
+
 ''')
 
 st.markdown(text, unsafe_allow_html=True)
 
+algorithmus = st.radio(
+    "Wähle einen Hash-Algorithmus aus",
+    ('7-Zip', 'Skype', 'Word'))
+
+
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_text,colorscale='Cividis')
-fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge")
+fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
                                         showarrow=False,
-                                        text="Hier gehört noch was hin",
+                                        text="Quelle: Hashcat Berechnung",
                                         textangle=0,
                                         xanchor='left',
                                         xref="paper",
                                         yref="paper"))
 st.plotly_chart(fig, use_container_width=True)
+
+text = markdown.markdown('''
+</br>
+Dabei gilt es zu beachten, dass hier ein 
+
+''')
+st.markdown(text, unsafe_allow_html=True)
+
+options = st.multiselect(
+    'Passwort enthält:',
+    ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"])
+
+number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_value = 20)
+
+algorithmus = st.radio(
+    "Wähle einen Hash-Algorithmus aus",
+    ('7-Zip', 'Skype', 'Word'),key="second")
+
+# Berechnung personalisierter Hack-Zeit
+
 
 text = markdown.markdown('''
 #### Fazit, ob Ausgangsthese be- oder widerlegt wurde
