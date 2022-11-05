@@ -18,17 +18,6 @@ gpu_scores = pd.DataFrame(list(zip(gpu, scores)), columns = ['GPU', 'scores'])
 zip_scores = pd.DataFrame(list(zip(gpu, zip_hash)), columns = ['GPU', 'Hashes (H/s)'])
 image = Image.open('Data/pass.png')
 
-z = [[.1, .3, .4, .7],
-    [.2, .4, .5, .8],
-    [.3, .5, .6, .9]]
-
-z_text = [[.1, .3, .4, .7],
-    [.2, .4, .5, .8],
-    [.3, .5, .6, .9]]
-
-x = ['Passwortlänge (5 Z.)', 'Passwortlänge (8 Z.)','Passwortlänge (10 Z.)','Passwortlänge (14 Z.)']
-y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)']
-
 scores_vergleich = [6707,  12920,  20577,  955900,  2699700]
 zip_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
 zip_df["hash_mode"] = "7-Zip"
@@ -149,8 +138,98 @@ algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
     ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="first")
 
+zahlen = 10
+buchstaben_groß = 26 
+buchstaben_klein = 26
+sonderzeichen = 32
+alles = zahlen + buchstaben_groß + buchstaben_klein + sonderzeichen
 
-fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_text,colorscale='Cividis')
+laenge7 = 7
+laenge8 = 8
+laenge9 = 9
+laenge10 = 10
+laenge11 = 11
+laenge12 = 12
+laenge15 = 15
+laenge20 = 20
+kombinationen7 = alles**laenge7
+kombinationen8 = alles**laenge8
+kombinationen9 = alles**laenge9
+kombinationen10 = alles**laenge10
+kombinationen11 = alles**laenge11
+kombinationen12 = alles**laenge12
+kombinationen15 = alles**laenge15
+kombinationen20 = alles**laenge20
+
+minuten = 60
+stunden = 60
+tage = 24
+anzahl_gpus = 8
+
+data_alg = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
+
+# 'GTX980ti (2015)'
+dauer_stunden_7_2015 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2015 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2015 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2015 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2015 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2015 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2015 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2015 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+# 'GTX1080ti (2017)'
+dauer_stunden_7_2017 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2017 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2017 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2017 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2017 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2017 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2017 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2017 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+# 'RTX2080ti (2018)'
+dauer_stunden_7_2018 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2018 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2018 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2018 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2018 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2018 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2018 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2018 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+# 'RTX3090 (2020)'
+dauer_stunden_7_2020 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2020 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2020 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2020 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2020 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2020 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2020 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2020 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+# 'RTX4090 (2022)'
+dauer_stunden_7_2022 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2022 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2022 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2022 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2022 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2022 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2022 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2022 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+z = [
+    [.1, .3, .4, .7,],
+    [.2, .4, .5, .8],
+    [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015,dauer_stunden_20_2015]
+    ]
+
+x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
+y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)', 'RTX3090 (2020)', 'RTX4090 (2022)']
+
+
+
+fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z,colorscale='Cividis')
 fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
@@ -194,9 +273,6 @@ kombinationen = alles**laenge
 
 data_vergleich = data_vergleich[(data_vergleich["GPU"]=="RTX4090 (2022)") & (data_vergleich["hash_mode"]==algorithmus)]
 
-minuten = 60
-stunden = 60
-tage = 24
 #anzahl_gpus = 8
 anzahl_gpus = st.slider('Anzhal der Grafikkarten', 1, 10, 8)
 
