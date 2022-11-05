@@ -249,7 +249,7 @@ z = [
 x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
 y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
-st.write(timerequired(7, "GTX980ti (2015)", anzahl_gpus))
+st.write(timerequired(kombinationen7, "GTX980ti (2015)", anzahl_gpus))
 z_notation =    [
                 [timerequired(kombinationen7, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen8, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen9, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen10, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen11, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen12, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen15, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen20, "RTX4090 (2022)", anzahl_gpus)],
                 [timerequired(kombinationen7, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen8, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen9, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen10, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen11, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen12, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen15, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen20, "RTX3090 (2020)", anzahl_gpus)],
@@ -260,6 +260,7 @@ z_notation =    [
 
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='RdBu') # YlGnBu
+fig.update_traces(hoverinfo='skip')
 fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
