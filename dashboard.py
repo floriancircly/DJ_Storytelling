@@ -207,15 +207,15 @@ st.write("Benötigte Tage: ", np.round(dauer_tag,2))
 st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
 st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
-# time = float(input("Input time in seconds: "))
-# day = time // (24 * 3600)
-# time = time % (24 * 3600)
-# hour = time // 3600
-# time %= 3600
-# minutes = time // 60
-# time %= 60
-# seconds = time
-# st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (day, hour, minutes, seconds))
+my_time = kombinationen / data_vergleich["speed (H/s)"].item() / anzahl_gpus
+my_day = my_time // (24 * 3600)
+my_time = my_time % (24 * 3600)
+my_hour = my_time // 3600
+my_time %= 3600
+my_minutes = my_time // 60
+my_time %= 60
+my_seconds = my_time
+st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
 
 
 
