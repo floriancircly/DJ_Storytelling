@@ -47,8 +47,6 @@ text = markdown.markdown('''
 ### Identitäten sind heutezutage eng mit der digitalen Welt verbunden. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie?
 Von Andreas Braun, René Langschwert & Florian Voglauer
 
-#### Deskriptiver Einstieg in den Text mit den Punkten: Wer? Was? Was ist euer Thema/eure Fragestellung?
-
 Im Verlauf der letzten Jahre ist der Zeitaufwand, ein Passwort zu hacken, deutlich gesunken. Grund dafür sind die immer stärkeren Grafikkarten, die es ermöglichen,
 Passwörter in kürzester Zeit zu knacken. Diese Performancesteigerung sorgt nicht nur bei Spielen für flüssigere Framerates und immer höhere Auflösungen, sondern hat auch gravierende Auswirkungen auf die Sicherheit von Passwörtern und damit auch auf die Sicherheit von gesamten Identitäten.
 
@@ -314,6 +312,7 @@ st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
 st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
 my_time = kombinationen / data_vergleich_personal["speed (H/s)"].item() / anzahl_gpus
+my_year = my_time // (24 * 3600 * 365)
 my_day = my_time // (24 * 3600)
 my_time = my_time % (24 * 3600)
 my_hour = my_time // 3600
@@ -321,12 +320,12 @@ my_time %= 3600
 my_minutes = my_time // 60
 my_time %= 60
 my_seconds = my_time
-st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
+st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
 
 
 text = markdown.markdown('''
 </br>
-#### Fazit, ob Ausgangsthese be- oder widerlegt wurde
+#### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
 benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind. Beispielsweise Telefonnummern sind kein gutes Beispiel für Passwörter.
@@ -339,12 +338,14 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Wie können Passwörter sicher gespeichert werden?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
-* Warum haben wir genau diesen Experten ausgewählt? </br>
+* Warum haben wir genau diesen Experten ausgewählt? </br></br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
 Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist dort als Dozent tätig.
 Daher ist er der richtige Ansprechpartner für die Fragen, die im Expert:innen-Leitfaden gestellt wurden.
 
 #### Was habt ihr aus der Story gelernt?
+
+BEANTWORTEN!
 
 #### Beantwortung der W-Fragen 
 * Was ist die Geschichte? </br>
@@ -366,23 +367,5 @@ Online
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
-# Show data
-st.dataframe(data=data)
-
-text = markdown.markdown('''
-
-#### Notizen Visualisierungen
-* Quellenangabe
-* Deskriptiver Titel, Beschreibung, Annotations
-* Passende Verknüpfung mit Text
-Sinnvolle Stelle im Text, keine unerklärten Begriffe, die nicht im Text erwähnt werden
-
-''')
-st.markdown(text, unsafe_allow_html=True)
-
 ##########################################################################################################################
 
-# Extra
-#st.balloons()
-st.image("https://c.tenor.com/p0gHiSC-xecAAAAi/rainbow-dance-pepe-jam.gif")
-st.video("https://www.youtube.com/watch?v=WNeLUngb-Xg")
