@@ -29,6 +29,20 @@ z_text = [[.1, .3, .4, .7],
 x = ['Passwortlänge (5 Z.)', 'Passwortlänge (8 Z.)','Passwortlänge (10 Z.)','Passwortlänge (14 Z.)']
 y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)']
 
+scores_vergleich = [6707,  12920,  20577,  955900,  2699700]
+zip_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
+zip_df["hash_mode"] = "7-Zip"
+
+scores_vergleich = [13944,  20945,  26544,  96662,  184000]
+SHA_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
+SHA_df["hash_mode"] = "bcrypt"
+
+scores_vergleich = [33066000000,  58138500000,  73602400000,  121200000000,  288500000000]
+third_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
+third_df["hash_mode"] = "NTLM"
+
+data_vergleich = pd.concat([zip_df, SHA_df, third_df], ignore_index=True)
+
 ##########################################################################################################################
 
 # Artikel
@@ -152,6 +166,8 @@ Dabei gilt es zu beachten, dass hier ein
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
+
+# Berechnung personalisierter Hack-Zeit
 options = st.multiselect(
     'Passwort enthält:',
     ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"])
@@ -160,9 +176,43 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ('7-Zip', 'Skype', 'Word'),key="second")
+    ("7-Zip", "bcrypt", "NTLM"),key="second")
 
-# Berechnung personalisierter Hack-Zeit
+zahlen = 10 if "Zahlen" in options else 0
+buchstaben_groß = 26 if "Großbuchstaben" in options else 0
+buchstaben_klein = 26 if "Kleinbuchstaben" in options else 0
+sonderzeichen = 32 if "Sonderzeichen" in options else 0
+
+alles = zahlen + buchstaben_groß + buchstaben_klein + sonderzeichen
+
+laenge = number
+kombinationen = alles**laenge
+
+data_vergleich = data_vergleich[(data_vergleich["GPU"]=="RTX4090 (2022)") & (data_vergleich["hash_mode"]==algorithmus)]
+
+minuten = 60
+stunden = 60
+tage = 24
+#anzahl_gpus = 8
+anzahl_gpus = st.slider('Anzhal der Grafikkarten', 1, 10, 8)
+
+dauer_tag = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / stunden / tage / anzahl_gpus # WARUM ACHT ERKLÄREN
+dauer_stund = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / stunden / anzahl_gpus # WARUM ACHT ERKLÄREN
+dauer_min = kombinationen / data_vergleich["speed (H/s)"].item() / minuten / anzahl_gpus # WARUM ACHT ERKLÄREN
+st.write("Benötigte Tage: ", np.round(dauer_tag,2))
+st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
+st.write("Benötigte Minuten: ", np.round(dauer_min,2))
+
+# time = float(input("Input time in seconds: "))
+# day = time // (24 * 3600)
+# time = time % (24 * 3600)
+# hour = time // 3600
+# time %= 3600
+# minutes = time // 60
+# time %= 60
+# seconds = time
+# st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (day, hour, minutes, seconds))
+
 
 
 text = markdown.markdown('''
@@ -222,6 +272,6 @@ st.markdown(text, unsafe_allow_html=True)
 ##########################################################################################################################
 
 # Extra
-st.balloons()
+#st.balloons()
 st.image("https://c.tenor.com/p0gHiSC-xecAAAAi/rainbow-dance-pepe-jam.gif")
 st.video("https://www.youtube.com/watch?v=WNeLUngb-Xg")
