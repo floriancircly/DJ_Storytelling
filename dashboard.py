@@ -256,7 +256,7 @@ z_notation =    [
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='RdBu') # YlGnBu
 fig.update_traces(hoverinfo='skip')
-fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)",width=1500)
+fig.update_layout(title="Vergleich der Dauer, um ein Passwort mit unterschiedlicher länge zu hacken (Worst Case Szenario)",width=1500)
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
@@ -281,7 +281,7 @@ st.markdown(text, unsafe_allow_html=True)
 # Berechnung personalisierter Hack-Zeit
 options = st.multiselect(
     'Passwort enthält:',
-    ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"])
+    ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"], label_visibility='hidden')
 
 number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_value = 20)
 
@@ -320,11 +320,19 @@ my_time %= 3600
 my_minutes = my_time // 60
 my_time %= 60
 my_seconds = my_time
-st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
+st.write("Tage:Stunden:Minuten:Sekunden: %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
 
 
 text = markdown.markdown('''
 </br>
+Dieser individuelle Rechner soll nochmals verdeutlichen, wie sehr zusätzliche Zeichen das Hacken eines Passworts erschweren.
+
+Doch wie sehr betrifft dieser Vorgang überhaupt eine individuelle Person? Leider lässt sich ein Hackangriff nicht darauf beschränken, dass nur eine
+bestimmte Person Ziel einer Attacke ist. Mittlerweile hat sich ein regelrechter Markt etabliert, hinter dem ein riesiges Businessmodell steht. Unzählige Hashes und deren 
+daraus resultierende Zeichenketten stehen schon vorberechnet zur Verfügung (zum Beispiel von den häufigst benützten Passwörtern), um den Hackvorgang nochmal deutlich
+schneller zu gestalten. Vor allem die Einfachheit ist hier hervorzuheben, da Tools wie Hashcat für jedermann zu benutzten sind.
+-- QUELLE?! ---
+
 #### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
@@ -344,8 +352,12 @@ Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist d
 Daher ist er der richtige Ansprechpartner für die Fragen, die im Expert:innen-Leitfaden gestellt wurden.
 
 #### Was habt ihr aus der Story gelernt?
+Hervorzuheben ist hier auf jeden Fall, dass sich die Definition von "sicheren Passwörtern" in den letzten Jahren stark geändert hat. Vor allem der 
+Einsatz von Sonderzeichen und Zahlen also die Erweiterung des Suchraums ist ein wichtiger Punkt, der nochmal in der Story verdeutlicht wird.
+Interessant war vor allem auch wie einfach es ist an die nötigen Informationen zu kommen z.B. um ein passwortgeschützes ZIP File zu öffnen.
 
-BEANTWORTEN!
+
+---
 
 #### Beantwortung der W-Fragen 
 * Was ist die Geschichte? </br>
