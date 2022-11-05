@@ -268,7 +268,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         xanchor='left',
                                         xref="paper",
                                         yref="paper"))
-st.plotly_chart(fig, use_container_width=False, width=1500)
+st.plotly_chart(fig, use_container_width=False, width=600)
 
 text = markdown.markdown('''
 </br>
