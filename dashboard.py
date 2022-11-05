@@ -277,11 +277,17 @@ Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absa
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
-
+change_text = """
+<style>
+div.st-cs.st-c5.st-bc.st-ct.st-cu {visibility: hidden;}
+div.st-cs.st-c5.st-bc.st-ct.st-cu:before {content: "Wähle eine Option"; visibility: visible;}
+</style>
+"""
+st.markdown(change_text, unsafe_allow_html=True)
 # Berechnung personalisierter Hack-Zeit
 options = st.multiselect(
     'Passwort enthält:',
-    ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"], default='Wähle eine Option')
+    ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"])
 
 number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_value = 20)
 
