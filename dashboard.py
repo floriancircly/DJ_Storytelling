@@ -74,7 +74,7 @@ st.markdown(text, unsafe_allow_html=True)
 fig = px.bar(gpu_scores, x="GPU", y="scores", title='Benchmark Scores unterschiedlicher GPU Modelle',
     labels={
     "GPU": "GPU Modell",
-    "scores": "Benchmark Score"})
+    "scores": "Gaming Benchmark Score"})
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
@@ -116,7 +116,7 @@ Die Anzahl an Hashes, die pro Sekunde berechnet werden können, hat in den verga
 st.markdown(text, unsafe_allow_html=True)
 
 # Show plot
-fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Hashes pro Sekunde verschiedener GPU Modelle (7-Zip Algorithmus)",
+fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Hashes pro Sekunde verschiedener GPU Modelle (Passwortgeschütztes 7-Zip Archiv)",
     labels={
     "GPU": "GPU Modell",
     "Hashes (H/s)": "Hashes (H/s)"})
@@ -180,7 +180,7 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM"),key="second")
+    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
 
 zahlen = 10 if "Zahlen" in options else 0
 buchstaben_groß = 26 if "Großbuchstaben" in options else 0
