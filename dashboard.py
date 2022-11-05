@@ -245,11 +245,18 @@ z = [
     ]
 
 x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
-y = reversed(['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)', 'RTX3090 (2020)', 'RTX4090 (2022)'])
+y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
 
 z_notation =    [
-                []
+                [timerequired(7, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(8, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(9, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(10, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(11, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(12, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(15, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(20, "GTX980ti (2015)", anzahl_gpus)],
 ]
 
 
