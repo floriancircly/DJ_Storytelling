@@ -185,56 +185,57 @@ def timerequired(kombinationen, gpu, anzahl_gpus):
 
 
 # 'GTX980ti (2015)'
-dauer_stunden_7_2015 = np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_8_2015 = np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_9_2015 = np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_10_2015 = np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_11_2015 = np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_12_2015 = np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_15_2015 = np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_20_2015 = np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
+dauer_stunden_7_2015 = np.log(np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_8_2015 = np.log(np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_9_2015 = np.log(np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_10_2015 = np.log(np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_11_2015 = np.log(np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_12_2015 = np.log(np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_15_2015 = np.log(np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_20_2015 = np.log(np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
 
 # 'GTX1080ti (2017)'
-dauer_stunden_7_2017 = np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_8_2017 = np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_9_2017 = np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_10_2017 = np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_11_2017 = np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_12_2017 = np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_15_2017 = np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_20_2017 = np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
+dauer_stunden_7_2017 = np.log(np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_8_2017 = np.log(np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_9_2017 = np.log(np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_10_2017 = np.log(np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_11_2017 = np.log(np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_12_2017 = np.log(np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_15_2017 = np.log(np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_20_2017 = np.log(np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
 
 # 'RTX2080ti (2018)'
-dauer_stunden_7_2018 = np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_8_2018 = np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_9_2018 = np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_10_2018 = np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_11_2018 = np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_12_2018 = np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_15_2018 = np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_20_2018 = np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
+dauer_stunden_7_2018 = np.log(np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_8_2018 = np.log(np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_9_2018 = np.log(np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_10_2018 = np.log(np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_11_2018 = np.log(np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_12_2018 = np.log(np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_15_2018 = np.log(np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_20_2018 = np.log(np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
 
 # 'RTX3090 (2020)'
-dauer_stunden_7_2020 = np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_8_2020 = np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_9_2020 = np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_10_2020 = np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_11_2020 = np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_12_2020 = np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_15_2020 = np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_20_2020 = np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
+dauer_stunden_7_2020 = np.log(np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_8_2020 = np.log(np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_9_2020 = np.log(np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_10_2020 = np.log(np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_11_2020 = np.log(np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_12_2020 = np.log(np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_15_2020 = np.log(np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_20_2020 = np.log(np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
 
 # 'RTX4090 (2022)'
-dauer_stunden_7_2022 = np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_8_2022 = np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_9_2022 = np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_10_2022 = np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_11_2022 = np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_12_2022 = np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_15_2022 = np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
-dauer_stunden_20_2022 = np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1)
+dauer_stunden_7_2022 = np.log(np.round(kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_8_2022 = np.log(np.round(kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_9_2022 = np.log(np.round(kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_10_2022 = np.log(np.round(kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_11_2022 = np.log(np.round(kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_12_2022 = np.log(np.round(kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_15_2022 = np.log(np.round(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
+dauer_stunden_20_2022 = np.log(np.round(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus,1))
 
 st.write(dauer_stunden_20_2022)
+
 
 z = [
     [dauer_stunden_7_2022, dauer_stunden_8_2022, dauer_stunden_9_2022, dauer_stunden_10_2022,dauer_stunden_11_2022,dauer_stunden_12_2022,dauer_stunden_15_2022,dauer_stunden_20_2022],
@@ -247,7 +248,7 @@ z = [
 x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
 y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
-
+st.write(timerequired(7, "GTX980ti (2015)", anzahl_gpus))
 z_notation =    [
                 [timerequired(7, "GTX980ti (2015)", anzahl_gpus), timerequired(8, "GTX980ti (2015)", anzahl_gpus),timerequired(9, "GTX980ti (2015)", anzahl_gpus),timerequired(10, "GTX980ti (2015)", anzahl_gpus),timerequired(11, "GTX980ti (2015)", anzahl_gpus),timerequired(12, "GTX980ti (2015)", anzahl_gpus),timerequired(15, "GTX980ti (2015)", anzahl_gpus),timerequired(20, "GTX980ti (2015)", anzahl_gpus)],
                 [timerequired(7, "GTX1080ti (2017)", anzahl_gpus),timerequired(8, "GTX1080ti (2017)", anzahl_gpus), timerequired(9, "GTX1080ti (2017)", anzahl_gpus), timerequired(10, "GTX1080ti (2017)", anzahl_gpus),timerequired(11, "GTX1080ti (2017)", anzahl_gpus),timerequired(12, "GTX1080ti (2017)", anzahl_gpus),timerequired(15, "GTX1080ti (2017)", anzahl_gpus),timerequired(20, "GTX1080ti (2017)", anzahl_gpus)],
