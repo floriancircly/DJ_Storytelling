@@ -168,6 +168,9 @@ anzahl_gpus = 8
 
 data_alg = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
 
+st.write(data_alg)
+st.write(data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"])
+
 # 'GTX980ti (2015)'
 dauer_stunden_7_2015 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 dauer_stunden_8_2015 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
@@ -218,12 +221,10 @@ dauer_stunden_12_2022 = kombinationen12 / data_vergleich[data_vergleich["GPU"]==
 dauer_stunden_15_2022 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 dauer_stunden_20_2022 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
-st.write(dauer_stunden_7_2015)
-st.write(data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"])
 
 z = [
-    [.1, .3, .4, .7,],
-    [.2, .4, .5, .8],
+    [.1, .3, .4, .7,0,0,0,0],
+    [.2, .4, .5, .8,0,0,0,0],
     [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015,dauer_stunden_20_2015]
     ]
 
