@@ -259,7 +259,7 @@ z_notation =    [
                 ]
 
 
-fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='Blues')
+fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='YlGnBu')
 fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
