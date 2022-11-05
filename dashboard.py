@@ -179,9 +179,9 @@ def timerequired(kombinationen, gpu, anzahl_gpus):
     my_minutes = my_time // 60
     my_time %= 60
     my_seconds = my_time
-    mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
-    return my_time
-    return mystring
+    mystring2 = str(my_day) + ":" + str(my_hour) + ":" + str(my_minutes) + ":" + str(my_seconds)
+    #mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
+    return mystring2
 
 
 
@@ -259,7 +259,7 @@ z_notation =    [
                 ]
 
 
-fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='Cividis')
+fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='Blues')
 fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
