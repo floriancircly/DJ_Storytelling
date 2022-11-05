@@ -169,7 +169,20 @@ anzahl_gpus = 8
 
 data_vergleich = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
 
-st.write(data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"])
+####test
+def timerequired(kombinationen, data_vergleich, anzahl_gpus):
+    my_time = kombinationen / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / anzahl_gpus
+    my_day = my_time // (24 * 3600)
+    my_time = my_time % (24 * 3600)
+    my_hour = my_time // 3600
+    my_time %= 3600
+    my_minutes = my_time // 60
+    my_time %= 60
+    my_seconds = my_time
+    mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
+    return mystring
+
+
 
 # 'GTX980ti (2015)'
 dauer_stunden_7_2015 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
@@ -221,8 +234,11 @@ dauer_stunden_12_2022 = kombinationen12 / data_vergleich[data_vergleich["GPU"]==
 dauer_stunden_15_2022 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 dauer_stunden_20_2022 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
+st.write(dauer_stunden_20_2022)
 
 z = [
+    [.1, .3, .4, .7,0,0,0,0],
+    [.1, .3, .4, .7,0,0,0,0],
     [.1, .3, .4, .7,0,0,0,0],
     [.2, .4, .5, .8,0,0,0,0],
     [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015,dauer_stunden_20_2015]
@@ -231,6 +247,10 @@ z = [
 x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
 y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)', 'RTX3090 (2020)', 'RTX4090 (2022)']
 
+
+z_notation =    [
+                []
+]
 
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z,colorscale='Cividis')
