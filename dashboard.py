@@ -237,10 +237,10 @@ dauer_stunden_20_2022 = np.round(kombinationen20 / data_vergleich[data_vergleich
 st.write(dauer_stunden_20_2022)
 
 z = [
-    [.1, .3, .4, .7,0,0,0,0],
-    [.1, .3, .4, .7,0,0,0,0],
-    [.1, .3, .4, .7,0,0,0,0],
-    [.2, .4, .5, .8,0,0,0,0],
+    [dauer_stunden_7_2022, dauer_stunden_8_2022, dauer_stunden_9_2022, dauer_stunden_10_2022,dauer_stunden_11_2022,dauer_stunden_12_2022,dauer_stunden_15_2022,dauer_stunden_20_2022],
+    [dauer_stunden_7_2020, dauer_stunden_8_2020, dauer_stunden_9_2020, dauer_stunden_10_2020,dauer_stunden_11_2020,dauer_stunden_12_2020,dauer_stunden_15_2020,dauer_stunden_20_2020],
+    [dauer_stunden_7_2018, dauer_stunden_8_2018, dauer_stunden_9_2018, dauer_stunden_10_2018,dauer_stunden_11_2018,dauer_stunden_12_2018,dauer_stunden_15_2018,dauer_stunden_20_2018],
+    [dauer_stunden_7_2017, dauer_stunden_8_2017, dauer_stunden_9_2017, dauer_stunden_10_2017,dauer_stunden_11_2017,dauer_stunden_12_2017,dauer_stunden_15_2017,dauer_stunden_20_2017],
     [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015,dauer_stunden_20_2015]
     ]
 
@@ -249,18 +249,15 @@ y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','G
 
 
 z_notation =    [
-                [timerequired(7, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(8, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(9, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(10, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(11, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(12, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(15, "GTX980ti (2015)", anzahl_gpus)],
-                [timerequired(20, "GTX980ti (2015)", anzahl_gpus)],
+                [timerequired(7, "GTX980ti (2015)", anzahl_gpus)],[timerequired(8, "GTX980ti (2015)", anzahl_gpus)],[timerequired(9, "GTX980ti (2015)", anzahl_gpus)],[timerequired(10, "GTX980ti (2015)", anzahl_gpus)],[timerequired(11, "GTX980ti (2015)", anzahl_gpus)],[timerequired(12, "GTX980ti (2015)", anzahl_gpus)],[timerequired(15, "GTX980ti (2015)", anzahl_gpus)],[timerequired(20, "GTX980ti (2015)", anzahl_gpus)]
+                [timerequired(7, "GTX1080ti (2017)", anzahl_gpus)],[timerequired(8, "GTX1080ti (2017)", anzahl_gpus)], [timerequired(9, "GTX1080ti (2017)", anzahl_gpus)], [timerequired(10, "GTX1080ti (2017)", anzahl_gpus)],[timerequired(11, "GTX1080ti (2017)", anzahl_gpus)],[timerequired(12, "GTX1080ti (2017)", anzahl_gpus)],[timerequired(15, "GTX1080ti (2017)", anzahl_gpus)],[timerequired(20, "GTX1080ti (2017)", anzahl_gpus)],
+                [timerequired(7, "RTX2080ti (2018)", anzahl_gpus)],[timerequired(8, "RTX2080ti (2018)", anzahl_gpus)], [timerequired(9, "RTX2080ti (2018)", anzahl_gpus)], [timerequired(10, "RTX2080ti (2018)", anzahl_gpus)],[timerequired(11, "RTX2080ti (2018)", anzahl_gpus)],[timerequired(12, "RTX2080ti (2018)", anzahl_gpus)],[timerequired(15, "RTX2080ti (2018)", anzahl_gpus)],[timerequired(20, "RTX2080ti (2018)", anzahl_gpus)],
+                [timerequired(7, "RTX3090 (2020)", anzahl_gpus)],[timerequired(8, "RTX3090 (2020)", anzahl_gpus)], [timerequired(9, "RTX3090 (2020)", anzahl_gpus)], [timerequired(10, "RTX3090 (2020)", anzahl_gpus)],[timerequired(11, "RTX3090 (2020)", anzahl_gpus)],[timerequired(12, "RTX3090 (2020)", anzahl_gpus)],[timerequired(15, "RTX3090 (2020)", anzahl_gpus)],[timerequired(20, "RTX3090 (2020)", anzahl_gpus)],
+                [timerequired(7, "RTX4090 (2022)", anzahl_gpus)],[timerequired(8, "RTX4090 (2022)", anzahl_gpus)], [timerequired(9, "RTX4090 (2022)", anzahl_gpus)], [timerequired(10, "RTX4090 (2022)", anzahl_gpus)],[timerequired(11, "RTX4090 (2022)", anzahl_gpus)],[timerequired(12, "RTX4090 (2022)", anzahl_gpus)],[timerequired(15, "RTX4090 (2022)", anzahl_gpus)],[timerequired(20, "RTX4090 (2022)", anzahl_gpus)]
 ]
 
 
-fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z,colorscale='Cividis')
+fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='Cividis')
 fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge (Worst Case Szenario)")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
@@ -275,7 +272,9 @@ st.plotly_chart(fig, use_container_width=True)
 
 text = markdown.markdown('''
 </br>
-Dabei gilt es zu beachten, dass hier ein 
+Dabei gilt es zu beachten, dass hier die "Worst Case Szenario" Berechnung durchgeführt wurde. Das heißt, dass innerhalb der angegebenen Zeit, alle Kombinationen durchprobiert werden.
+Es könnte daher auch schon viel früher passieren, dass das gesuchte Passwort gefunden wird. Zudem basiert die Rechnung auf Passwörtern, die bereits Klein- und Großbuchstaben sowie Zahlen und Sonderzeichen enthalten.
+Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absatz die entsprechenden Werte angepasst werden.
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
@@ -325,11 +324,12 @@ my_seconds = my_time
 st.write("Tage:Stunden:Minuten:Sekunden-> %d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
 
 
-
 text = markdown.markdown('''
+</br>
 #### Fazit, ob Ausgangsthese be- oder widerlegt wurde
-Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit z.B. 8 Zeichen zu hacken", bestätigt wurde. 
-Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikel unterstreicht diese drastische Entwicklung.
+Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
+Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
+benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind. Beispielsweise Telefonnummern sind kein gutes Beispiel für Passwörter.
 
 ---
 
