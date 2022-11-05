@@ -41,8 +41,8 @@ scores_vergleich = [33066000000,  58138500000,  73602400000,  121200000000,  288
 third_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
 third_df["hash_mode"] = "NTLM"
 
-scores = [4404800000, 114781000000, 159246000000, 227576000000, 506387000000]
-fourth_df = pd.DataFrame(list(zip(gpu, scores)), columns = ['GPU', 'speed (H/s)'])
+scores_vergleich = [4404800000, 114781000000, 159246000000, 227576000000, 506387000000]
+fourth_df = pd.DataFrame(list(zip(gpu, scores_vergleich)), columns = ['GPU', 'speed (H/s)'])
 fourth_df["hash_mode"] = "SHA-1"
 
 data_vergleich = pd.concat([zip_df, SHA_df, third_df, fourth_df], ignore_index=True)
@@ -147,7 +147,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ('7-Zip', 'Skype', 'Word'))
+    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
 
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_text,colorscale='Cividis')
