@@ -169,54 +169,57 @@ anzahl_gpus = 8
 data_alg = data_vergleich[data_vergleich["hash_mode"]==algorithmus]
 
 # 'GTX980ti (2015)'
-dauer_stunden_7_2015 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_8_2015 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_9_2015 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_10_2015 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_11_2015 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_12_2015 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_15_2015 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_20_2015 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_7_2015 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2015 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2015 = kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2015 = kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2015 = kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2015 = kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2015 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2015 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX980ti (2015)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
 # 'GTX1080ti (2017)'
-dauer_stunden_7_2017 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_8_2017 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_9_2017 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_10_2017 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_11_2017 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_12_2017 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_15_2017 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_20_2017 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_7_2017 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2017 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2017 = kombinationen9 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2017 = kombinationen10 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2017 = kombinationen11 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2017 = kombinationen12 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2017 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2017 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='GTX1080ti (2017)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
 # 'RTX2080ti (2018)'
-dauer_stunden_7_2018 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_8_2018 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_9_2018 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_10_2018 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_11_2018 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_12_2018 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_15_2018 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_20_2018 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_7_2018 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2018 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2018 = kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2018 = kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2018 = kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2018 = kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2018 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2018 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX2080ti (2018)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
 # 'RTX3090 (2020)'
-dauer_stunden_7_2020 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_8_2020 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_9_2020 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_10_2020 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_11_2020 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_12_2020 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_15_2020 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_20_2020 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_7_2020 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2020 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2020 = kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2020 = kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2020 = kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2020 = kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2020 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2020 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX3090 (2020)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
 
 # 'RTX4090 (2022)'
-dauer_stunden_7_2022 = kombinationen7 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_8_2022 = kombinationen8 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_9_2022 = kombinationen9 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_10_2022 = kombinationen10 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_11_2022 = kombinationen11 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_12_2022 = kombinationen12 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_15_2022 = kombinationen15 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
-dauer_stunden_20_2022 = kombinationen20 / data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_7_2022 = kombinationen7 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_8_2022 = kombinationen8 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_9_2022 = kombinationen9 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_10_2022 = kombinationen10 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_11_2022 = kombinationen11 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_12_2022 = kombinationen12 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_15_2022 = kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+dauer_stunden_20_2022 = kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item() / minuten / stunden / anzahl_gpus
+
+st.write(dauer_stunden_7_2015)
+st.write(data_vergleich[data_vergleich["hash_mode"]=='RTX4090 (2022)']["speed (H/s)"])
 
 z = [
     [.1, .3, .4, .7,],
