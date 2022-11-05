@@ -4,6 +4,7 @@ import numpy as np
 import markdown
 import plotly.express as px
 from PIL import Image
+import plotly.figure_factory as ff
 
 ##########################################################################################################################
 
@@ -17,6 +18,16 @@ gpu_scores = pd.DataFrame(list(zip(gpu, scores)), columns = ['GPU', 'scores'])
 zip_scores = pd.DataFrame(list(zip(gpu, zip_hash)), columns = ['GPU', 'Hashes (H/s)'])
 image = Image.open('Data/pass.png')
 
+z = [[.1, .3],
+     [1.0, .8],
+     [.6, .4]]
+
+z_text = [[.1, .3],
+     [1.0, .8],
+     [.6, .4]]
+
+x = ['Passwortlänge', 'Zeit zu hacken']
+y = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'GTX2080ti (2018)']
 
 ##########################################################################################################################
 
@@ -34,9 +45,6 @@ Im Verlauf der letzten Jahre ist der Zeitaufwand, ein Passwort zu hacken, deutli
 Passwörter in kürzester Zeit zu knacken. Diese Performancesteigerung sorgt nicht nur bei Spielen für flüssigere Framerates und immer höhere Auflösungen, sondern hat auch gravierende Auswirkungen auf die Sicherheit von Passwörtern und damit auch auf die Sicherheit von gesamten Identitäten.
 
 In diesem Artikel wird gezeigt, wie sehr sich die Annahme eines “sicheren” Passwortes in den letzten Jahren verschoben hat. Hierbei werden die unterschiedlichen Grafikkarten-Generationen der letzten Jahre verglichen, um zu verdeutlichen, wie sehr der Zeitaufwand, um ein Passwort zu hacken, geschrumpft ist.
-
-(Annahme: Es verfügt über Klein- und Großbuchstaben, Zahlen sowie Sonderzeichen)
-mit beispielsweise 8 Zeichen
 
 In die letzten zehn Jahren ist die Leistung von Grafikkarten rapide angestiegen. Nachstehend zu sehen sind die Performance-Scores der letzten fünf High-End Grafikkarten von Nvidia.
 
@@ -116,6 +124,18 @@ daher gefährdet.
 
 st.markdown(text, unsafe_allow_html=True)
 
+fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_text,colorscale='Cividis')
+fig.update_layout(title="Vergleich unterschiedlicher Passwortlänge")
+fig.add_annotation(dict(font=dict(color='black',size=10),
+                                        x=0,
+                                        y=-0.30,
+                                        showarrow=False,
+                                        text="Hier gehört noch was hin",
+                                        textangle=0,
+                                        xanchor='left',
+                                        xref="paper",
+                                        yref="paper"))
+st.plotly_chart(fig, use_container_width=True)
 
 text = markdown.markdown('''
 #### Fazit, ob Ausgangsthese be- oder widerlegt wurde
