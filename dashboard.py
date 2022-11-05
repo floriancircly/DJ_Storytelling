@@ -147,7 +147,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
+    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="first")
 
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_text,colorscale='Cividis')
