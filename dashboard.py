@@ -179,9 +179,9 @@ def timerequired(kombinationen, gpu, anzahl_gpus):
     my_minutes = my_time // 60
     my_time %= 60
     my_seconds = my_time
-    mystring2 = str(my_day) + ":" + str(my_hour) + ":" + str(my_minutes) + ":" + str(my_seconds)
-    #mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
-    return mystring2
+    #mystring = str(my_day) + ":" + str(my_hour) + ":" + str(my_minutes) + ":" + str(my_seconds)
+    mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
+    return mystring
 
 
 
