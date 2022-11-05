@@ -284,7 +284,7 @@ div.st-cs.st-c5.st-bc.st-ct.st-cu:before {content: "Wähle eine Option"; visibil
 </style>
 """
 st.markdown(change_text, unsafe_allow_html=True)
-# Berechnung personalisierter Hack-Zeit
+
 options = st.multiselect(
     'Passwort enthält:',
     ["Sonderzeichen","Zahlen", "Kleinbuchstaben", "Großbuchstaben"])
