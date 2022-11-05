@@ -235,8 +235,6 @@ dauer_stunden_12_2022 = np.log(kombinationen12 / data_vergleich[data_vergleich["
 dauer_stunden_15_2022 = np.log(kombinationen15 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item()  / anzahl_gpus)
 dauer_stunden_20_2022 = np.log(kombinationen20 / data_vergleich[data_vergleich["GPU"]=='RTX4090 (2022)']["speed (H/s)"].item()  / anzahl_gpus)
 
-st.write(dauer_stunden_20_2022)
-
 
 z = [
     [dauer_stunden_7_2022, dauer_stunden_8_2022, dauer_stunden_9_2022, dauer_stunden_10_2022,dauer_stunden_11_2022,dauer_stunden_12_2022,dauer_stunden_15_2022,dauer_stunden_20_2022],
@@ -249,7 +247,6 @@ z = [
 x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
 y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
-st.write(timerequired(kombinationen7, "GTX980ti (2015)", anzahl_gpus))
 z_notation =    [
                 [timerequired(kombinationen7, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen8, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen9, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen10, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen11, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen12, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen15, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen20, "RTX4090 (2022)", anzahl_gpus)],
                 [timerequired(kombinationen7, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen8, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen9, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen10, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen11, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen12, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen15, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen20, "RTX3090 (2020)", anzahl_gpus)],
@@ -271,7 +268,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         xanchor='left',
                                         xref="paper",
                                         yref="paper"))
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=False, width=1500)
 
 text = markdown.markdown('''
 </br>
