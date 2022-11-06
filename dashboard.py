@@ -186,7 +186,7 @@ def pretty_time(kombinationen, gpu, anzahl_gpus):
     time_list = time_str.split(':')
     
     days, hours, minutes, seconds = [int(x) for x in time_list]
-    weeks = days//7
+    weeks = days// 7
     months = days // 30
     years = days // 365
     txt_years = "{:, years}"
