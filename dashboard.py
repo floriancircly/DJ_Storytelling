@@ -185,7 +185,7 @@ def pretty_time(kombinationen, gpu, anzahl_gpus):
     time_str = timerequired(kombinationen, gpu, anzahl_gpus)
     time_list = time_str.split(':')
     
-    days, hours, minutes, seconds = [int(x) for x in time_list]
+    days, hours, minutes, seconds = [int(x) for x in time_list] 
     weeks = days // 7
     months = days // 30
     years = days // 365
@@ -370,8 +370,13 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
 
 #### Expert:innen-Leitfaden
 * 5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management. 
-    * Welche konkreten Maßnahmen kann man selbst ergreifen, um seine Identität zu schützen?
-    * Wie können Passwörter sicher gespeichert werden?
+    * Welche konkreten Maßnahmen können Enduser ergreifen, um ihre Daten bzw. Identität vor Diebstahl zu schützen?
+    * Worauf gilt es neben einem möglich großen Zeichenraumes bei der Passwortwahl noch zu achten?
+    * Was macht einen Hash-Algorithmus sicher und worin unterscheiden sie sich grundlegend?
+    * Worauf sollten Enduser als auch Entwickler achten und wie können Passwörter sicher gespeichert werden?
+    * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
+    * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
+    * 
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
