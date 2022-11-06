@@ -193,9 +193,9 @@ def pretty_time(kombinationen, gpu, anzahl_gpus):
     txt_months = "{:,} months"
     txt_weeks = "{:,} weeks"
     txt_days = "{:,} days"
-    txt_stunden = "{:,} hours"
-    txt_minuten = "{:,} minutes"
-    txt_sekunden = "{:,} seconds"
+    txt_hours = "{:,} hours"
+    txt_minutes = "{:,} minutes"
+    txt_seconds = "{:,} seconds"
     if years:
         return txt_years.format(years)
     if months:
@@ -205,8 +205,8 @@ def pretty_time(kombinationen, gpu, anzahl_gpus):
     if days:
         return txt_days.format(days)
     if hours:
-        return txt_stunden.format(hours)
-    return str(txt_minuten.format(minutes) + " " + txt_sekunden.format(seconds))
+        return txt_hours.format(hours) + " " + txt_minutes.format(minutes)
+    return str(txt_minutes.format(minutes) + " " + txt_seconds.format(seconds))
    
 
 
