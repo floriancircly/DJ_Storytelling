@@ -206,7 +206,9 @@ def pretty_time(kombinationen, gpu, anzahl_gpus):
         return txt_days.format(days)
     if hours:
         return txt_hours.format(hours) + " " + txt_minutes.format(minutes)
-    return str(txt_minutes.format(minutes) + " " + txt_seconds.format(seconds))
+    if minutes:
+        return str(txt_minutes.format(minutes) + " " + txt_seconds.format(seconds))
+    return txt_seconds.format(seconds)
    
 
 
