@@ -184,27 +184,25 @@ def timerequired(kombinationen, gpu, anzahl_gpus):
 def pretty_time(kombinationen, gpu, anzahl_gpus):
     time_str = timerequired(kombinationen, gpu, anzahl_gpus)
     time_list = time_str.split(':')
-    txt = "{:,}"
+    txt_years = "{:, yrs}"
+    txt_months = "{:, months}"
+    txt_weeks = "{:, weeks}"
+    txt_days = "{:, days}"
+    txt_stunden = "{:, hours}"
+    txt_minuten = "{:, minutes}"
+    txt_sekunden = "{:, seconds}"
     days, hours, minutes, seconds = [int(x) for x in time_list]
     weeks = days//7
     months = days // 30
     years = days // 365
-    millenium = days // 365 * 1_000
-    million_years = days // 365 * 1_000_000
-    billion_years = days // 365 * 1_000_000_000
     if years:
-        return txt.format(years)
-    if billion_years:
-        return f'{billion_years} bn yrs'
-    if million_years:
-        return f'{million_years} mn yrs'
-    if millenium:
-        return f'{millenium} k yrs'
-    if years:
-        return f'{years} yrs'
+        return txt_years.format(years)
     if months:
-        return f'{months} months'
-    return time_str
+        return txt_months.format(months)
+    if weeks:
+        return txt_weeks.format(weeks)
+    return str(txt_days + " " + txt_stunden + " " + txt_minuten + " " + txt_sekunden)
+   
 
 
 
