@@ -181,6 +181,28 @@ def timerequired(kombinationen, gpu, anzahl_gpus):
     mystring = str("%d:%d:%d:%d" % (my_day, my_hour, my_minutes, my_seconds))
     return mystring
 
+def pretty_time(kombinationen, gpu, anzahl_gpus):
+    time_str = timerequired(kombinationen, gpu, anzahl_gpus)
+    time_list = time_str.split(':')
+    days, hours, minutes, seconds = [int(x) for x in time_list]
+    weeks = days//7
+    months = days // 30
+    years = days // 365
+    millenium = days // 365 * 1_000
+    million_years = days // 365 * 1_000_000
+    billion_years = days // 365 * 1_000_000_000
+    if billion_years:
+        return f'{billion_years} bn yrs'
+    if million_years:
+        return f'{million_years} mn yrs'
+    if millenium:
+        return f'{millenium} k yrs'
+    if years:
+        return f'{years} yrs'
+    if months:
+        return f'{months} months'
+    return time_str
+
 
 
 # 'GTX980ti (2015)'
@@ -246,11 +268,11 @@ x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
 y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
 z_notation =    [
-                [timerequired(kombinationen7, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen8, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen9, "RTX4090 (2022)", anzahl_gpus), timerequired(kombinationen10, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen11, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen12, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen15, "RTX4090 (2022)", anzahl_gpus),timerequired(kombinationen20, "RTX4090 (2022)", anzahl_gpus)],
-                [timerequired(kombinationen7, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen8, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen9, "RTX3090 (2020)", anzahl_gpus), timerequired(kombinationen10, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen11, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen12, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen15, "RTX3090 (2020)", anzahl_gpus),timerequired(kombinationen20, "RTX3090 (2020)", anzahl_gpus)],
-                [timerequired(kombinationen7, "RTX2080ti (2018)", anzahl_gpus),timerequired(kombinationen8, "RTX2080ti (2018)", anzahl_gpus), timerequired(kombinationen9, "RTX2080ti (2018)", anzahl_gpus), timerequired(kombinationen10, "RTX2080ti (2018)", anzahl_gpus),timerequired(kombinationen11, "RTX2080ti (2018)", anzahl_gpus),timerequired(kombinationen12, "RTX2080ti (2018)", anzahl_gpus),timerequired(kombinationen15, "RTX2080ti (2018)", anzahl_gpus),timerequired(kombinationen20, "RTX2080ti (2018)", anzahl_gpus)],
-                [timerequired(kombinationen7, "GTX1080ti (2017)", anzahl_gpus),timerequired(kombinationen8, "GTX1080ti (2017)", anzahl_gpus), timerequired(kombinationen9, "GTX1080ti (2017)", anzahl_gpus), timerequired(kombinationen10, "GTX1080ti (2017)", anzahl_gpus),timerequired(kombinationen11, "GTX1080ti (2017)", anzahl_gpus),timerequired(kombinationen12, "GTX1080ti (2017)", anzahl_gpus),timerequired(kombinationen15, "GTX1080ti (2017)", anzahl_gpus),timerequired(kombinationen20, "GTX1080ti (2017)", anzahl_gpus)],
-                [timerequired(kombinationen7, "GTX980ti (2015)", anzahl_gpus), timerequired(kombinationen8, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen9, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen10, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen11, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen12, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen15, "GTX980ti (2015)", anzahl_gpus),timerequired(kombinationen20, "GTX980ti (2015)", anzahl_gpus)]
+                [pretty_time(kombinationen7, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen8, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen9, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen10, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen11, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen12, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen15, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen20, "RTX4090 (2022)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen8, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen9, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen10, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen11, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen12, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen15, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen20, "RTX3090 (2020)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen8, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen9, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen10, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen11, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen12, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen15, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen20, "RTX2080ti (2018)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen8, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen9, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen10, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen11, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen12, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen15, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen20, "GTX1080ti (2017)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "GTX980ti (2015)", anzahl_gpus), pretty_time(kombinationen8, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen9, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen10, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen11, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen12, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen15, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen20, "GTX980ti (2015)", anzahl_gpus)]
                 ]
 
 
