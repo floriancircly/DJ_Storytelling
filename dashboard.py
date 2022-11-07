@@ -87,7 +87,7 @@ in eine Zeichenkette übersetzt, den sogenannten Hash. Diese Umwandlung ist esse
 System gespeichert werden sollte, da ansonsten ein potenzieller Angreifer das originale Passwort zur Verfügung hätte. </br>
 
 Will ein Angreifer nun an ein Passwort gelangen wäre der Ablauf wie folgt: </br>
-Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht nun der Hash als auch mit welchem Hash-Algorithmus die Datei geschützt ist. Unterschiedliche
+Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht nun sowohl der Hash als auch mit welchem Hash-Algorithmus die Datei geschützt ist. Unterschiedliche
 Anwendungen verwenden auch unterschiedliche Hash-Algorithmen, also andere Methoden, um das Passwort in eine bedeutungslose Zeichenkette umzuwandeln. 
 Anschließend kann der Angreifer aus einer Vielzahl an Angriffsmethoden wählen. Die simpelste ist hierbei ein "Brute-Force-Attack", bei dem alle möglichen Kombinationen aus Buchstaben, Zahlen und Zeichen ausprobiert werden. 
 Der Angreifer probiert nun etliche Kombinationen aus und sieht sich dabei den Hash der Hashfunktion an und vergleicht diesen mit der zuvor 
@@ -404,7 +404,7 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
     * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
-
+</br>
 
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
