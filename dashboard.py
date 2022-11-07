@@ -96,7 +96,7 @@ erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort 
 ''')
 
 st.markdown(text, unsafe_allow_html=True)
-st.image(image, caption='Bruteforce-Angriff auf ein unbekanntes Passwort. Die letzte Zeile ergattert dabei den Hash des originalen Passworts.')
+st.image(image, caption='</br>Bruteforce-Angriff auf ein unbekanntes Passwort. Die letzte Zeile ergattert dabei den Hash des originalen Passworts.')
 
 
 text = markdown.markdown('''
