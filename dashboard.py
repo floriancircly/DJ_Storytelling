@@ -138,7 +138,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wählen Sie einen Hash-Algorithmus:",
-    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="second")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
     algorithmus = "7-Zip"
