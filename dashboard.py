@@ -394,7 +394,6 @@ daraus resultierende Zeichenketten stehen schon vorberechnet zur Verfügung (zum
 schneller zu gestalten. Vor allem die Einfachheit ist hier hervorzuheben, da Tools wie Hashcat für jedermann zu benutzten sind.
 
 
-#### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
 benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind.
