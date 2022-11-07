@@ -137,7 +137,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="first")
+    ("7-Zip (Passwortschutz eines ZIP-Archives)", "bcrypt (Algorithmus der Passwörter verschlüsselt)", "NTLM (Windows Authentifizierung)", "SHA-1 (Mail Verschlüsselung, TLS Handshake)"),key="first")
 
 zahlen = 10
 buchstaben_groß = 26 
@@ -317,7 +317,7 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
+    ("7-Zip (Passwortschutz eines ZIP-Archives)", "bcrypt (Algorithmus der Passwörter verschlüsselt)", "NTLM (Windows Authentifizierung)", "SHA-1 (Mail Verschlüsselung, TLS Handshake)"),key="second")
 
 zahlen = 10 if "Zahlen" in options else 0
 buchstaben_groß = 26 if "Großbuchstaben" in options else 0
@@ -390,25 +390,6 @@ Hervorzuheben ist hier auf jeden Fall, dass sich die Definition von "sicheren Pa
 Einsatz von Sonderzeichen und Zahlen also die Erweiterung des Suchraums ist ein wichtiger Punkt, der nochmal in der Story verdeutlicht wird.
 Interessant war vor allem auch wie einfach es ist an die nötigen Informationen zu kommen z.B. um ein passwortgeschützes ZIP File zu öffnen.
 
-
----
-
-#### Beantwortung der W-Fragen 
-* Was ist die Geschichte? </br>
-Durch eine Hashcat-Attacke ist es möglich, Passwörter in kürzester Zeit zu knacken.
-
-* Woher sind die Daten? </br>
-Dieser Artikel analysiert Benchmarkwerte unterschiedlicher Hardware-Generationen einer “Recovery” Software für Passwörter:
-Um die Berechnungszeit der Passwortsuche zu messen, wird das Tool “Hashcat” verwendet ( https://hashcat.net/hashcat/ ).
-
-* Wann & Wie wurden die Daten erhoben? </br>
-Wann: November 2022 </br>
-Wie: Durch Anwendung der Hashcat-Software auf verschiedene Hardware-Generationen
-
-* Wo lassen sich Daten lokalisieren? </br>
-Online
-
-* Warum ist etwas passiert?
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
