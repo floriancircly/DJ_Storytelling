@@ -318,11 +318,6 @@ Dabei gilt es zu beachten, dass hier die "Worst Case Szenario" Berechnung durchg
 Es könnte daher auch schon viel früher passieren, dass das gesuchte Passwort gefunden wird. Zudem basiert die Rechnung auf Passwörtern, die bereits Klein- und Großbuchstaben sowie Zahlen und Sonderzeichen enthalten.
 Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absatz die entsprechenden Werte angepasst werden.
 
-Neben Brute-Force Angriffen gibt es noch eine Vielzahl weiterer Methoden, welche die benötigte Zeit teilweise deutlich reduzieren können.
-Beispiele hierfür wären unter anderem sogenannte Rainbow-Tables welche Listen von beliebten Passwörten und deren vorberechneten Hash beinhalten.
-Diese Listen können Milliarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
-Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher Beliebtheit, bei denen, wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
-
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
@@ -386,6 +381,12 @@ st.markdown(f"Sekunden: **{my_seconds}**")
 text = markdown.markdown('''
 </br>
 Dieser individuelle Rechner soll nochmals verdeutlichen, wie sehr zusätzliche Zeichen das Hacken eines Passworts erschweren.
+
+Neben Brute-Force Angriffen gibt es noch eine Vielzahl weiterer Methoden, welche die benötigte Zeit teilweise deutlich reduzieren können.
+Beispiele hierfür wären unter anderem sogenannte Rainbow-Tables welche Listen von beliebten Passwörten und deren vorberechneten Hash beinhalten.
+Diese Listen können Milliarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
+Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher Beliebtheit, bei denen, wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
+
 
 Doch wie sehr betrifft dieser Vorgang überhaupt eine individuelle Person? Leider lässt sich ein Hackangriff nicht darauf beschränken, dass nur eine
 bestimmte Person Ziel einer Attacke ist. Mittlerweile hat sich ein regelrechter Markt etabliert, hinter dem ein riesiges Businessmodell steht. Unzählige Hashes und deren 
