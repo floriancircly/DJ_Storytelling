@@ -390,7 +390,7 @@ schneller zu gestalten. Vor allem die Einfachheit ist hier hervorzuheben, da Too
 #### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
-benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind. Beispielsweise Telefonnummern sind kein gutes Beispiel für Passwörter.
+benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind.
 
 ---
 
@@ -403,6 +403,7 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
     * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
+
 
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
