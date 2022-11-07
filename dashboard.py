@@ -108,7 +108,7 @@ Die Anzahl an Hashes, die pro Sekunde berechnet werden können, hat in den verga
 st.markdown(text, unsafe_allow_html=True)
 
 # Show plot
-fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Hashes pro Sekunde verschiedener GPU Modelle (Passwortgeschütztes 7-Zip Archiv)",
+fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Benchmark Scores steigen schnell, Hashes pro Sekunde aber noch viel schneller",
     labels={
     "GPU": "GPU Modell",
     "Hashes (H/s)": "Hashes (H/s)"})
@@ -299,7 +299,8 @@ z_notation =    [
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='RdBu') # YlGnBu
 fig.update_traces(hoverinfo='skip')
-fig.update_layout(title=f"""Vergleich der Dauer, um ein Passwort mit unterschiedlicher länge zu hacken \n (Worst Case)""",width=1500)
+fig.update_layout(title=f"""Wie lange hält das Passwort höchstens?
+""",width=1500)
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
