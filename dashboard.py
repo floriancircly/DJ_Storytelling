@@ -317,7 +317,7 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip: Passwortschutz eines ZIP-Archives", "bcrypt: Algorithmus der Passwörter verschlüsselt", "NTLM: Windows Server Authentifizierung", "SHA-1: Mail Verschlüsselung, TLS Handshake"),key="second")
+    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
 
 zahlen = 10 if "Zahlen" in options else 0
 buchstaben_groß = 26 if "Großbuchstaben" in options else 0
