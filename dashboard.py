@@ -316,6 +316,11 @@ Dabei gilt es zu beachten, dass hier die "Worst Case Szenario" Berechnung durchg
 Es könnte daher auch schon viel früher passieren, dass das gesuchte Passwort gefunden wird. Zudem basiert die Rechnung auf Passwörtern, die bereits Klein- und Großbuchstaben sowie Zahlen und Sonderzeichen enthalten.
 Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absatz die entsprechenden Werte angepasst werden.
 
+Neben Brute-Force Angriffen gibt es noch eine Vielzahl weiterer Methoden, welche die benötigte Zeit teilweise deutlich reduzieren können.
+Beispiele hierfür wären unter anderem sogennante Rainbow-Tables welche Listen von beliebten Passwörten und deren zuvorberechneten Hash beinhalten.
+Diese Listen können Millarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
+Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher beliebtheit, bei denen wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
+
 ''')
 st.markdown(text, unsafe_allow_html=True)
 
