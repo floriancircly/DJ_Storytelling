@@ -362,6 +362,7 @@ dauer_min = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minu
 
 my_time = kombinationen / data_vergleich_personal["speed (H/s)"].item() / anzahl_gpus
 my_year = np.round(my_time // (24 * 3600 * 365),1)
+my_time = my_time % (24 * 3600 * 365)
 my_day = np.round(my_time // (24 * 3600),1)
 my_time = my_time % (24 * 3600)
 my_hour = np.round(my_time // 3600,1)
