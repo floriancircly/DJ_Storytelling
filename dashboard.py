@@ -299,8 +299,7 @@ z_notation =    [
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='RdBu') # YlGnBu
 fig.update_traces(hoverinfo='skip')
-fig.update_layout(title=f"""Wie lange hält das Passwort höchstens?
-""",width=1500)
+fig.update_layout(title=f"""Wie lange hält das Passwort höchstens?""")
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
