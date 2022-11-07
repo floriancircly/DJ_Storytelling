@@ -370,7 +370,7 @@ my_time %= 3600
 my_minutes = np.round(my_time // 60,1)
 my_time %= 60
 my_seconds = np.round(my_time,1)
-st.markdown(f"Jahre: **{my_year}** Tage: **{my_day}** Stunden: **{my_hour}** Minuten: **{my_minutes}** Sekunden: **{my_seconds}**")
+st.markdown(f"Jahre: **{my_year}** </br>Tage: **{my_day}** </br>Stunden: **{my_hour}** </br>Minuten: **{my_minutes}** </br>Sekunden: **{my_seconds}**")
 
 
 text = markdown.markdown('''
