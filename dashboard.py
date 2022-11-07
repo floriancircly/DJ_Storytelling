@@ -45,7 +45,7 @@ data_vergleich_personal = pd.concat([zip_df, SHA_df, third_df, fourth_df], ignor
 
 text = markdown.markdown('''
 
-# 48 Minuten bis zum Identitätsdiebstahl
+# 44 Minuten bis zum Identitätsdiebstahl
 ### Identitäten sind heutezutage eng mit der digitalen Welt verbunden. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie?
 Von Andreas Braun, René Langschwert & Florian Voglauer
 
@@ -114,7 +114,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
                                         showarrow=False,
-                                        text="Quelle: Hashcat Berechnung",
+                                        text="Quelle: <a href='https://hashcat.net/hashcat/'>Hashcat</a> Berechnung",
                                         textangle=0,
                                         xanchor='left',
                                         xref="paper",
@@ -293,7 +293,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
                                         showarrow=False,
-                                        text="Quelle: Hashcat Berechnung",
+                                        text="Quelle: <a href='https://hashcat.net/hashcat/'>Hashcat</a> Berechnung",
                                         textangle=0,
                                         xanchor='left',
                                         xref="paper",
@@ -337,9 +337,9 @@ anzahl_gpus = st.slider('Anzhal der Grafikkarten', 1, 10, 8)
 dauer_tag = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / stunden / tage / anzahl_gpus # WARUM ACHT ERKLÄREN
 dauer_stund = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / stunden / anzahl_gpus # WARUM ACHT ERKLÄREN
 dauer_min = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minuten / anzahl_gpus # WARUM ACHT ERKLÄREN
-st.write("Benötigte Tage: ", np.round(dauer_tag,2))
-st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
-st.write("Benötigte Minuten: ", np.round(dauer_min,2))
+# st.write("Benötigte Tage: ", np.round(dauer_tag,2))
+# st.write("Benötigte Stunden: ", np.round(dauer_stund,2))
+# st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
 my_time = kombinationen / data_vergleich_personal["speed (H/s)"].item() / anzahl_gpus
 my_year = my_time // (24 * 3600 * 365)
@@ -350,7 +350,7 @@ my_time %= 3600
 my_minutes = my_time // 60
 my_time %= 60
 my_seconds = my_time
-st.write("Tage:Stunden:Minuten:Sekunden: %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
+st.write("Jahre:Tage:Stunden:Minuten:Sekunden: %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
 
 
 text = markdown.markdown('''
@@ -378,7 +378,6 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Worauf sollten Enduser als auch Entwickler achten und wie können Passwörter sicher gespeichert werden?
     * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
     * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
-    * 
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
