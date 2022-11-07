@@ -139,7 +139,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wählen Sie einen Hash-Algorithmus:",
-    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="second")
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)"),key="second")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
     algorithmus = "7-Zip"
@@ -147,7 +147,7 @@ elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
     algorithmus = "NTLM"
-elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)":
     algorithmus = "SHA-1"
 
 zahlen = 10
@@ -328,7 +328,7 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wählen Sie einen Hash-Algorithmus:",
-    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)"),key="first")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
     algorithmus = "7-Zip"
@@ -336,7 +336,7 @@ elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
     algorithmus = "NTLM"
-elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)":
     algorithmus = "SHA-1"
 
 zahlen = 10 if "Zahlen" in options else 0
