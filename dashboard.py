@@ -369,7 +369,7 @@ my_time %= 3600
 my_minutes = my_time // 60
 my_time %= 60
 my_seconds = my_time
-st.write("Jahre:Tage:Stunden:Minuten:Sekunden: %d:%d:%d:%d:%d" % (my_year, my_day, my_hour, my_minutes, my_seconds))
+st.markdown(f"Jahre: **{my_year}** Tage: **{my_day}** Stunden: **{my_hour}** Minuten: **{my_minutes}** Sekunden: **{my_seconds}**")
 
 
 text = markdown.markdown('''
