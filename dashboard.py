@@ -319,9 +319,9 @@ Es könnte daher auch schon viel früher passieren, dass das gesuchte Passwort g
 Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absatz die entsprechenden Werte angepasst werden.
 
 Neben Brute-Force Angriffen gibt es noch eine Vielzahl weiterer Methoden, welche die benötigte Zeit teilweise deutlich reduzieren können.
-Beispiele hierfür wären unter anderem sogennante Rainbow-Tables welche Listen von beliebten Passwörten und deren zuvorberechneten Hash beinhalten.
+Beispiele hierfür wären unter anderem sogennante Rainbow-Tables, welche Listen von beliebten Passwörten und deren zuvorberechneten Hash beinhalten.
 Diese Listen können Millarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
-Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher beliebtheit, bei denen wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
+Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher Beliebtheit, bei denen wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
