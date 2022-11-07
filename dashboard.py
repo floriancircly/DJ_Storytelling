@@ -410,7 +410,7 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Aus verschiedenen Ecken des Internets ist immer wieder zu hören, dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Algorithmen besitzen, wie viel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
     
-</br></br>
+    
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
 Zudem forscht er an der Universität Wien an der IT-Security Fakultät und ist dort als Dozent tätig.
