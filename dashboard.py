@@ -96,12 +96,12 @@ erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort 
 ''')
 
 st.markdown(text, unsafe_allow_html=True)
-st.image(image, caption='</br>Bruteforce-Angriff auf ein unbekanntes Passwort. Die letzte Zeile ergattert dabei den Hash des originalen Passworts.')
+st.image(image, caption='Bruteforce-Angriff auf ein unbekanntes Passwort. Die letzte Zeile ergattert dabei den Hash des originalen Passworts.')
 
 
 text = markdown.markdown('''
 </br>
-Die Anzahl an Hashes, die pro Sekunde berechnet werden können, hat in den vergangenen Jahren in beeindruckender Manier zugenommen. Nachstehend angeführt sieht man die Hashes pro Sekunde, die die jeweiligen GPUs rechnen können.
+Die Anzahl an Hashes, die pro Sekunde berechnet werden können, hat in den vergangenen Jahren in beeindruckender Manier zugenommen. Nachstehend angeführt sieht man die Hashes pro Sekunde (= Die Anzahl an Zeichenketten-Kombination die generiert werden kann), die die jeweiligen GPUs rechnen können.
 
 ''')
 
