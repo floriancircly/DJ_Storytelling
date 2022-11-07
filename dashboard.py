@@ -10,6 +10,8 @@ import plotly.figure_factory as ff
 
 # Daten
 
+st.set_page_config(layout="wide",page_title = "DJ Password")
+
 data = pd.read_csv("Data/all_devices.csv", sep=",")
 gpu = ['GTX980ti (2015)', 'GTX1080ti (2017)', 'RTX2080ti (2018)', 'RTX3090 (2020)', 'RTX4090 (2022)']
 scores = [4981,  9421,  14621,  19977,  36529]
@@ -265,22 +267,22 @@ dauer_stunden_20_2022 = np.log(kombinationen20 / data_vergleich[data_vergleich["
 
 
 z = [
-    [dauer_stunden_7_2022, dauer_stunden_8_2022, dauer_stunden_9_2022, dauer_stunden_10_2022,dauer_stunden_11_2022,dauer_stunden_12_2022,dauer_stunden_15_2022,dauer_stunden_20_2022],
-    [dauer_stunden_7_2020, dauer_stunden_8_2020, dauer_stunden_9_2020, dauer_stunden_10_2020,dauer_stunden_11_2020,dauer_stunden_12_2020,dauer_stunden_15_2020,dauer_stunden_20_2020],
-    [dauer_stunden_7_2018, dauer_stunden_8_2018, dauer_stunden_9_2018, dauer_stunden_10_2018,dauer_stunden_11_2018,dauer_stunden_12_2018,dauer_stunden_15_2018,dauer_stunden_20_2018],
-    [dauer_stunden_7_2017, dauer_stunden_8_2017, dauer_stunden_9_2017, dauer_stunden_10_2017,dauer_stunden_11_2017,dauer_stunden_12_2017,dauer_stunden_15_2017,dauer_stunden_20_2017],
-    [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015,dauer_stunden_20_2015]
+    [dauer_stunden_7_2022, dauer_stunden_8_2022, dauer_stunden_9_2022, dauer_stunden_10_2022,dauer_stunden_11_2022,dauer_stunden_12_2022,dauer_stunden_15_2022],
+    [dauer_stunden_7_2020, dauer_stunden_8_2020, dauer_stunden_9_2020, dauer_stunden_10_2020,dauer_stunden_11_2020,dauer_stunden_12_2020,dauer_stunden_15_2020],
+    [dauer_stunden_7_2018, dauer_stunden_8_2018, dauer_stunden_9_2018, dauer_stunden_10_2018,dauer_stunden_11_2018,dauer_stunden_12_2018,dauer_stunden_15_2018],
+    [dauer_stunden_7_2017, dauer_stunden_8_2017, dauer_stunden_9_2017, dauer_stunden_10_2017,dauer_stunden_11_2017,dauer_stunden_12_2017,dauer_stunden_15_2017],
+    [dauer_stunden_7_2015, dauer_stunden_8_2015, dauer_stunden_9_2015, dauer_stunden_10_2015,dauer_stunden_11_2015,dauer_stunden_12_2015,dauer_stunden_15_2015]
     ]
 
-x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.','20 Z.']
+x = ['7 Z.', '8 Z.', '9 Z.', '10 Z.','11 Z.', '12 Z.','15 Z.']
 y = ['RTX4090 (2022)','RTX3090 (2020)','RTX2080ti (2018)', 'GTX1080ti (2017)','GTX980ti (2015)'] 
 
 z_notation =    [
-                [pretty_time(kombinationen7, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen8, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen9, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen10, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen11, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen12, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen15, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen20, "RTX4090 (2022)", anzahl_gpus)],
-                [pretty_time(kombinationen7, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen8, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen9, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen10, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen11, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen12, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen15, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen20, "RTX3090 (2020)", anzahl_gpus)],
-                [pretty_time(kombinationen7, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen8, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen9, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen10, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen11, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen12, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen15, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen20, "RTX2080ti (2018)", anzahl_gpus)],
-                [pretty_time(kombinationen7, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen8, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen9, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen10, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen11, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen12, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen15, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen20, "GTX1080ti (2017)", anzahl_gpus)],
-                [pretty_time(kombinationen7, "GTX980ti (2015)", anzahl_gpus), pretty_time(kombinationen8, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen9, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen10, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen11, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen12, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen15, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen20, "GTX980ti (2015)", anzahl_gpus)]
+                [pretty_time(kombinationen7, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen8, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen9, "RTX4090 (2022)", anzahl_gpus), pretty_time(kombinationen10, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen11, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen12, "RTX4090 (2022)", anzahl_gpus),pretty_time(kombinationen15, "RTX4090 (2022)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen8, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen9, "RTX3090 (2020)", anzahl_gpus), pretty_time(kombinationen10, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen11, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen12, "RTX3090 (2020)", anzahl_gpus),pretty_time(kombinationen15, "RTX3090 (2020)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen8, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen9, "RTX2080ti (2018)", anzahl_gpus), pretty_time(kombinationen10, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen11, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen12, "RTX2080ti (2018)", anzahl_gpus),pretty_time(kombinationen15, "RTX2080ti (2018)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen8, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen9, "GTX1080ti (2017)", anzahl_gpus), pretty_time(kombinationen10, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen11, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen12, "GTX1080ti (2017)", anzahl_gpus),pretty_time(kombinationen15, "GTX1080ti (2017)", anzahl_gpus)],
+                [pretty_time(kombinationen7, "GTX980ti (2015)", anzahl_gpus), pretty_time(kombinationen8, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen9, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen10, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen11, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen12, "GTX980ti (2015)", anzahl_gpus),pretty_time(kombinationen15, "GTX980ti (2015)", anzahl_gpus)]
                 ]
 
 
@@ -296,7 +298,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         xanchor='left',
                                         xref="paper",
                                         yref="paper"))
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=False)
 
 text = markdown.markdown('''
 </br>
