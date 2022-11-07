@@ -361,14 +361,14 @@ dauer_min = kombinationen / data_vergleich_personal["speed (H/s)"].item() / minu
 # st.write("Benötigte Minuten: ", np.round(dauer_min,2))
 
 my_time = kombinationen / data_vergleich_personal["speed (H/s)"].item() / anzahl_gpus
-my_year = my_time // (24 * 3600 * 365)
-my_day = my_time // (24 * 3600)
+my_year = np.round(my_time // (24 * 3600 * 365),1)
+my_day = np.round(my_time // (24 * 3600),1)
 my_time = my_time % (24 * 3600)
-my_hour = my_time // 3600
+my_hour = np.round(my_time // 3600,1)
 my_time %= 3600
-my_minutes = my_time // 60
+my_minutes = np.round(my_time // 60,1)
 my_time %= 60
-my_seconds = my_time
+my_seconds = np.round(my_time,1)
 st.markdown(f"Jahre: **{my_year}** Tage: **{my_day}** Stunden: **{my_hour}** Minuten: **{my_minutes}** Sekunden: **{my_seconds}**")
 
 
