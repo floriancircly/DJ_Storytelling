@@ -91,7 +91,7 @@ Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht sowohl der H
 Anwendungen verwenden auch unterschiedliche Hash-Algorithmen, also andere Methoden, um das Passwort in eine bedeutungslose Zeichenkette umzuwandeln. 
 Anschließend kann der Angreifer aus einer Vielzahl an Angriffsmethoden wählen. Die simpelste ist hierbei ein "Brute-Force-Attack", bei dem alle möglichen Kombinationen aus Buchstaben, Zahlen und Zeichen ausprobiert werden. 
 Der Angreifer probiert dabei etliche Kombinationen aus und sieht sich dabei den Hash der Hashfunktion an und vergleicht diesen mit der zuvor 
-erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort gelangt und hat somit Zugriff auf die Ziel-Datei. </br>
+erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort gelangt und hat somit Zugriff auf die Ziel-Datei. Die nachstehende Grafik stellt diesen Prozess nochmals visuell dar. Die Fragezeichen sind dabei das Passwort das man entschlüsseln möchte.</br>
 </br>
 ''')
 
