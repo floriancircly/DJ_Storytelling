@@ -49,8 +49,9 @@ text = markdown.markdown('''
 ### Identitäten sind heutezutage eng mit der digitalen Welt verbunden. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie?
 Von Andreas Braun, René Langschwert & Florian Voglauer
 
-Im Verlauf der letzten Jahre ist der Zeitaufwand, ein Passwort zu hacken, deutlich gesunken. Grund dafür sind die immer stärkeren Grafikkarten, die es ermöglichen,
-Passwörter in kürzester Zeit zu knacken. Diese Performancesteigerung sorgt nicht nur bei Spielen für flüssigere Framerates und immer höhere Auflösungen, sondern hat auch gravierende Auswirkungen auf die Sicherheit von Passwörtern und damit auch auf die Sicherheit von gesamten Identitäten.
+Im Verlauf der letzten Jahre ist der Zeitaufwand, ein Passwort zu hacken, deutlich gesunken. Grund dafür sind die immer 
+stärkeren Grafikkarten, die nicht nur bei Spielen für flüssigere Framerates und immer höhere 
+Auflösungen sorgen, sondern auch gravierende Auswirkungen auf die Sicherheit von gesamten Identitäten haben.
 
 In diesem Artikel wird gezeigt, wie sehr sich die Annahme eines “sicheren” Passwortes in den letzten Jahren verschoben hat. Hierbei werden die unterschiedlichen Grafikkarten-Generationen der letzten Jahre verglichen, um zu verdeutlichen, wie sehr der Zeitaufwand, um ein Passwort zu hacken, geschrumpft ist.
 
@@ -136,8 +137,17 @@ In der nachstehenden Grafik ist es möglich, für unterschiedliche Hash-Algorith
 st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
-    "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="first")
+    "Auswahl eines Hash-Algorithmus:",
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
+
+if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
+    algorithmus = "7z"
+elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
+    algorithmus = "bcrypt"
+elif algorithmus == "NTLM (Windows Server Authentifizierung)":
+    algorithmus = "NTLM"
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+    algorithmus = "SHA-1"
 
 zahlen = 10
 buchstaben_groß = 26 
@@ -316,8 +326,17 @@ options = st.multiselect(
 number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_value = 20)
 
 algorithmus = st.radio(
-    "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="second")
+    "Auswahl eines Hash-Algorithmus:",
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
+
+if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
+    algorithmus = "7z"
+elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
+    algorithmus = "bcrypt"
+elif algorithmus == "NTLM (Windows Server Authentifizierung)":
+    algorithmus = "NTLM"
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+    algorithmus = "SHA-1"
 
 zahlen = 10 if "Zahlen" in options else 0
 buchstaben_groß = 26 if "Großbuchstaben" in options else 0
@@ -361,7 +380,7 @@ Doch wie sehr betrifft dieser Vorgang überhaupt eine individuelle Person? Leide
 bestimmte Person Ziel einer Attacke ist. Mittlerweile hat sich ein regelrechter Markt etabliert, hinter dem ein riesiges Businessmodell steht. Unzählige Hashes und deren 
 daraus resultierende Zeichenketten stehen schon vorberechnet zur Verfügung (zum Beispiel von den häufigst benützten Passwörtern), um den Hackvorgang nochmal deutlich
 schneller zu gestalten. Vor allem die Einfachheit ist hier hervorzuheben, da Tools wie Hashcat für jedermann zu benutzten sind.
--- QUELLE?! ---
+
 
 #### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
