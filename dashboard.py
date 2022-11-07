@@ -137,11 +137,11 @@ In der nachstehenden Grafik ist es möglich, für unterschiedliche Hash-Algorith
 st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
-    "Auswahl eines Hash-Algorithmus:",
+    "Wählen Sie einen Hash-Algorithmus:",
     ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
-    algorithmus = "7z"
+    algorithmus = "7-Zip"
 elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
@@ -326,11 +326,11 @@ options = st.multiselect(
 number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_value = 20)
 
 algorithmus = st.radio(
-    "Auswahl eines Hash-Algorithmus:",
+    "Wählen Sie einen Hash-Algorithmus:",
     ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
-    algorithmus = "7z"
+    algorithmus = "7-Zip"
 elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
