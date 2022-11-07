@@ -403,7 +403,6 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
 
 #### Expert:innen-Leitfaden
 * 5-8 Fragen und Antworten zu den Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management. 
-    * Welche konkreten Maßnahmen können Enduser ergreifen, um ihre Daten bzw. Identität vor Diebstahl zu schützen?
     * Worauf gilt es neben einem möglich großen Zeichenraumes bei der Passwortwahl noch zu achten?
     * Was macht einen Hash-Algorithmus sicher und worin unterscheiden sie sich grundlegend?
     * Worauf sollten Enduser als auch Entwickler achten und wie können Passwörter sicher gespeichert werden?
