@@ -137,7 +137,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wähle einen Hash-Algorithmus aus",
-    ("7-Zip (Passwortschutz eines ZIP-Archives)", "bcrypt (Algorithmus der Passwörter verschlüsselt)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Mail Verschlüsselung, TLS Handshake)"),key="first")
+    ("7-Zip", "bcrypt", "NTLM", "SHA-1"),key="first")
 
 zahlen = 10
 buchstaben_groß = 26 
