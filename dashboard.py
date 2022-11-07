@@ -83,14 +83,14 @@ text = markdown.markdown('''
 Dieser Fortschritt hat zur Folge, dass IT-Sicherheitsmaßnahmen schneller entschärft werden können. 
 Ein alltäglicher Anwendungsfall wäre das Erzeugen eines passwortgeschützten Zip-Archives (7-Zip), bei dem die Dateien nicht nur komprimiert, 
 sondern auch gegen ungewollten Zugriff gesichert werden. Bei diesem Vorgang wird das gewählte Passwort mithilfe einer mathematischen Funktion 
-in eine Zeichenkette übersetzt, den sogenannten Hash. Diese Umwandlung ist essentiell, weil das Klartext-Passwort nicht auf dem 
+in eine Zeichenkette übersetzt, den sogenannten Hash. Diese Umwandlung ist essenziell, weil das Klartext-Passwort nicht auf dem 
 System gespeichert werden sollte, da ansonsten ein potenzieller Angreifer das originale Passwort zur Verfügung hätte. </br>
 
-Will ein Angreifer nun an ein Passwort gelangen wäre der Ablauf wie folgt: </br>
-Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht nun sowohl der Hash als auch mit welchem Hash-Algorithmus die Datei geschützt ist. Unterschiedliche
+Will ein Angreifer nun an ein Passwort gelangen, wäre der Ablauf wie folgt: </br>
+Zunächst liest dieser den Hash der Ziel-Datei aus. In diesem steht sowohl der Hash als auch, mit welchem Hash-Algorithmus die Datei geschützt ist. Unterschiedliche
 Anwendungen verwenden auch unterschiedliche Hash-Algorithmen, also andere Methoden, um das Passwort in eine bedeutungslose Zeichenkette umzuwandeln. 
 Anschließend kann der Angreifer aus einer Vielzahl an Angriffsmethoden wählen. Die simpelste ist hierbei ein "Brute-Force-Attack", bei dem alle möglichen Kombinationen aus Buchstaben, Zahlen und Zeichen ausprobiert werden. 
-Der Angreifer probiert nun etliche Kombinationen aus und sieht sich dabei den Hash der Hashfunktion an und vergleicht diesen mit der zuvor 
+Der Angreifer probiert dabei etliche Kombinationen aus und sieht sich dabei den Hash der Hashfunktion an und vergleicht diesen mit der zuvor 
 erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort gelangt und hat somit Zugriff auf die Ziel-Datei. </br>
 </br>
 ''')
@@ -305,7 +305,7 @@ fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
                                         showarrow=False,
-                                        text="Quelle: <a href='https://hashcat.net/hashcat/'>Hashcat</a> Berechnung",
+                                        text="Quelle: <a href='https://hashcat.net/hashcat/'>Hashcat</a> Berechnung (Brute-Force-Attacke)",
                                         textangle=0,
                                         xanchor='left',
                                         xref="paper",
@@ -319,9 +319,9 @@ Es könnte daher auch schon viel früher passieren, dass das gesuchte Passwort g
 Um die Berechnungszeiten individuell darzustellen, können im nachfolgenden Absatz die entsprechenden Werte angepasst werden.
 
 Neben Brute-Force Angriffen gibt es noch eine Vielzahl weiterer Methoden, welche die benötigte Zeit teilweise deutlich reduzieren können.
-Beispiele hierfür wären unter anderem sogennante Rainbow-Tables welche Listen von beliebten Passwörten und deren zuvorberechneten Hash beinhalten.
-Diese Listen können Millarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
-Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher beliebtheit, bei denen wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
+Beispiele hierfür wären unter anderem sogenannte Rainbow-Tables welche Listen von beliebten Passwörten und deren vorberechneten Hash beinhalten.
+Diese Listen können Milliarden von Hash-Passwort Paaren beinhalten, welche ständig durch neue Einträge erweitert werden.
+Neben Rainbow-Tables erfreuen sich Wörterbuch-Attacken hoher Beliebtheit, bei denen, wie sich bereits erahnen lässt, Wörter in Kombination mit Zahlen ausprobiert werden. 
 
 ''')
 st.markdown(text, unsafe_allow_html=True)
@@ -406,8 +406,8 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Worauf gilt es neben einem möglich großen Zeichenraumes bei der Passwortwahl noch zu achten?
     * Was macht einen Hash-Algorithmus sicher und worin unterscheiden sie sich grundlegend?
     * Worauf sollten Enduser als auch Entwickler achten und wie können Passwörter sicher gespeichert werden?
-    * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
-    * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
+    * Können Enduser überhaupt feststellen, ob die Applikation oder Service, den sie nutzen, Wert auf ihre Passwortsicherheit legen?
+    * Aus verschiedenen Ecken des Internets ist immer wieder zu hören, dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Algorithmen besitzen, wie viel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
 </br>
 
@@ -418,8 +418,8 @@ Daher ist er der richtige Ansprechpartner für die Fragen, die im Expert:innen-L
 
 #### Was habt ihr aus der Story gelernt?
 Hervorzuheben ist hier auf jeden Fall, dass sich die Definition von "sicheren Passwörtern" in den letzten Jahren stark geändert hat. Vor allem der 
-Einsatz von Sonderzeichen und Zahlen also die Erweiterung des Suchraums ist ein wichtiger Punkt, der nochmal in der Story verdeutlicht wird.
-Interessant war vor allem auch wie einfach es ist an die nötigen Informationen zu kommen z.B. um ein passwortgeschützes ZIP File zu öffnen.
+Einsatz von Sonderzeichen und Zahlen, also die Erweiterung des Suchraums ist ein wichtiger Punkt, der nochmal in der Story verdeutlicht wird.
+Interessant war vor allem auch wie einfach es ist an die nötigen Informationen zu kommen z.B. um ein passwortgeschütztes ZIP File zu öffnen.
 
 
 ''')
