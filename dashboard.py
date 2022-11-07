@@ -97,7 +97,7 @@ erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort 
 
 st.markdown(text, unsafe_allow_html=True)
 st.image(image, caption='Illustration eines Passwort-Angriffes', page_title='Bruteforce-Angriff auf ein unbekanntes Passwort')
-')
+
 
 text = markdown.markdown('''
 </br>
