@@ -96,7 +96,8 @@ erlangten Ziel-Datei. Stimmen beide überein, ist der Angreifer an das Passwort 
 ''')
 
 st.markdown(text, unsafe_allow_html=True)
-st.image(image, caption='Illustration eines Passwort-Angriffes')
+st.image(image, caption='Bruteforce-Angriff auf ein unbekanntes Passwort')
+
 
 text = markdown.markdown('''
 </br>
@@ -107,7 +108,7 @@ Die Anzahl an Hashes, die pro Sekunde berechnet werden können, hat in den verga
 st.markdown(text, unsafe_allow_html=True)
 
 # Show plot
-fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Hashes pro Sekunde verschiedener GPU Modelle (Passwortgeschütztes 7-Zip Archiv)",
+fig = px.bar(zip_scores, x="GPU", y="Hashes (H/s)", title="Benchmark Scores steigen schnell, Hashes pro Sekunde aber noch viel schneller",
     labels={
     "GPU": "GPU Modell",
     "Hashes (H/s)": "Hashes (H/s)"})
@@ -138,7 +139,7 @@ st.markdown(text, unsafe_allow_html=True)
 
 algorithmus = st.radio(
     "Wählen Sie einen Hash-Algorithmus:",
-    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="second")
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)"),key="second")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
     algorithmus = "7-Zip"
@@ -146,7 +147,7 @@ elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
     algorithmus = "NTLM"
-elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)":
     algorithmus = "SHA-1"
 
 zahlen = 10
@@ -298,7 +299,8 @@ z_notation =    [
 
 fig = ff.create_annotated_heatmap(z, x=x, y=y, annotation_text=z_notation,colorscale='RdBu') # YlGnBu
 fig.update_traces(hoverinfo='skip')
-fig.update_layout(title=f"""Vergleich der Dauer, um ein Passwort mit unterschiedlicher länge zu hacken \n (Worst Case)""",width=1500)
+fig.update_layout(title=f"""Wie lange hält das Passwort höchstens?
+""",width=1500)
 fig.add_annotation(dict(font=dict(color='black',size=10),
                                         x=0,
                                         y=-0.30,
@@ -332,7 +334,7 @@ number = st.number_input('Länge des Passworts:',step=1, min_value = 3, max_valu
 
 algorithmus = st.radio(
     "Wählen Sie einen Hash-Algorithmus:",
-    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten)"),key="first")
+    ("7-Zip (Passwortgeschütztes ZIP-Archiv)", "bcrypt (Verschlüsselung eines Passworts)", "NTLM (Windows Server Authentifizierung)", "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)"),key="first")
 
 if algorithmus == "7-Zip (Passwortgeschütztes ZIP-Archiv)":
     algorithmus = "7-Zip"
@@ -340,7 +342,7 @@ elif algorithmus == "bcrypt (Verschlüsselung eines Passworts)":
     algorithmus = "bcrypt"
 elif algorithmus == "NTLM (Windows Server Authentifizierung)":
     algorithmus = "NTLM"
-elif algorithmus == "SHA-1 (Signieren von Zertifikaten)":
+elif algorithmus == "SHA-1 (Signieren von Zertifikaten, TLS Handshake, Mail)":
     algorithmus = "SHA-1"
 
 zahlen = 10 if "Zahlen" in options else 0
@@ -375,8 +377,11 @@ my_time %= 3600
 my_minutes = np.round(my_time // 60,1)
 my_time %= 60
 my_seconds = np.round(my_time,1)
-st.markdown(f"Jahre: **{my_year}** Tage: **{my_day}** Stunden: **{my_hour}** Minuten: **{my_minutes}** Sekunden: **{my_seconds}**")
-
+st.markdown(f"Jahre: **{my_year}**")
+st.markdown(f"Tage: **{my_day}**")
+st.markdown(f"Stunden: **{my_hour}**")
+st.markdown(f"Minuten: **{my_minutes}**")
+st.markdown(f"Sekunden: **{my_seconds}**")
 
 text = markdown.markdown('''
 </br>
@@ -391,7 +396,7 @@ schneller zu gestalten. Vor allem die Einfachheit ist hier hervorzuheben, da Too
 #### Fazit
 Abschließend lässt sich sagen, dass die Ausgangsthese "Im Verlauf der letzten Jahre ist es um einiges einfacher geworden, ein Passwort mit beispielsweise 8 Zeichen zu hacken", bestätigt wurde. 
 Die Grafikkarten-Generationen haben sich in den letzten Jahren stark verbessert. Die Datenanalyse des Artikels unterstreicht diese drastische Entwicklung. Es ist daher stark zu empfehlen, darauf zu achten, dass
-benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind. Beispielsweise Telefonnummern sind kein gutes Beispiel für Passwörter.
+benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten und zumindest 12 Stellen lang sind.
 
 ---
 
@@ -404,6 +409,7 @@ benutzte Passwörter Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthal
     * Können Enduser überhaupt feststellen, ob die Applikation oder Service den sie nutzen Wert auf ihre Passwort Sicherheit legen?
     * Aus verschiedenen Ecken des Internets ist immer wieder zu hören dass Serviceprovider oder Regierungen sogenannte Backdoors zu diesen Alorithmen besitzen, wieivel ist an solchen Aussagen dran bzw. ist das überhaupt möglich?
     * Wie sehen Sie die zukünftige Entwicklung der Passwortsicherheit?
+
 
 * Warum haben wir genau diesen Experten ausgewählt? </br></br>
 Der Experte ist IT-Sicherheitsexperte und hat sich auf die Themen Passwortsicherheit, Identitätsdiebstahl und Passwort-Management spezialisiert.
