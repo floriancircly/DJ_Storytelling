@@ -47,7 +47,7 @@ text = markdown.markdown('''
 
 # 44 Minuten bis zum Identitätsdiebstahl
 ### Identitäten sind heutezutage eng mit der digitalen Welt verbunden. Unsere Passwörter schützen sie vor unerwünschtem Zugriff, aber wie sicher sind sie?
-Von Andreas Braun, René Langschwert & Florian Voglauer
+*Von Andreas Braun, René Langschwert & Florian Voglauer*
 
 Im Verlauf der letzten Jahre ist der Zeitaufwand, ein Passwort zu hacken, deutlich gesunken. Grund dafür sind die immer 
 stärkeren Grafikkarten, die nicht nur bei Spielen für flüssigere Framerates und immer höhere 
